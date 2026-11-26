@@ -1,0 +1,415 @@
+{
+  "locations": [
+    {
+      "id": "scalp",
+      "label": "Scalp & Calvarium",
+      "group": "Head & Neck",
+      "position3d": [0, 1.74, 0.01],
+      "defaultRecipientVessels": ["Superficial temporal vessels", "Facial vessels (with vein graft)"],
+      "ladderSummary": ["Primary closure (<3 cm)", "Local rotation / Orticochea flap", "Tissue expansion", "Free ALT / LD muscle + STSG"]
+    },
+    {
+      "id": "nose",
+      "label": "Nose (Nasal Subunits)",
+      "group": "Head & Neck",
+      "position3d": [0, 1.63, 0.11],
+      "defaultRecipientVessels": ["Angular / facial vessels", "Superficial temporal vessels"],
+      "ladderSummary": ["Bilobed / dorsal nasal local flap (<1.5 cm)", "Nasolabial flap (ala)", "Paramedian forehead flap (major subunit)", "Free RFFF (subtotal lining)"]
+    },
+    {
+      "id": "oral-cavity",
+      "label": "Oral Cavity / Tongue / Floor of Mouth",
+      "group": "Head & Neck",
+      "position3d": [0, 1.58, 0.095],
+      "defaultRecipientVessels": ["Facial artery", "Superior thyroid artery", "External jugular / facial vein"],
+      "ladderSummary": ["Primary closure / STSG", "FAMM / Submental island flap", "Free RFFF or thin ALT / MSAP", "Free fibula (if bone involved)"]
+    },
+    {
+      "id": "mandible",
+      "label": "Mandible (Segmental Composite)",
+      "group": "Head & Neck",
+      "position3d": [0.035, 1.55, 0.075],
+      "defaultRecipientVessels": ["Facial artery", "Superior thyroid artery", "Internal jugular vein branch"],
+      "ladderSummary": ["Reconstruction plate + soft tissue (palliative only)", "Free fibula osteocutaneous flap (gold standard)", "Free DCIA or scapular osteocutaneous flap"]
+    },
+    {
+      "id": "cheek-lip",
+      "label": "Cheek, Lip & Perioral",
+      "group": "Head & Neck",
+      "position3d": [0.045, 1.59, 0.085],
+      "defaultRecipientVessels": ["Facial vessels", "Superficial temporal vessels"],
+      "ladderSummary": ["Primary / wedge excision", "Cervicofacial / Karapandzic / Abbé–Estlander / Nasolabial", "Submental / Pectoralis major", "Free RFFF / ALT / Gracilis (smile)"]
+    },
+    {
+      "id": "chest-sternum",
+      "label": "Chest Wall & Sternum",
+      "group": "Trunk",
+      "position3d": [0, 1.30, 0.125],
+      "defaultRecipientVessels": ["Internal mammary vessels", "Thoracodorsal vessels"],
+      "ladderSummary": ["Pectoralis major turnover or advancement", "Rectus abdominis (VRAM) / Omental flap", "Latissimus dorsi pedicled flap", "Free ALT / Tensor fascia lata"]
+    },
+    {
+      "id": "breast",
+      "label": "Breast (Total / Partial Autologous)",
+      "group": "Trunk",
+      "position3d": [-0.075, 1.28, 0.13],
+      "defaultRecipientVessels": ["Internal mammary artery & vein (3rd–4th rib)", "Thoracodorsal vessels"],
+      "ladderSummary": ["Implant-based / Oncoplastic", "Pedicled LD / TDAP / Pedicled TRAM", "Free DIEP (gold standard) / MS-TRAM / SIEA", "Secondary autologous: PAP, TUG, SGAP/IGAP"]
+    },
+    {
+      "id": "abdomen-wall",
+      "label": "Abdominal Wall",
+      "group": "Trunk",
+      "position3d": [0, 1.07, 0.125],
+      "defaultRecipientVessels": ["Deep inferior epigastric vessels", "Superior epigastric / saphenous loop"],
+      "ladderSummary": ["Component separation + mesh", "Pedicled ALT / TFL / Rectus femoris", "Free ALT / Latissimus dorsi"]
+    },
+    {
+      "id": "sacrum-ischium",
+      "label": "Sacrum, Spine & Ischium (Pressure Injuries)",
+      "group": "Trunk",
+      "position3d": [0, 0.94, -0.115],
+      "defaultRecipientVessels": ["Superior / inferior gluteal perforators"],
+      "ladderSummary": ["Debridement & offloading", "Gluteal V-Y advancement / SGAP / IGAP / Gluteal rotation", "Posterior thigh / Hamstring V-Y / Gracilis (ischium)", "Paraspinous / Trapezius / LD (thoracic spine)"]
+    },
+    {
+      "id": "hand-digits",
+      "label": "Hand, Wrist & Digits",
+      "group": "Upper Extremity",
+      "position3d": [-0.37, 0.82, 0.04],
+      "defaultRecipientVessels": ["Radial artery (snuffbox)", "Ulnar artery", "Dorsal hand veins"],
+      "ladderSummary": ["Local: Atasoy V-Y, Moberg, Cross-finger, Kite (FDMA)", "Regional: Reverse RFFF, PIA, Pedicled Groin", "Free: Thin ALT, Lateral arm, MSAP, Toe-to-hand, Venous flap"]
+    },
+    {
+      "id": "forearm-elbow",
+      "label": "Elbow & Forearm",
+      "group": "Upper Extremity",
+      "position3d": [-0.32, 1.08, 0.03],
+      "defaultRecipientVessels": ["Brachial artery", "Radial / Ulnar artery"],
+      "ladderSummary": ["Local / Reverse lateral arm / Pedicled LD", "Pedicled groin flap", "Free ALT / Gracilis / RFFF"]
+    },
+    {
+      "id": "groin-perineum",
+      "label": "Groin & Perineum / Pelvis",
+      "group": "Perineum & Pelvis",
+      "position3d": [0, 0.85, 0.06],
+      "defaultRecipientVessels": ["Inferior epigastric / femoral branches"],
+      "ladderSummary": ["Local: Pudendal thigh (Singapore) / Gluteal fold / Martius", "Regional: Pedicled Gracilis, Pedicled VRAM, Pedicled ALT", "Free flap (rare salvage)"]
+    },
+    {
+      "id": "leg-proximal",
+      "label": "Leg — Proximal Third & Knee",
+      "group": "Lower Extremity",
+      "position3d": [-0.11, 0.44, 0.055],
+      "defaultRecipientVessels": ["Descending genicular vessels", "Popliteal / sural vessels"],
+      "ladderSummary": ["Medial or lateral gastrocnemius muscle flap (workhorse)", "Pedicled MSAP / Reverse ALT", "Free ALT / Latissimus dorsi (massive defects)"]
+    },
+    {
+      "id": "leg-middle",
+      "label": "Leg — Middle Third Tibia",
+      "group": "Lower Extremity",
+      "position3d": [-0.11, 0.30, 0.05],
+      "defaultRecipientVessels": ["Posterior tibial vessels", "Anterior tibial vessels"],
+      "ladderSummary": ["Hemisoleus / Soleus muscle flap", "Posterior tibial / Peroneal perforator propeller flap", "Free ALT / Gracilis / LD (high-energy Gustilo IIIB)"]
+    },
+    {
+      "id": "leg-distal-ankle",
+      "label": "Leg — Distal Third, Ankle & Heel",
+      "group": "Lower Extremity",
+      "position3d": [-0.11, 0.13, 0.04],
+      "defaultRecipientVessels": ["Posterior tibial vessels", "Anterior tibial / dorsalis pedis vessels"],
+      "ladderSummary": ["Reverse sural neurocutaneous / Peroneal propeller (small–mod)", "Medial plantar instep flap (weight-bearing heel)", "Free ALT, Gracilis, RFFF, MSAP, or Fibula (gold standard for Gustilo IIIB)"]
+    },
+    {
+      "id": "foot-plantar",
+      "label": "Foot — Plantar Heel & Weight-Bearing Surface",
+      "group": "Lower Extremity",
+      "position3d": [-0.11, 0.04, 0.01],
+      "defaultRecipientVessels": ["Posterior tibial artery & venae comitantes", "Medial plantar artery", "Dorsalis pedis artery"],
+      "ladderSummary": ["Medial plantar artery (instep) neurovascular flap (gold standard glabrous sensate)", "Reverse sural neurocutaneous flap (non-weight-bearing posterior heel)", "Free thin sensate ALT / RFFF / Gracilis + STSG (massive plantar loss)"]
+    },
+    {
+      "id": "neck",
+      "label": "Neck & Supraclavicular Region",
+      "group": "Head & Neck",
+      "position3d": [0.03, 1.49, 0.045],
+      "defaultRecipientVessels": ["Facial artery", "Superior thyroid artery", "Transverse cervical vessels"],
+      "ladderSummary": ["Primary closure / Cervical rotation", "Pedicled Pectoralis major (carotid blowout / salvage)", "Pedicled Latissimus dorsi or Supraclavicular flap", "Free ALT / RFFF / Scapular flap"]
+    },
+    {
+      "id": "shoulder-arm",
+      "label": "Shoulder & Proximal Arm",
+      "group": "Upper Extremity",
+      "position3d": [-0.23, 1.37, 0.02],
+      "defaultRecipientVessels": ["Thoracodorsal vessels", "Brachial / profunda brachii vessels", "Circumflex scapular vessels"],
+      "ladderSummary": ["Local advancement / STSG if muscle bed intact", "Pedicled Latissimus dorsi or TDAP flap (workhorse)", "Pedicled Scapular / Parascapular flap", "Free ALT or RFFF"]
+    }
+  ],
+  "presets": [
+    {
+      "id": "preset-distal-tibia",
+      "title": "Lower Extremity — Distal Third Tibia (Gustilo IIIB)",
+      "subtitle": "Exposed distal tibia & hardware, 12 × 7 cm, out of reach of soleus",
+      "ladderSteps": [
+        "1. Exclude primary closure & STSG (exposed bone/hardware)",
+        "2. Local propeller / reverse sural only if small & outside zone of injury",
+        "3. Free tissue transfer (ALT, Gracilis, MSAP, or LD) is workhorse for distal third"
+      ],
+      "input": {
+        "locationId": "leg-distal-ankle",
+        "lengthCm": 12,
+        "widthCm": 7,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Fascia"],
+        "woundCharacteristics": ["Exposed bone", "Exposed hardware"],
+        "functionalGoals": ["Thin / pliable coverage", "Durability"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Free flap acceptable"
+      }
+    },
+    {
+      "id": "preset-breast-autologous",
+      "title": "Autologous Total Breast Reconstruction",
+      "subtitle": "Post-mastectomy irradiated chest wall, soft natural mound needed",
+      "ladderSteps": [
+        "1. Gold standard abdominal donor: DIEP (muscle-sparing) > MS-TRAM > SIEA (if caliber ≥1.5 mm)",
+        "2. Alternative donor sites if abdomen unavailable: PAP, TUG, SGAP/IGAP",
+        "3. Pedicled salvage: Extended LD / TDAP (± implant)"
+      ],
+      "input": {
+        "locationId": "breast",
+        "lengthCm": 22,
+        "widthCm": 11,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat"],
+        "woundCharacteristics": ["Radiated field"],
+        "functionalGoals": ["Bulk / volume", "Contour"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Free flap acceptable"
+      }
+    },
+    {
+      "id": "preset-mandible-composite",
+      "title": "Head & Neck — Segmental Mandibular Composite Defect",
+      "subtitle": "10 cm segmental mandibular osteotomy + floor-of-mouth mucosa defect",
+      "ladderSteps": [
+        "1. Vascularized bone is mandatory for anterior/long-segment defects",
+        "2. Free Fibula Osteocutaneous flap is primary workhorse (up to 25 cm bone)",
+        "3. Alternatives: Free DCIA (iliac crest) or Scapular osteocutaneous flap"
+      ],
+      "input": {
+        "locationId": "mandible",
+        "lengthCm": 10,
+        "widthCm": 6,
+        "depth": "Deep / cavitary",
+        "boneLengthCm": 10,
+        "missingTissues": ["Skin", "Bone", "Mucosa / lining"],
+        "woundCharacteristics": ["Exposed bone", "Radiated field"],
+        "functionalGoals": ["Contour", "Thin / pliable coverage"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Free flap acceptable"
+      }
+    },
+    {
+      "id": "preset-proximal-tibia",
+      "title": "Lower Extremity — Proximal Third / Knee Exposed Prosthesis",
+      "subtitle": "Exposed patellar tendon and proximal tibial metaphysis, 8 × 6 cm",
+      "ladderSteps": [
+        "1. Medial (or lateral) gastrocnemius muscle flap + STSG is gold standard",
+        "2. Pedicled MSAP if skin-only thin coverage preferred",
+        "3. Free ALT / LD if gastrocnemius injured or massive defect"
+      ],
+      "input": {
+        "locationId": "leg-proximal",
+        "lengthCm": 8,
+        "widthCm": 6,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Muscle"],
+        "woundCharacteristics": ["Exposed hardware", "Dead space"],
+        "functionalGoals": ["Durability", "Bulk / volume"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    },
+    {
+      "id": "preset-middle-tibia",
+      "title": "Lower Extremity — Middle Third Tibia Exposed Fracture",
+      "subtitle": "9 × 6 cm exposed mid-shaft tibia with local soleus muscle intact",
+      "ladderSteps": [
+        "1. Medial hemisoleus or soleus muscle flap + STSG is classic regional workhorse",
+        "2. Posterior tibial or peroneal perforator propeller flap for small-to-moderate defects",
+        "3. Free ALT / Gracilis if high-energy trauma crushed the soleus muscle"
+      ],
+      "input": {
+        "locationId": "leg-middle",
+        "lengthCm": 9,
+        "widthCm": 6,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Muscle"],
+        "woundCharacteristics": ["Exposed bone", "Dead space"],
+        "functionalGoals": ["Durability", "Bulk / volume"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    },
+    {
+      "id": "preset-nasal-subunit",
+      "title": "Major Nasal Subunit Reconstruction (>2 cm)",
+      "subtitle": "Full-thickness nasal tip and dorsum defect after Mohs excision",
+      "ladderSteps": [
+        "1. Defects <1.5 cm: Bilobed or local advancement flap",
+        "2. Defects >1.5–2 cm or multiple subunits: Paramedian forehead flap (gold standard)",
+        "3. Cartilage framework + mucosal lining as needed; staged pedicle division at 3 weeks"
+      ],
+      "input": {
+        "locationId": "nose",
+        "lengthCm": 4,
+        "widthCm": 3,
+        "depth": "Full-thickness",
+        "missingTissues": ["Skin", "Subcutaneous fat"],
+        "woundCharacteristics": ["Exposed bone"],
+        "functionalGoals": ["Color / texture match", "Contour"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    },
+    {
+      "id": "preset-sternal-wound",
+      "title": "Deep Sternal Wound Infection / Mediastinitis",
+      "subtitle": "Post-sternotomy dehiscence with exposed sternum and dead space",
+      "ladderSteps": [
+        "1. Serial debridement & negative-pressure wound therapy",
+        "2. Bilateral pectoralis major advancement or turnover flaps (workhorse)",
+        "3. Lower sternal third: Rectus abdominis (VRAM) or Omental flap"
+      ],
+      "input": {
+        "locationId": "chest-sternum",
+        "lengthCm": 16,
+        "widthCm": 7,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Muscle"],
+        "woundCharacteristics": ["Exposed bone", "Infection / osteomyelitis", "Dead space"],
+        "functionalGoals": ["Bulk / volume", "Durability"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": ["Diabetes"],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    },
+    {
+      "id": "preset-sacral-pressure",
+      "title": "Stage IV Sacral Pressure Injury",
+      "subtitle": "10 × 8 cm sacral ulcer with exposed sacrum after osteomyelitis debridement",
+      "ladderSteps": [
+        "1. Nutritional optimization, offloading, bony prominence ostectomy",
+        "2. Gluteal rotation / V-Y fasciocutaneous / SGAP perforator flap (preserve future options)",
+        "3. Avoid sacrificing gluteus maximus function in ambulatory patients"
+      ],
+      "input": {
+        "locationId": "sacrum-ischium",
+        "lengthCm": 10,
+        "widthCm": 8,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat"],
+        "woundCharacteristics": ["Exposed bone", "Dead space", "Infection / osteomyelitis"],
+        "functionalGoals": ["Durability", "Bulk / volume"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    },
+    {
+      "id": "preset-hand-dorsum",
+      "title": "Dorsal Hand Defect with Exposed Extensor Tendons",
+      "subtitle": "8 × 5 cm dorsal hand avulsion requiring thin gliding coverage",
+      "ladderSteps": [
+        "1. Regional pedicled: Posterior interosseous (PIA), Reverse RFFF, or staged Groin flap",
+        "2. Single-stage free thin flap: RFFF, thin ALT, Lateral arm, or MSAP",
+        "3. Fascial flap (TPFF) + STSG for ultra-thin tendon gliding"
+      ],
+      "input": {
+        "locationId": "hand-digits",
+        "lengthCm": 8,
+        "widthCm": 5,
+        "depth": "Full-thickness",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Fascia"],
+        "woundCharacteristics": ["Exposed tendon"],
+        "functionalGoals": ["Thin / pliable coverage", "Durability"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Any"
+      }
+    },
+    {
+      "id": "preset-scalp-calvarium",
+      "title": "Scalp & Calvarium Oncologic Defect (Irradiated)",
+      "subtitle": "14 × 11 cm scalp resection with exposed calvarium & dura/hardware",
+      "ladderSteps": [
+        "1. Exclude primary closure & STSG (exposed denuded calvarium / radiated bed)",
+        "2. Free ALT (thin fascia/skin) or Free Latissimus Dorsi muscle + STSG (massive contour)",
+        "3. Superficial temporal vessels are primary recipients; consider vein graft if scarred"
+      ],
+      "input": {
+        "locationId": "scalp",
+        "lengthCm": 14,
+        "widthCm": 11,
+        "depth": "Full-thickness",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Fascia"],
+        "woundCharacteristics": ["Exposed bone", "Exposed vessels / dura / implant", "Radiated field"],
+        "functionalGoals": ["Thin / pliable coverage", "Durability"],
+        "recipientVesselStatus": "Previous radiation",
+        "patientFactors": [],
+        "mobilizationPreference": "Free flap acceptable"
+      }
+    },
+    {
+      "id": "preset-abdominal-wall",
+      "title": "Abdominal Wall Composite Full-Thickness Defect",
+      "subtitle": "15 × 10 cm radiated full-thickness abdominal wall resection with fascial loss",
+      "ladderSteps": [
+        "1. Component separation + biologic/synthetic mesh if skin intact",
+        "2. Pedicled or Free ALT with vascularized fascia lata for dynamic fascial reconstruction",
+        "3. Alternatives: Free Latissimus dorsi or contralateral VRAM"
+      ],
+      "input": {
+        "locationId": "abdomen-wall",
+        "lengthCm": 15,
+        "widthCm": 10,
+        "depth": "Deep / cavitary",
+        "missingTissues": ["Skin", "Subcutaneous fat", "Fascia", "Muscle"],
+        "woundCharacteristics": ["Radiated field", "Exposed vessels / dura / implant"],
+        "functionalGoals": ["Durability", "Bulk / volume"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": ["Prior abdominal surgery"],
+        "mobilizationPreference": "Any"
+      }
+    },
+    {
+      "id": "preset-plantar-heel",
+      "title": "Plantar Heel Weight-Bearing Surface Defect",
+      "subtitle": "6 × 5 cm exposed calcaneus on weight-bearing heel requiring sensate glabrous skin",
+      "ladderSteps": [
+        "1. Medial plantar artery (instep) neurovascular flap is gold standard (like-with-like glabrous sensate)",
+        "2. Reverse sural neurocutaneous flap if instep donor unavailable (non-glabrous)",
+        "3. Free sensate ALT / RFFF / Gracilis + STSG for massive plantar loss"
+      ],
+      "input": {
+        "locationId": "foot-plantar",
+        "lengthCm": 6,
+        "widthCm": 5,
+        "depth": "Full-thickness",
+        "missingTissues": ["Skin", "Subcutaneous fat"],
+        "woundCharacteristics": ["Exposed bone"],
+        "functionalGoals": ["Weight-bearing surface", "Sensation", "Durability"],
+        "recipientVesselStatus": "Available",
+        "patientFactors": [],
+        "mobilizationPreference": "Local / Regional preferred"
+      }
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+[
+  {
+    "id": "q-1",
+    "type": "case",
+    "topic": "Lower Extremity Reconstruction",
+    "difficulty": "Board",
+    "prompt": "A 52-year-old man sustains an open Gustilo IIIB fracture of the distal third of the tibia with a 12 × 7 cm anterior soft-tissue defect and exposed plate. Angiography confirms patent anterior and posterior tibial vessels. Which reconstruction is most appropriate?",
+    "options": [
+      "Medial gastrocnemius rotational muscle flap",
+      "Free anterolateral thigh (ALT) fasciocutaneous flap",
+      "Split-thickness skin graft after 5 days of NPWT",
+      "Distally based hemisoleus muscle flap"
+    ],
+    "correctIndex": 1,
+    "explanation": "The distal third of the tibia lies beyond the reliable arc of rotation of the gastrocnemius (proximal third) and soleus (middle third). For a 12 × 7 cm defect with exposed hardware, free tissue transfer (such as ALT, gracilis, or MSAP) is the workhorse solution.",
+    "relatedFlapId": "alt-flap",
+    "referenceNote": "Zenn & Jones — Lower Extremity Reconstruction by Thirds (verify exact chapter)."
+  },
+  {
+    "id": "q-2",
+    "type": "mcq",
+    "topic": "Classifications",
+    "difficulty": "Resident",
+    "prompt": "According to the Mathes–Nahai classification of muscle vascular anatomy, which pair of muscles are both Type V (one dominant pedicle plus secondary segmental pedicles)?",
+    "options": [
+      "Gracilis and Soleus",
+      "Rectus abdominis and Gluteus maximus",
+      "Latissimus dorsi and Pectoralis major",
+      "Gastrocnemius and Tensor fascia lata"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both latissimus dorsi (thoracodorsal dominant + paraspinous/intercostal segmental) and pectoralis major (thoracoacromial dominant + internal mammary segmental) are Mathes–Nahai Type V muscles, allowing either standard or turnover designs.",
+    "relatedFlapId": "ld-flap",
+    "referenceNote": "Mathes & Nahai classification; Zenn & Jones (verify chapter)."
+  },
+  {
+    "id": "q-3",
+    "type": "landmark",
+    "topic": "Perforator Landmarks",
+    "difficulty": "Resident",
+    "prompt": "Where are the dominant cutaneous perforators of the Anterolateral Thigh (ALT) flap most consistently clustered?",
+    "options": [
+      "Within a 3-cm radius of the midpoint of the line from ASIS to the superolateral patella",
+      "8–10 cm inferior to the pubic tubercle along the adductor longus border",
+      "Along the junction of the medial and middle thirds from PSIS to greater trochanter",
+      "3–4 cm inferior to the gluteal crease posterior to gracilis"
+    ],
+    "correctIndex": 0,
+    "explanation": "ALT perforators (typically perforator B) cluster within a 3-cm radius centered on the midpoint of a line drawn from the anterior superior iliac spine (ASIS) to the superolateral border of the patella.",
+    "relatedFlapId": "alt-flap",
+    "referenceNote": "Blondeel et al., Perforator Flaps, 3rd ed. — ALT Flap (verify section)."
+  },
+  {
+    "id": "q-4",
+    "type": "case",
+    "topic": "Head & Neck",
+    "difficulty": "Board",
+    "prompt": "Prior to harvesting a free fibula osteocutaneous flap for an 8 cm segmental mandibular defect, preoperative CT angiography reveals 'peronea arteria magna' bilaterally. What is the correct next step?",
+    "options": [
+      "Proceed with fibula harvest while preserving 8 cm of distal bone",
+      "Abort fibula harvest and select an alternative osteocutaneous donor (e.g., DCIA or scapular)",
+      "Harvest a vein graft to reconstruct the anterior tibial artery",
+      "Perform a surgical delay of the peroneal perforators for 14 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peronea arteria magna (dominant peroneal artery supplying the foot with hypoplastic/absent anterior and posterior tibial arteries) is an absolute contraindication to fibula harvest due to high risk of foot ischemia.",
+    "relatedFlapId": "fibula-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — Free Fibula Flap (verify chapter)."
+  },
+  {
+    "id": "q-5",
+    "type": "mcq",
+    "topic": "Local Flap Geometry",
+    "difficulty": "Resident",
+    "prompt": "What is the classic theoretical percentage gain in length along the central limb of a standard 60° Z-plasty?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Classic Z-plasty theoretical length gains: 30° = 25%, 45° = 50%, 60° = 75%, 75° = 100%, and 90° = 120%. 60° offers the best balance of gain and safe transposition tension.",
+    "relatedFlapId": "z-plasty-flap",
+    "referenceNote": "Standard plastic surgery geometric principles (Zenn & Jones, verify section)."
+  },
+  {
+    "id": "q-6",
+    "type": "case",
+    "topic": "Breast Reconstruction",
+    "difficulty": "Fellow",
+    "prompt": "During a DIEP free flap breast reconstruction, immediately after arterial and venous microvascular anastomosis to the internal mammary vessels, the skin paddle appears briskly bleeding dark purple blood with a taut, engorged superficial inferior epigastric vein (SIEV). What is the most effective intraoperative rescue?",
+    "options": [
+      "Divide the SIEV to decompress the skin paddle",
+      "Perform venous supercharging by anastomosing the SIEV to a retrograde IMV or cephalic/thoracodorsal vein",
+      "Administer intravenous protamine and elevate the head of the bed",
+      "Convert immediately to a pedicled latissimus dorsi flap"
+    ],
+    "correctIndex": 1,
+    "explanation": "Superficial venous dominance occurs in a subset of abdominal flaps. Preserving a generous SIEV length during harvest enables venous supercharging (anastomosing the SIEV to a second recipient vein) to relieve venous congestion.",
+    "relatedFlapId": "diep-flap",
+    "referenceNote": "Blondeel et al., Perforator Flaps, 3rd ed. — DIEP Venous Drainage (verify section)."
+  },
+  {
+    "id": "q-7",
+    "type": "mcq",
+    "topic": "Breast Reconstruction",
+    "difficulty": "Resident",
+    "prompt": "Which vascular pedicle supplies the Profunda Artery Perforator (PAP) flap used in autologous breast reconstruction?",
+    "options": [
+      "Ascending branch of medial circumflex femoral artery",
+      "Perforators of the profunda femoris artery piercing adductor magnus",
+      "Descending branch of lateral circumflex femoral artery",
+      "Superficial circumflex iliac artery"
+    ],
+    "correctIndex": 1,
+    "explanation": "The PAP flap is based on posterior thigh perforators arising from the profunda femoris artery that traverse adductor magnus ~3–6 cm inferior to the gluteal crease.",
+    "relatedFlapId": "pap-flap",
+    "referenceNote": "Blondeel et al., Perforator Flaps, 3rd ed. — PAP Flap (verify section)."
+  },
+  {
+    "id": "q-8",
+    "type": "mcq",
+    "topic": "Head & Neck",
+    "difficulty": "Resident",
+    "prompt": "What is the primary axial vascular supply of the paramedian forehead flap?",
+    "options": [
+      "Superficial temporal artery",
+      "Angular artery",
+      "Supratrochlear artery",
+      "Infraorbital artery"
+    ],
+    "correctIndex": 2,
+    "explanation": "The paramedian forehead flap is axially based on the supratrochlear artery, exiting the medial orbital rim ~1.7–2.2 cm from the midline, allowing a narrow ~1.2–1.5 cm pedicle base.",
+    "relatedFlapId": "paramedian-forehead-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — Forehead Flaps (verify section)."
+  },
+  {
+    "id": "q-9",
+    "type": "case",
+    "topic": "Lower Extremity Reconstruction",
+    "difficulty": "Board",
+    "prompt": "A 68-year-old woman develops a 6 × 5 cm anterior knee wound with exposed patellar tendon and total knee arthroplasty prosthesis after wound dehiscence. Which local/regional flap is the first-line workhorse?",
+    "options": [
+      "Lateral sural fasciocutaneous flap",
+      "Medial gastrocnemius muscle flap with STSG",
+      "Reverse sural neurocutaneous flap",
+      "Peroneus brevis distally based muscle flap"
+    ],
+    "correctIndex": 1,
+    "explanation": "The medial gastrocnemius muscle flap (Mathes–Nahai Type I, medial sural pedicle) is larger and has a wider anterior arc of rotation than the lateral head, making it the gold-standard coverage for exposed knee arthroplasty and proximal tibial defects.",
+    "relatedFlapId": "gastrocnemius-flap",
+    "referenceNote": "Zenn & Jones — Gastrocnemius Flap (verify chapter)."
+  },
+  {
+    "id": "q-10",
+    "type": "mcq",
+    "topic": "Upper Extremity & Hand",
+    "difficulty": "Resident",
+    "prompt": "Prior to raising a Radial Forearm Free Flap (RFFF), which bedside clinical maneuver is mandatory to confirm adequate palmar arch perfusion via the ulnar artery?",
+    "options": [
+      "Tinel sign at Guyon's canal",
+      "Modified Allen test (augmented by Doppler if equivocal)",
+      "Phalen maneuver for 60 seconds",
+      "Finkelstein test over the first dorsal compartment"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Modified Allen test confirms complete superficial/deep palmar arch communication from the ulnar artery before sacrificing the radial artery. An abnormal test warrants Doppler/CTA evaluation or choosing an alternative donor (e.g., ulnar forearm or lateral arm).",
+    "relatedFlapId": "rfff-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — Radial Forearm Flap (verify section)."
+  },
+  {
+    "id": "q-11",
+    "type": "case",
+    "topic": "Upper Extremity & Hand",
+    "difficulty": "Board",
+    "prompt": "A 34-year-old carpenter suffers an oblique volar thumb pulp amputation (1.6 cm defect) with exposed distal phalanx bone. The dorsal skin is intact and he requires sensate glabrous pinch restoration. Which local flap is best suited?",
+    "options": [
+      "Moberg volar advancement flap",
+      "Groin (SCIA) pedicled flap",
+      "Posterior interosseous artery (PIA) flap",
+      "Cross-finger flap from the index dorsum"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Moberg volar advancement flap advances both radial and ulnar neurovascular bundles of the thumb to cover volar pulp defects up to ~1.5–2 cm with sensate glabrous skin. It is uniquely safe in the thumb because dorsal blood supply is independent of the volar digital arteries.",
+    "relatedFlapId": "moberg-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — Thumb Reconstruction (verify section)."
+  },
+  {
+    "id": "q-12",
+    "type": "mcq",
+    "topic": "Upper Extremity & Hand",
+    "difficulty": "Fellow",
+    "prompt": "The First Dorsal Metacarpal Artery (FDMA / Kite) flap is most commonly elevated from the dorsum of which proximal phalanx to resurface dorsal or volar thumb defects?",
+    "options": [
+      "Long finger proximal phalanx",
+      "Index finger proximal phalanx",
+      "Ring finger middle phalanx",
+      "Thumb proximal phalanx"
+    ],
+    "correctIndex": 1,
+    "explanation": "The FDMA (Foucher / Kite) island flap is harvested from the dorsum of the index proximal phalanx, preserving the paratenon over the extensor hood and including a branch of the superficial radial nerve for sensate thumb coverage.",
+    "relatedFlapId": "kite-fdma-flap",
+    "referenceNote": "Zenn & Jones — Hand Flaps / FDMA Flap (verify section)."
+  },
+  {
+    "id": "q-13",
+    "type": "mcq",
+    "topic": "Classifications",
+    "difficulty": "Resident",
+    "prompt": "Under the Cormack–Lamberty classification of fasciocutaneous flaps, which type is supplied by multiple small perforators traversing an intermuscular septum from a deep source artery (such as the radial forearm or lateral arm flap)?",
+    "options": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type D"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cormack–Lamberty Type C flaps are supplied by multiple small septocutaneous perforators running along an intermuscular septum (e.g., RFFF, lateral arm, PIA). Type D adds an osseous/muscular component to Type C (e.g., free fibula).",
+    "relatedFlapId": "rfff-flap",
+    "referenceNote": "Cormack & Lamberty (1984); Zenn & Jones — Fasciocutaneous Classification (verify section)."
+  },
+  {
+    "id": "q-14",
+    "type": "mcq",
+    "topic": "Vascular Concepts",
+    "difficulty": "Fellow",
+    "prompt": "According to Taylor's Angiosome concept, how many sequential choke-vessel zones beyond the primary angiosome can typically be captured reliably without surgical delay?",
+    "options": [
+      "Zero — necrosis occurs immediately at the first choke zone",
+      "One adjacent angiosome across a single choke-vessel boundary",
+      "Three adjacent angiosomes routinely without delay",
+      "Only adjacent angiosomes linked by muscular venous sinusoids"
+    ],
+    "correctIndex": 1,
+    "explanation": "Taylor demonstrated that a flap based on a single source artery reliably captures its own angiosome plus one adjacent angiosome across a choke-vessel zone; extending across a second choke boundary carries high risk of distal necrosis unless surgical delay is performed.",
+    "relatedFlapId": "tram-flap",
+    "referenceNote": "Taylor & Palmer (1987); Blondeel et al., Perforator Flaps, 3rd ed. (verify section)."
+  },
+  {
+    "id": "q-15",
+    "type": "case",
+    "topic": "Head & Neck",
+    "difficulty": "Board",
+    "prompt": "A 61-year-old patient has a 4 × 3 cm full-thickness floor-of-mouth and anterior alveolar mucosal defect following resection of T2 squamous cell carcinoma. Neck dissection spared the facial artery. Which intraoral axial flap provides like-with-like mucosal lining?",
+    "options": [
+      "Deltopectoral (Bakamjian) flap",
+      "Facial artery musculomucosal (FAMM) flap",
+      "Temporalis myofascial flap",
+      "Scapular osteocutaneous flap"
+    ],
+    "correctIndex": 1,
+    "explanation": "The FAMM flap (Pribaz) is an axial musculomucosal flap based on the facial artery (inferiorly or superiorly based) providing pliable, secretory intraoral mucosa for floor-of-mouth, palate, and lip lining defects.",
+    "relatedFlapId": "famm-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — FAMM Flap (verify section)."
+  },
+  {
+    "id": "q-16",
+    "type": "mcq",
+    "topic": "Local Flap Geometry",
+    "difficulty": "Resident",
+    "prompt": "In Zitelli's modern modification of the bilobed transposition flap for distal nasal defects, what is the recommended total arc of rotation to minimize standing-cone deformities and alar rim distortion?",
+    "options": [
+      "45° total arc (22.5° per lobe)",
+      "90° total arc (45° primary lobe + 45° secondary lobe)",
+      "180° total arc (90° primary lobe + 90° secondary lobe)",
+      "135° total arc (90° primary lobe + 45° secondary lobe)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zitelli reduced Esser's original 180° bilobed design to a total arc of ~90° (45° primary transposition + 45° secondary transposition), dramatically reducing dog-ear (standing cone) deformity and nasal alar elevation.",
+    "relatedFlapId": "bilobed-rhomboid-flap",
+    "referenceNote": "Zitelli (1989); Zenn & Jones — Nasal Local Flaps (verify section)."
+  },
+  {
+    "id": "q-17",
+    "type": "mcq",
+    "topic": "Local Flap Geometry",
+    "difficulty": "Resident",
+    "prompt": "When designing a classic Limberg rhomboid transposition flap (60° and 120° angles), how should the short diagonal (connecting the two 120° angles) be oriented to minimize donor-site closure tension?",
+    "options": [
+      "Parallel to the Line of Maximal Extensibility (LME), perpendicular to RSTL",
+      "Perpendicular to the Line of Maximal Extensibility (LME)",
+      "Aligned at 45° to the regional lymphatic drainage axis",
+      "Orientation has no effect on closure tension"
+    ],
+    "correctIndex": 0,
+    "explanation": "Orienting the short diagonal parallel to the Line of Maximal Extensibility (LME, perpendicular to Relaxed Skin Tension Lines) places the donor-site closure scar along the RSTL where skin laxity is greatest.",
+    "relatedFlapId": "bilobed-rhomboid-flap",
+    "referenceNote": "Zenn & Jones — Rhomboid / Limberg Flap Principles (verify section)."
+  },
+  {
+    "id": "q-18",
+    "type": "landmark",
+    "topic": "Perforator Landmarks",
+    "difficulty": "Fellow",
+    "prompt": "When mapping a Superior Gluteal Artery Perforator (SGAP) flap, where are dominant perforators typically located relative to the line connecting the PSIS to the greater trochanter?",
+    "options": [
+      "At the junction of the medial and middle thirds of the line from PSIS to greater trochanter",
+      "At the midpoint of the line from ASIS to pubic tubercle",
+      "8 cm distal to the popliteal crease along the medial gastrocnemius",
+      "Along the anterior axillary line at the 6th intercostal space"
+    ],
+    "correctIndex": 0,
+    "explanation": "The superior gluteal artery exits the greater sciatic foramen near the junction of the medial and middle thirds of the line from the posterior superior iliac spine (PSIS) to the greater trochanter; SGAP perforators cluster just lateral to this point.",
+    "relatedFlapId": "sgap-flap",
+    "referenceNote": "Blondeel et al., Perforator Flaps, 3rd ed. — SGAP Flap (verify section)."
+  },
+  {
+    "id": "q-19",
+    "type": "case",
+    "topic": "Perineum & Trunk",
+    "difficulty": "Board",
+    "prompt": "A 58-year-old patient undergoes abdominoperineal resection (APR) after neoadjuvant pelvic radiation, leaving a large deep pelvic dead space and posterior vaginal wall defect. Which pedicled flap reliably obliterates dead space and brings non-irradiated skin?",
+    "options": [
+      "Vertical Rectus Abdominis Myocutaneous (VRAM) flap",
+      "Superficial Inferior Epigastric Artery (SIEA) flap",
+      "Lateral calcaneal flap",
+      "Submental island flap"
+    ],
+    "correctIndex": 0,
+    "explanation": "The inferiorly based VRAM flap (supplied by the deep inferior epigastric artery) provides robust, well-vascularized muscle bulk to obliterate irradiated pelvic dead space and a reliable skin paddle for perineal/vaginal reconstruction.",
+    "relatedFlapId": "vram-flap",
+    "referenceNote": "Zenn & Jones — Perineal & Pelvic Reconstruction (verify chapter)."
+  },
+  {
+    "id": "q-20",
+    "type": "mcq",
+    "topic": "Perineum & Trunk",
+    "difficulty": "Fellow",
+    "prompt": "Which vascular pedicle supplies the Pudendal Thigh (Singapore) fasciocutaneous flap used for vaginal and perineal reconstruction?",
+    "options": [
+      "Deep circumflex iliac artery",
+      "Posterior labial / scrotal branches of the internal pudendal artery",
+      "Inferior gluteal artery",
+      "Lateral femoral circumflex artery"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Singapore (pudendal thigh) flap is raised in the groin crease lateral to the labia majora/scrotum and is axially supplied by posterior labial/scrotal terminal branches of the internal pudendal artery, often preserving pudendal sensory branches.",
+    "relatedFlapId": "pudendal-thigh-flap",
+    "referenceNote": "Grabb's Encyclopedia of Flaps, 4th ed. — Pudendal Thigh Flap (verify section)."
+  },
+  {
+    "id": "q-21",
+    "type": "landmark",
+    "topic": "Perforator Landmarks",
+    "difficulty": "Fellow",
+    "prompt": "For a Thoracodorsal Artery Perforator (TDAP) flap, where is the first major musculocutaneous perforator of the descending branch most reliably located?",
+    "options": [
+      "Approximately 8 cm below the posterior axillary fold and 2–3 cm posterior to the anterior border of latissimus dorsi",
+      "At the mid-clavicular line at the 2nd intercostal space",
+      "2 cm lateral to the umbilicus along the lateral rectus border",
+      "5 cm proximal to the lateral malleolus"
+    ],
+    "correctIndex": 0,
+    "explanation": "The proximal descending-branch perforator of the thoracodorsal artery consistently emerges ~8 cm inferior to the posterior axillary fold and ~2–3 cm posterior to the anterior free edge of the latissimus dorsi muscle.",
+    "relatedFlapId": "tdap-flap",
+    "referenceNote": "Blondeel et al., Perforator Flaps, 3rd ed. — TDAP Flap (verify section)."
+  },
+  {
+    "id": "q-22",
+    "type": "mcq",
+    "topic": "Lower Extremity Reconstruction",
+    "difficulty": "Board",
+    "prompt": "In a distally based Reverse Sural Neurocutaneous flap for heel or Achilles coverage, preserving which anatomical structure is critical to maintaining retrograde venous outflow and arterial inflow?",
+    "options": [
+      "Lesser saphenous vein and a 3–4 cm adipofascial pedicle cuff around the sural nerve",
+      "Greater saphenous vein alone without fascia",
+      "Deep peroneal nerve and anterior tibial artery",
+      "Posterior tibial tendon sheath"
+    ],
+    "correctIndex": 0,
+    "explanation": "The reverse sural flap relies on septocutaneous peroneal perforators ~5–7 cm proximal to the lateral malleolus feeding the median superficial sural plexus along the sural nerve and lesser saphenous vein; a 3–4 cm adipofascial cuff protects venous outflow.",
+    "relatedFlapId": "reverse-sural-flap",
+    "referenceNote": "Zenn & Jones — Reverse Sural Flap (verify section)."
+  }
+]

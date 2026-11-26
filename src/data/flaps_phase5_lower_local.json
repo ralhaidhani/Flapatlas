@@ -1,0 +1,426 @@
+[
+  {
+    "id": "rectus-femoris-flap",
+    "name": "Rectus Femoris Muscle Flap",
+    "synonyms": ["Rectus femoris flap", "RF muscle flap"],
+    "region": "Lower Extremity (anterior thigh)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Muscle", "Myocutaneous", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": "Type II (descending LCFA dominant + minor distal muscular branches)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Rectus femoris muscle", "Anterior tendon", "Optional overlying anterior thigh skin"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Muscular branch of descending lateral circumflex femoral artery", "artery_origin": "Lateral circumflex femoral artery (profunda femoris)", "artery_diameter_mm": { "min": 1.8, "max": 2.5, "unit": "mm", "confidence": "moderate" }, "veins": "Paired venae comitantes", "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" }, "pedicle_length_cm": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": ["Distal profunda / superficial femoral muscular twigs"],
+      "perforators": [],
+      "angiosome": "Lateral circumflex femoral angiosome",
+      "venous_drainage_notes": "Enters deep posterolateral surface ~8–10 cm inferior to ASIS.",
+      "vascular_variants": ["Often preserved if sartorius/gracilis is compromised in complex groin vascular graft salvage"]
+    },
+    "nerves": { "motor": ["Femoral nerve branch to rectus femoris"], "sensory": ["Anterior femoral cutaneous branches"], "can_be_sensate": false, "donor_numbness_note": "Anterior thigh sensory decrease; ~15–20% terminal knee extension weakness unless vastus medialis/lateralis are centralized." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 15.0, "max": 25.0, "unit": "cm", "confidence": "verify" }, "width": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "verify" } },
+      "thickness_notes": "Bulky, sturdy muscle ideal for wrapping infected femoral bypass grafts and obliterating deep groin cavities.",
+      "primary_closure_max_width_cm": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "Pedicle entry ~8–10 cm below ASIS", "reach_description": "Gold standard salvage flap for exposed/infected femoral vascular grafts, groin, perineum, lower abdomen, and ischium.", "reach_cm": { "min": 22.0, "max": 30.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Infected or exposed femoral vascular bypass grafts / groin lymphocele", "Deep groin / pelvic / lower abdominal wall wounds", "Functional free muscle transfer for elbow flexion"],
+    "contraindications": ["Ipsilateral profunda femoris / LCFA occlusion", "High-demand ambulatory athletes (prefer gracilis/ALT to spare knee extension)"],
+    "advantages": ["Large well-vascularized muscle bulk superior to sartorius for groin graft salvage", "Rapid supine harvest", "Strong distal tendon anchors securely"],
+    "disadvantages": ["15–20% reduction in terminal knee extension torque", "Anterior thigh scar"],
+    "donor_site": { "closure": "Centralize vastus medialis and vastus lateralis together to distal rectus tendon stump; primary closure.", "morbidity": ["Mild terminal knee extension weakness", "Seroma"], "functional_loss": "Noticeable mainly on stairs/running (~15–20% quadriceps loss); mitigated by vastus centralization." },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Verify profunda femoris / LCFA patency on vascular CTA", "Counsel ambulatory patients on mild knee extension deficit"],
+      "landmarks": ["ASIS", "Midpoint of superior patellar border", "Vastus lateralis & medialis"],
+      "design": "Anterior longitudinal thigh incision from 10 cm below ASIS to 6 cm above patella.",
+      "harvest_steps": [
+        "1. Expose rectus femoris bipennate belly and divide distal tendon 3–4 cm proximal to patella.",
+        "2. Elevate muscle distal-to-proximal off vastus intermedius.",
+        "3. Identify and protect LCFA pedicle entering deep lateral aspect ~8–10 cm below ASIS.",
+        "4. Centralize vastus medialis and lateralis to distal quadriceps stump, tunnel muscle into groin, and drain donor pocket."
+      ],
+      "pearls": ["Suturing vastus medialis and lateralis together into the distal quadriceps stump significantly reduces postoperative extensor lag."],
+      "pitfalls": ["Failing to verify profunda femoris patency in vascular groin patients can cause total flap loss."]
+    },
+    "recipient_vessels_options": ["Pedicled on LCFA"],
+    "complications": ["Knee extensor weakness", "Donor seroma", "Recurrent graft infection"],
+    "alternatives": ["gracilis-flap", "alt-flap", "vram-flap", "tfl-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["groin-perineum", "abdomen-wall", "sacrum-ischium"], "provides_bone": false, "provides_muscle": true, "provides_thin_pliable": false, "provides_bulk": true, "provides_motor": true, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": true, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "1.5–2 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.105, 0.72, 0.088], "paddleNormal": [0, 0, 1], "paddleSize": [0.24, 0.075], "pediclePath": [[-0.095, 0.85, 0.055], [-0.105, 0.8, 0.075], [-0.105, 0.72, 0.088]], "pivotPoint": [-0.1, 0.83, 0.068], "arcRadius": 0.24, "typicalRecipientPoint": [-0.075, 0.9, 0.085], "angiosomeColor": "#0369a1" },
+    "references": [{ "book": "Mathes SJ, Nahai F. Reconstructive Surgery: Principles, Anatomy, & Technique", "edition": "1st ed.", "chapter_or_section": "Rectus Femoris Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "amt-flap",
+    "name": "Anteromedial Thigh (AMT) Perforator Flap",
+    "synonyms": ["AMT flap", "Anteromedial thigh flap"],
+    "region": "Lower Extremity (anteromedial thigh)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Perforator", "Fasciocutaneous", "Free", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Septocutaneous / Musculocutaneous perforator", "perforator_type": "Septocutaneous (rectus femoris / vastus medialis) or Musculocutaneous" },
+    "tissue_components": ["Skin", "Subcutaneous fat", "Optional fascia / vastus medialis"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Innominate / medial branch of descending LCFA (or direct rectus femoris / SFA perforator)", "artery_origin": "Lateral circumflex femoral artery (most common) or superficial femoral artery", "artery_diameter_mm": { "min": 1.5, "max": 2.2, "unit": "mm", "confidence": "verify" }, "veins": "Paired venae comitantes", "vein_diameter_mm": { "min": 1.8, "max": 2.8, "unit": "mm", "confidence": "verify" }, "pedicle_length_cm": { "min": 7.0, "max": 12.0, "unit": "cm", "confidence": "verify" } },
+      "minor_pedicles": [],
+      "perforators": [
+        { "label": "AMT Perforator", "type": "Mixed", "location": "Medial to rectus femoris / sartorius border at mid-thigh", "relation_to_landmarks": "Often inversely proportional in size to ALT perforators (immediate bailout via same medial incision)", "typical_count": "1–2", "caliber_mm": { "min": 0.6, "max": 1.2, "unit": "mm", "confidence": "verify" }, "position3d": [-0.075, 0.71, 0.068] }
+      ],
+      "angiosome": "Medial descending LCFA / superficial femoral angiosome",
+      "venous_drainage_notes": "Can be conjoined with ALT as a huge twin/mega-flap on the LCFA trunk.",
+      "vascular_variants": ["Variable pedicle origin (descending LCFA ~50%, rectus femoris branch, or SFA); absent in ~15–20%"]
+    },
+    "nerves": { "motor": ["Nerve to vastus medialis — preserve"], "sensory": ["Anterior femoral cutaneous nerve (for sensate flap)"], "can_be_sensate": true, "donor_numbness_note": "Anteromedial thigh hypoesthesia." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 14.0, "max": 22.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Thinner and more pliable than lateral thigh skin in many patients; concealed medial thigh scar.",
+      "primary_closure_max_width_cm": { "min": 7.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "LCFA trunk / mid-thigh", "reach_description": "Primary intraoperative salvage flap via same incision when ALT perforators are absent; free flap for H&N and extremity.", "reach_cm": { "min": 16.0, "max": 22.0, "unit": "cm", "confidence": "verify" } },
+    "indications": ["Immediate intraoperative bailout when ALT flap lacks usable perforators", "Conjoined ALT + AMT mega-flap for massive defects", "Thin H&N or extremity resurfacing with concealed medial scar"],
+    "contraindications": ["Absent medial thigh perforators (~15–20%)"],
+    "advantages": ["Accessible through the exact same medial ALT exploratory incision", "Often thinner than ALT with concealed donor scar", "Can be combined with ALT on a single LCFA pedicle"],
+    "disadvantages": ["Less consistent perforator anatomy than ALT", "Variable pedicle origin"],
+    "donor_site": { "closure": "Primary closure up to 8–9 cm.", "morbidity": ["Medial thigh numbness", "Mild contour step"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Always Doppler anteromedial thigh during ALT marking as routine backup", "Confirm perforator via initial medial ALT incision"],
+      "landmarks": ["Medial border of rectus femoris", "Sartorius muscle", "Midpoint of medial thigh"],
+      "design": "When ALT perforators are absent, retract medial edge of initial ALT incision medially and center skin paddle over AMT perforator.",
+      "harvest_steps": [
+        "1. Explore medial side of initial ALT incision subfascially over rectus femoris and vastus medialis.",
+        "2. Identify septocutaneous/musculocutaneous AMT perforator between rectus femoris and vastus medialis/sartorius.",
+        "3. Trace retrograde to descending LCFA (or superficial femoral branch) protecting femoral nerve twigs.",
+        "4. Commit medial skin incision only after confirming pedicle caliber and length."
+      ],
+      "pearls": ["An inverse relationship exists between ALT and AMT perforator caliber—when ALT has no perforators, look medially for a large AMT perforator."],
+      "pitfalls": ["Committing both skin incisions before visualizing the variable AMT vascular origin."]
+    },
+    "recipient_vessels_options": ["Facial / superior thyroid (H&N)", "Anterior/posterior tibial", "Radial/ulnar"],
+    "complications": ["Perforator absence/small caliber", "Seroma"],
+    "alternatives": ["alt-flap", "tfl-flap", "gracilis-flap", "msap-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": { "defect_locations": ["oral-cavity", "hand-digits", "leg-distal-ankle", "groin-perineum", "scalp"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": true, "chimeric_capable": true, "technical_difficulty": "High", "typical_or_time": "3.5–5 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.075, 0.71, 0.068], "paddleNormal": [0.55, 0, 0.83], "paddleSize": [0.16, 0.07], "pediclePath": [[-0.088, 0.84, 0.055], [-0.082, 0.77, 0.062], [-0.075, 0.71, 0.068]], "pivotPoint": [-0.088, 0.84, 0.055], "arcRadius": 0.18, "typicalRecipientPoint": [-0.07, 0.89, 0.085], "angiosomeColor": "#0ea5e9" },
+    "references": [{ "book": "Blondeel PN et al. Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "Anteromedial Thigh Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "ptap-flap",
+    "name": "Posterior Tibial Artery Perforator (PTAP) Propeller Flap",
+    "synonyms": ["PTAP flap", "Posterior tibial propeller flap", "Medial leg perforator flap"],
+    "region": "Lower Extremity (medial middle-to-distal leg)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Perforator", "Propeller", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Septocutaneous propeller perforator flap", "perforator_type": "Septocutaneous (between soleus/FDL and tibia)" },
+    "tissue_components": ["Medial leg skin", "Subcutaneous fat", "Optional crural fascia"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Posterior tibial artery septocutaneous perforator", "artery_origin": "Posterior tibial artery", "artery_diameter_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "moderate" }, "veins": "Paired perforating venae comitantes", "vein_diameter_mm": { "min": 1.0, "max": 2.0, "unit": "mm", "confidence": "moderate" }, "pedicle_length_cm": { "min": 2.0, "max": 4.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": [],
+      "perforators": [
+        { "label": "PTAP Clusters (4–7, 9–12, 14–18 cm proximal to medial malleolus)", "type": "Septocutaneous", "location": "1–2 cm posterior to medial tibial border along intermuscular septum", "relation_to_landmarks": "Largest reliable perforators cluster ~8–12 cm and ~16–20 cm above medial malleolus", "typical_count": "3–5 along leg", "caliber_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" }, "position3d": [-0.078, 0.24, 0.005] }
+      ],
+      "angiosome": "Posterior tibial artery angiosome",
+      "venous_drainage_notes": "Venous congestion is the leading complication after 180° propeller rotation; skeletonize ≥2–3 cm of perforator free of all fascial strands to distribute torsion.",
+      "vascular_variants": ["Verify posterior tibial artery patency with CTA/Doppler in distal trauma"]
+    },
+    "nerves": { "motor": [], "sensory": ["Saphenous nerve (preserve alongside greater saphenous vein)"], "can_be_sensate": false, "donor_numbness_note": "Mild medial malleolar/shin hypoesthesia." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 12.0, "max": 22.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Thin, like-with-like distal leg skin without sacrificing a main tibial artery or muscle.",
+      "primary_closure_max_width_cm": { "min": 4.0, "max": 5.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "Selected PTA perforator adjacent to defect (rotates up to 180° as propeller)", "reach_description": "Covers distal third medial tibia, medial malleolus, Achilles tendon, and anterior ankle without microsurgery.", "reach_cm": { "min": 8.0, "max": 16.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Small-to-medium distal-third tibial / medial malleolus / Achilles defects outside zone of injury", "Like-for-like non-bulky ankle resurfacing avoiding free flap"],
+    "contraindications": ["Severe trauma/degloving in zone of injury around perforator", "Occluded posterior tibial artery or severe PVD"],
+    "advantages": ["Spares main posterior tibial artery and all muscles", "Excellent distal leg contour and color match", "No microvascular anastomosis needed"],
+    "disadvantages": ["Higher partial tip necrosis / venous congestion rate (~15–20%) than free flaps in traumatized legs", "Proximal donor defect often needs STSG"],
+    "donor_site": { "closure": "Primary if ≤4–5 cm (never close tightly over pedicle); STSG if wider.", "morbidity": ["Donor STSG over medial leg", "Transient venous congestion"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Supine frog-leg under tourniquet.",
+      "preoperative_planning": ["Confirm PTA patency and locate perforators posterior to medial tibial border with Doppler / CTA", "Commit only to exploratory incision first until best perforator is visualized"],
+      "landmarks": ["Medial malleolus", "Medial border of tibia", "Soleus / FDL septum", "Greater saphenous vein"],
+      "design": "Propeller blades centered on chosen perforator: major blade length = distance from perforator to farthest defect edge + 1–2 cm.",
+      "harvest_steps": [
+        "1. Make single exploratory anterior incision and inspect PTA perforators in septum directly.",
+        "2. Select largest pulsatile perforator outside zone of injury and design propeller blades around it.",
+        "3. Skeletonize perforator cleanly for ≥2–3 cm, dividing ALL perivascular fascial strands so twist distributes evenly.",
+        "4. Test clockwise vs counterclockwise rotation (pick direction with least twist), confirm capillary refill, and avoid tight closure."
+      ],
+      "pearls": ["Test BOTH clockwise and counterclockwise rotation directions and pick the one causing less visual vessel torsion."],
+      "pitfalls": ["Closing the donor site tightly over the rotated perforator causes delayed venous occlusion."]
+    },
+    "recipient_vessels_options": ["Pedicled propeller perforator flap"],
+    "complications": ["Venous congestion", "Distal tip necrosis", "Partial STSG loss"],
+    "alternatives": ["peroneal-perforator-flap", "reverse-sural-flap", "alt-flap", "gracilis-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["leg-distal-ankle", "leg-middle"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": true, "chimeric_capable": false, "technical_difficulty": "Moderate", "typical_or_time": "1.5–2.5 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.078, 0.25, 0.005], "paddleNormal": [0.95, 0, 0.3], "paddleSize": [0.14, 0.055], "pediclePath": [[-0.088, 0.24, -0.01], [-0.078, 0.24, 0.005]], "pivotPoint": [-0.078, 0.24, 0.005], "arcRadius": 0.13, "typicalRecipientPoint": [-0.085, 0.13, 0.012], "angiosomeColor": "#0284c7" },
+    "references": [{ "book": "Blondeel PN et al. Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "Posterior Tibial Artery Perforator Propeller Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "peroneus-brevis-flap",
+    "name": "Distally Based Peroneus Brevis Muscle Flap",
+    "synonyms": ["Peroneus brevis flap", "Reverse peroneus brevis muscle flap"],
+    "region": "Lower Extremity (lateral compartment distal leg)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Muscle", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type II / IV (distal constant peroneal pivot 4–6 cm above lateral malleolus)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Peroneus brevis muscle belly + STSG"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Distal constant perforating/muscular branch of peroneal artery (~4–6 cm proximal to tip of lateral malleolus)", "artery_origin": "Peroneal artery", "artery_diameter_mm": null, "veins": "Accompanying peroneal muscular veins", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": ["Proximal peroneal and anterior tibial muscular branches (ligated sequentially proximal-to-distal)"],
+      "perforators": [],
+      "angiosome": "Peroneal artery distal lateral leg angiosome",
+      "venous_drainage_notes": "Preserve axial intramuscular vessels and stop distal dissection 6 cm above the tip of the lateral malleolus.",
+      "vascular_variants": ["Verify intact peroneal artery on CTA/Doppler before harvest"]
+    },
+    "nerves": { "motor": ["Superficial peroneal nerve (preserve main trunk and branches to peroneus longus)"], "sensory": ["Superficial peroneal sensory branch (emerges distally — protect)"], "can_be_sensate": false, "donor_numbness_note": "Dorsolateral foot numbness if superficial peroneal nerve is injured." },
+    "dimensions": { "max_skin_paddle_cm": { "length": null, "width": null }, "thickness_notes": "Slender, contoured muscle (~3–4 × 10–14 cm) ideal for small lateral malleolus, lateral calcaneus, or distal fibular hardware wounds.", "primary_closure_max_width_cm": null },
+    "arc_of_rotation": { "pivot_point": "6 cm proximal to tip of lateral malleolus (constant distal peroneal pedicle)", "reach_description": "Covers lateral malleolus, exposed distal fibular plates, lateral Achilles, and posterior/lateral calcaneus.", "reach_cm": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Small exposed distal fibular hardware / lateral malleolus wounds (≤4 × 6 cm)", "Lateral calcaneal or distal Achilles small defects", "Alternative to free flap in comorbid patients"],
+    "contraindications": ["Peroneus longus absence/paralysis (sacrificing brevis loses all ankle eversion)", "Occluded peroneal artery or severe lateral trauma", "Large defects (>5 × 6 cm)"],
+    "advantages": ["Rapid, simple harvest with primary lateral leg closure", "Preserves peroneus longus eversion", "Thin contoured coverage over lateral malleolus (fits in shoe)"],
+    "disadvantages": ["Distal tip necrosis if dissected distal to 6 cm above lateral malleolus", "Small surface area", "Requires STSG over muscle"],
+    "donor_site": { "closure": "Primary linear closure along lateral leg.", "morbidity": ["Superficial peroneal nerve neuropraxia", "Distal muscle tip ischemia"], "functional_loss": "Negligible ankle eversion loss when peroneus longus is intact." },
+    "technique": {
+      "patient_positioning": "Supine with hip bump or lateral decubitus under tourniquet.",
+      "preoperative_planning": ["Verify peroneal artery patency and intact peroneus longus", "Mark 6 cm proximal to lateral malleolus tip as absolute stop-point"],
+      "landmarks": ["Head of fibula", "Tip of lateral malleolus", "Peroneus longus tendon", "Superficial peroneal nerve"],
+      "design": "Longitudinal incision over fibula from mid-leg down toward lateral malleolus.",
+      "harvest_steps": [
+        "1. Open lateral compartment fascia protecting superficial peroneal nerve; retract peroneus longus posteriorly.",
+        "2. Confirm intact distal musculotendinous junction and divide proximal origin of peroneus brevis off fibula.",
+        "3. Dissect proximal-to-distal ligating upper segmental pedicles while stopping strictly 6 cm proximal to lateral malleolus tip.",
+        "4. Release tourniquet, verify brisk distal bleeding, rotate into lateral malleolus/Achilles defect, and apply meshed STSG."
+      ],
+      "pearls": ["Never dissect closer than 6 cm to the tip of the lateral malleolus—that preserves the constant distal peroneal pedicle."],
+      "pitfalls": ["Confusing peroneus longus (superficial, longer tendon) with peroneus brevis (deep, muscular distally)."]
+    },
+    "recipient_vessels_options": ["Pedicled distally based muscle flap"],
+    "complications": ["Distal tip necrosis", "Superficial peroneal neuropraxia", "STSG loss"],
+    "alternatives": ["reverse-sural-flap", "peroneal-perforator-flap", "alt-flap", "gracilis-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["leg-distal-ankle", "foot-plantar"], "provides_bone": false, "provides_muscle": true, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "1–1.5 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.14, 0.25, -0.01], "paddleNormal": [-0.98, 0, -0.15], "paddleSize": [0.13, 0.038], "pediclePath": [[-0.132, 0.165, -0.015], [-0.138, 0.21, -0.012], [-0.14, 0.25, -0.01]], "pivotPoint": [-0.135, 0.165, -0.015], "arcRadius": 0.1, "typicalRecipientPoint": [-0.138, 0.11, -0.012], "angiosomeColor": "#0d9488" },
+    "references": [{ "book": "Eren S et al. Plast Reconstr Surg (Distally Based Peroneus Brevis Flap)", "edition": "2001; 107(6):1443–1451", "chapter_or_section": "Ankle & Distal Leg Reconstruction", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "pudendal-thigh-flap",
+    "name": "Pudendal Thigh (Singapore) Flap",
+    "synonyms": ["Singapore flap", "Neurovascular pudendal thigh flap", "Internal pudendal artery perforator flap"],
+    "region": "Perineum & Pelvis (groin / gluteal-thigh crease)",
+    "region_group": "Perineum & Pelvis",
+    "flap_type": ["Fasciocutaneous", "Axial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Type A axial fasciocutaneous (posterior labial/scrotal artery)", "perforator_type": "Direct cutaneous / Perforator (internal pudendal)" },
+    "tissue_components": ["Thin pliable medial thigh crease skin", "Deep epimysial fascia"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Posterior labial (or scrotal) branches of internal pudendal artery", "artery_origin": "Internal iliac artery (via Alcock canal)", "artery_diameter_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" }, "veins": "Internal pudendal venae comitantes", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": ["Obturator & medial circumflex femoral linking branches anteriorly"],
+      "perforators": [
+        { "label": "Internal Pudendal Perineal Perforators", "type": "Direct cutaneous", "location": "Posterior to introitus/perineal body, medial to ischial tuberosity", "relation_to_landmarks": "Emerge around posterior margin of labia majora / scrotal base", "typical_count": "2–3", "caliber_mm": null, "position3d": [-0.045, 0.855, 0.025] }
+      ],
+      "angiosome": "Internal pudendal angiosome",
+      "venous_drainage_notes": "Preserving deep epimysial fascia over gracilis/adductor origin protects axial subfascial blood supply.",
+      "vascular_variants": ["Rich anastomotic network around perineal body permits bilateral flaps for total neovagina"]
+    },
+    "nerves": { "motor": [], "sensory": ["Posterior labial/scrotal branches of pudendal nerve + perineal branch of PFCN"], "can_be_sensate": true, "donor_numbness_note": "Preserves erogenous/tactile perineal sensation; scar hidden in crural fold." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 12.0, "max": 16.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 5.0, "max": 7.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Thin, pliable, sensate skin ideally suited for vaginal, vulvar, and perineal resurfacing without bulky muscle.",
+      "primary_closure_max_width_cm": { "min": 5.0, "max": 6.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "Posterior base lateral to perineal body / posterior introitus", "reach_description": "Reaches vulva, vaginal wall (unilateral or bilateral tubularized neovagina), perineum, and scrotum.", "reach_cm": { "min": 12.0, "max": 16.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Vulvectomy and partial/total vaginal reconstruction (bilateral Singapore flaps)", "Perineal / rectovaginal fistula resurfacing", "Scrotal reconstruction"],
+    "contraindications": ["Severe pelvic radiation destroying internal pudendal vasculature", "Massive deep pelvic exenteration dead space (prefer VRAM or gracilis)"],
+    "advantages": ["Sensate, thin, pliable tissue matching vulvovaginal anatomy", "Concealed donor scar in groin-thigh crease", "No abdominal or muscle morbidity"],
+    "disadvantages": ["Distal anterior tip necrosis if extended too far into femoral triangle", "Hair-bearing skin may require epilation for vaginal canal", "Insufficient bulk for large pelvic dead space"],
+    "donor_site": { "closure": "Primary tension-free closure hidden in groin-thigh crease.", "morbidity": ["Wound dehiscence in moist groin fold", "Mild distal tip epidermolysis"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Lithotomy.",
+      "preoperative_planning": ["Map internal pudendal perforators medial to ischial tuberosity with Doppler", "Keep width ≤6 cm for primary closure"],
+      "landmarks": ["Labia majora / crural crease", "Ischial tuberosity", "Adductor longus / gracilis border", "Femoral triangle"],
+      "design": "Posteriorly based 5–6 × 12–15 cm fasciocutaneous peninsula centered in the groin-thigh crease.",
+      "harvest_steps": [
+        "1. Incise anterior tip and lateral margins down through deep epimysial fascia over adductor longus and gracilis.",
+        "2. Elevate subfascially anterior-to-posterior, tacking fascia to dermis to avoid shear.",
+        "3. Stop posterior dissection at level of posterior introitus / perineal body to preserve internal pudendal perforators.",
+        "4. Tunnel beneath labia majora into vulvovaginal defect (or tube bilaterally) and close groin crease primarily."
+      ],
+      "pearls": ["Elevate strictly subfascially and preserve the posterior base at the level of the perineal body to safeguard internal pudendal branches."],
+      "pitfalls": ["Dissecting too aggressively posteriorly divides the entering internal pudendal perforators."]
+    },
+    "recipient_vessels_options": ["Pedicled axial fasciocutaneous flap"],
+    "complications": ["Distal tip necrosis", "Groin fold dehiscence", "Hair growth inside neovagina"],
+    "alternatives": ["gracilis-flap", "vram-flap", "martius-flap", "alt-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["groin-perineum"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": false, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "1–2 h" },
+    "spec3d": { "regionId": "perineum", "side": "right", "paddleCenter": [-0.055, 0.865, 0.045], "paddleNormal": [0.35, -0.35, 0.86], "paddleSize": [0.13, 0.055], "pediclePath": [[-0.042, 0.84, 0.0], [-0.05, 0.855, 0.025], [-0.055, 0.865, 0.045]], "pivotPoint": [-0.042, 0.84, 0.0], "arcRadius": 0.13, "typicalRecipientPoint": [0, 0.85, 0.03], "angiosomeColor": "#ec4899" },
+    "references": [{ "book": "Wee JT, Joseph VT. Plast Reconstr Surg (Singapore Pudendal Thigh Flap)", "edition": "1989; 83(4):701–709", "chapter_or_section": "Vaginal & Perineal Reconstruction", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "martius-flap",
+    "name": "Martius Labial Fat Pad Flap",
+    "synonyms": ["Modified Martius flap", "Bulbospongiosus fat pad flap"],
+    "region": "Perineum & Pelvis (labia majora)",
+    "region_group": "Perineum & Pelvis",
+    "flap_type": ["Adipofascial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Axial labial fat pad flap (dual posterior/anterior supply)", "perforator_type": null },
+    "tissue_components": ["Vascularized fibrofatty labial pad (modified Martius omits bulbocavernosus muscle)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Posterior labial branch of internal pudendal artery (posteriorly based) OR external pudendal artery (anteriorly based)", "artery_origin": "Internal iliac / Femoral artery", "artery_diameter_mm": null, "veins": "Pudendal venous plexus", "vein_diameter_mm": null, "pedicle_length_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "verify" } },
+      "minor_pedicles": ["Obturator artery branches"],
+      "perforators": [],
+      "angiosome": "Pudendal labial angiosome",
+      "venous_drainage_notes": "Dual anterior and posterior blood supply allows basing anteriorly for urethral/vesicovaginal or posteriorly for rectovaginal fistulae.",
+      "vascular_variants": ["Modern modified Martius uses the fibrofatty pad alone without harvesting bulbocavernosus muscle, minimizing bleeding"]
+    },
+    "nerves": { "motor": [], "sensory": ["Ilioinguinal & pudendal labial branches"], "can_be_sensate": false, "donor_numbness_note": "Mild labial numbness or contour asymmetry." },
+    "dimensions": { "max_skin_paddle_cm": { "length": null, "width": null }, "thickness_notes": "Well-vascularized, pliable interposition pad (~2–3 × 7–9 cm) separating opposing urinary/vaginal/rectal suture lines.", "primary_closure_max_width_cm": null },
+    "arc_of_rotation": { "pivot_point": "Posterior labia majora (rectovaginal) or anterior mons/labia (vesicovaginal/urethral)", "reach_description": "Interposes directly between bladder/urethra and vagina, or between rectum and vagina.", "reach_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "verify" } },
+    "indications": ["Complex vesicovaginal and urethrovaginal fistula interposition", "Low-to-mid rectovaginal fistula reinforcement", "Urethral diverticulectomy / sling erosion buttressing"],
+    "contraindications": ["Severe labial radiation fibrosis or prior radical vulvectomy", "High rectovaginal or massive pelvic exenteration defects (use gracilis or VRAM)"],
+    "advantages": ["Rapid harvest (<30 min) with minimal morbidity", "Dual anterior/posterior vascularity adapts to urinary or rectal fistulae", "Significantly reduces fistula recurrence rates"],
+    "disadvantages": ["Modest bulk (cannot fill large pelvic cavities)", "Potential labial hematoma or minor asymmetry"],
+    "donor_site": { "closure": "Primary layered closure of vertical labial incision over small drain.", "morbidity": ["Labial hematoma", "Mild labial asymmetry"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Dorsal lithotomy.",
+      "preoperative_planning": ["Choose posterior base for rectovaginal/mid-vaginal fistulae or anterior base for urethral/bladder-neck fistulae"],
+      "landmarks": ["Labia majora", "Colles fascia", "Vaginal mucosa / fistula repair site"],
+      "design": "Vertical incision over hair-bearing labia majora harvesting fibrofatty pad deep to dermis.",
+      "harvest_steps": [
+        "1. Complete tension-free layered closure of primary urinary or rectal fistula first.",
+        "2. Make vertical incision over labia majora and mobilize fibrofatty pad preserving chosen posterior or anterior pedicle.",
+        "3. Create wide submucosal vaginal tunnel (2 fingerbreadths) to avoid pedicle compression.",
+        "4. Pass fat pad cleanly over repair line, tack with absorbable sutures, close vaginal mucosa, and drain donor pocket."
+      ],
+      "pearls": ["A wide (two-fingerbreadth) submucosal vaginal tunnel prevents venous strangulation of the fat pad."],
+      "pitfalls": ["Dissecting too deeply into bulbocavernosus muscle causes brisk venous bleeding without added clinical benefit."]
+    },
+    "recipient_vessels_options": ["Pedicled labial adipofascial flap"],
+    "complications": ["Labial hematoma", "Fistula recurrence", "Labial asymmetry"],
+    "alternatives": ["gracilis-flap", "pudendal-thigh-flap", "vram-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": { "defect_locations": ["groin-perineum"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.5–1 h" },
+    "spec3d": { "regionId": "perineum", "side": "right", "paddleCenter": [-0.025, 0.855, 0.045], "paddleNormal": [0, -0.5, 0.86], "paddleSize": [0.075, 0.028], "pediclePath": [[-0.028, 0.84, 0.02], [-0.025, 0.855, 0.045]], "pivotPoint": [-0.028, 0.84, 0.02], "arcRadius": 0.075, "typicalRecipientPoint": [0, 0.855, 0.035], "angiosomeColor": "#f472b6" },
+    "references": [{ "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Perineal & Martius Flaps", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "keystone-flap",
+    "name": "Keystone Design Perforator Island Flap (Behan Types I–IV)",
+    "synonyms": ["Keystone flap", "KDPIF", "Behan keystone flap"],
+    "region": "Local / Random Pattern (trunk, extremities, & head/neck)",
+    "region_group": "Local / Random Pattern",
+    "flap_type": ["Perforator", "Island", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Multi-perforator fascial-lined trapezoidal advancement island (Behan Types I, IIA, IIB, III, IV)", "perforator_type": "Randomly captured local musculocutaneous / fasciocutaneous perforators" },
+    "tissue_components": ["Skin", "Subcutaneous fat", "Underlying perforator bed (no deep undermining except Type IV)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Multiple direct underlying musculocutaneous / fasciocutaneous perforators captured within central island base", "artery_origin": "Underlying regional axial vessels", "artery_diameter_mm": null, "veins": "Subdermal & perforating venae comitantes", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": [],
+      "perforators": [
+        { "label": "Captured Deep Perforator Pedicle Bed", "type": "Mixed", "location": "Beneath central body of trapezoidal keystone island", "relation_to_landmarks": "Preserved completely intact without undermining in Behan Types I–III", "typical_count": "Multiple", "caliber_mm": null, "position3d": [-0.115, 0.34, 0.048] }
+      ],
+      "angiosome": "Local regional perforasome (sympathectomy-like hyperemic 'red dot' phenomenon)",
+      "venous_drainage_notes": "Preserving intact subcutaneous/perforator attachment underneath the island produces reliable robust perfusion.",
+      "vascular_variants": ["Do NOT individually skeletonize perforators — preserve entire central subcutaneous perforator bed"]
+    },
+    "nerves": { "motor": [], "sensory": ["Local cutaneous nerves (preserves protective sensation in central island)"], "can_be_sensate": true, "donor_numbness_note": "Minimal compared to skin grafting; transient mild hyperemia." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 4.0, "max": 25.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 2.0, "max": 12.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Exact like-for-like local tissue match designed at a 1:1 flap-width-to-defect-width ratio with 90° lateral limbs (dual V-Y closure at ends).",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Linear advancement perpendicular to long axis (recruiting laxity via dual V-Y at ends)", "reach_description": "Closes elliptical melanoma/trauma defects across trunk, thigh, lower leg, forearm, and face without skin grafting.", "reach_cm": { "min": 2.0, "max": 10.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Wide local excision (melanoma/sarcoma) defects on trunk, back, thigh, leg, and arm", "Small-to-moderate lower leg / forearm defects avoiding STSG or free flap", "Behan Type III double opposing keystones for large midline/limb defects"],
+    "contraindications": ["Heavily irradiated or traumatized skin immediately adjacent to defect", "Extreme tension zones (distal shin/ankle with zero adjacent laxity)"],
+    "advantages": ["No perforator skeletonization or microsurgery required", "Like-for-like color, contour, and sensation", "Dual V-Y end closures redistribute transverse tension longitudinally"],
+    "disadvantages": ["Long curvilinear scar footprint", "Wound edge tension/dehiscence if misapplied to tight distal extremity skin"],
+    "donor_site": { "closure": "Primary V-Y closure at both ends + direct advancement (Type I/IIA); STSG on secondary defect if needed (Type IIB).", "morbidity": ["Longer surgical scar than simple graft", "Minor edge epidermolysis under high tension"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Depends on defect location.",
+      "preoperative_planning": ["Orient elliptical defect parallel to cutaneous nerves/veins and longitudinal limb axis", "Select Behan Type I, IIA (fascial division), IIB (STSG), III (double keystone), or IV (up to 50% subfascial undermining)"],
+      "landmarks": ["Defect long axis & width (W)", "90° lateral limbs", "Adjacent dermatome"],
+      "design": "Draw trapezoidal keystone island adjacent to defect on side of greater laxity: flap width = 1:1 defect width (W), lateral limbs drawn at 90° curving to outer arc.",
+      "harvest_steps": [
+        "1. Convert circular defect into an ellipse parallel to longitudinal neurovascular/dermatomal axis.",
+        "2. Mark 90° lateral limbs to width = 1× defect width and connect with outer curvilinear arc.",
+        "3. Incise full-thickness dermis and fat down to deep fascia WITHOUT undermining central perforator bed (divide outer deep fascia in Type IIA if needed).",
+        "4. Advance island using progressive V-Y closure at BOTH ends first to unload central tension, then close center."
+      ],
+      "pearls": ["Always close the two V-Y limbs at the ends FIRST—this converts longitudinal skin laxity into transverse advancement and dramatically reduces central tension."],
+      "pitfalls": ["Undermining beneath the central island divides the vertical perforators that keep the keystone alive."]
+    },
+    "recipient_vessels_options": ["Local multi-perforator island advancement"],
+    "complications": ["Wound dehiscence", "Minor marginal necrosis", "Seroma/hematoma"],
+    "alternatives": ["bilobed-rhomboid-flap", "ptap-flap", "alt-flap", "z-plasty-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": { "defect_locations": ["leg-middle", "leg-proximal", "forearm-elbow", "shoulder-arm", "abdomen-wall", "sacrum-ischium", "cheek-lip", "scalp"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.5–1.5 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.115, 0.34, 0.048], "paddleNormal": [-0.35, 0, 0.93], "paddleSize": [0.11, 0.05], "pediclePath": [[-0.112, 0.34, 0.025], [-0.115, 0.34, 0.048]], "pivotPoint": [-0.115, 0.34, 0.035], "arcRadius": 0.06, "typicalRecipientPoint": [-0.1, 0.34, 0.058], "angiosomeColor": "#14b8a6" },
+    "references": [{ "book": "Behan FC. ANZ J Surg (The Keystone Design Perforator Island Flap)", "edition": "2003; 73(3):112–120", "chapter_or_section": "Behan Types I–IV", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "bilobed-rhomboid-flap",
+    "name": "Bilobed (Zitelli) & Rhomboid (Limberg / Dufourmentel) Flaps",
+    "synonyms": ["Zitelli bilobed flap", "Limberg rhomboid flap", "Dufourmentel flap", "Geometric transposition flaps"],
+    "region": "Local / Random Pattern (nose, cheek, temple, trunk)",
+    "region_group": "Local / Random Pattern",
+    "flap_type": ["Random-pattern", "Transposition", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Random-pattern geometric transposition flaps", "perforator_type": "Subdermal plexus" },
+    "tissue_components": ["Skin", "Subcutaneous fat (or deep muscular-aponeurotic on nasal dorsum for bilobed)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Random subdermal & dermal-subcutaneous plexus (deep nasalis plane in Zitelli nasal bilobed)", "artery_origin": "Local facial / regional cutaneous plexus", "artery_diameter_mm": null, "veins": "Subdermal venous plexus", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Local cutaneous subdermal plexus",
+      "venous_drainage_notes": "Limiting Zitelli bilobed total arc to 90° (45° + 45°) prevents standing-cone dog-ears and pincushioning.",
+      "vascular_variants": ["On the nose, elevate bilobed flaps in the deep plane beneath nasalis muscle above perichondrium/periosteum"]
+    },
+    "nerves": { "motor": [], "sensory": ["Local cutaneous plexus"], "can_be_sensate": true, "donor_numbness_note": "Minimal localized transient hypoesthesia." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 1.0, "max": 6.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 1.0, "max": 4.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Gold-standard geometric transposition flaps: Zitelli bilobed excels for distal nasal defects ≤1.5 cm; Limberg (60°/120°) and Dufourmentel rhomboids excel on cheek, temple, and trunk.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Zitelli bilobed: 90° total arc (45° + 45°); Limberg rhomboid: 60°/120° transposition aligned with RSTL", "reach_description": "Transfers adjacent skin laxity while controlling closing tension vectors away from free anatomical margins.", "reach_cm": { "min": 1.0, "max": 5.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Distal third nasal / tip / alar defects ≤1.5 cm (Zitelli bilobed)", "Cheek, temple, periorbital, and trunk cutaneous defects (Limberg / Dufourmentel rhomboid)", "Avoiding distortion of free margins (alar rim, lower lid, oral commissure)"],
+    "contraindications": ["Defects >1.5–2.0 cm on distal nose (bilobed causes alar retraction — use paramedian forehead flap)", "Active heavy smoking without deep-plane elevation"],
+    "advantages": ["Precise mathematical control over closing tension vectors (keep secondary closure parallel to RSTL / LME)", "Single-stage exact local skin color and sebaceous texture match", "4 possible Limberg transposition options per rhomboid defect"],
+    "disadvantages": ["Trapdoor / pincushioning deformity if inadequately undermined (bilobed)", "Geometric zig-zag scars cross subunits if poorly oriented"],
+    "donor_site": { "closure": "Primary closure of secondary defect oriented perpendicular to LME / parallel to RSTL.", "morbidity": ["Pincushioning / trapdooring", "Alar rim notching if primary lobe undersized"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Identify Lines of Maximal Extensibility (LME, perpendicular to RSTL) by pinch test", "Zitelli Bilobed: Primary lobe = 1.0× defect diameter (45°), Secondary lobe = 0.75–0.85× (90°), Burrow cone = 1× radius", "Limberg Rhomboid: 60°/120° angles; short diagonal equals side length; orient donor closure parallel to RSTL"],
+      "landmarks": ["Resting Skin Tension Lines (RSTLs)", "Lines of Maximal Extensibility (LME)", "Free anatomical margins (alar rim, lower lid)"],
+      "design": "Test all 4 possible rhomboid flaps (2 off each 120° obtuse corner) and choose the one placing final donor tension parallel to LME.",
+      "harvest_steps": [
+        "1. Mark defect and pinch surrounding skin to determine optimal LME direction.",
+        "2. For Zitelli bilobed: draw 45° primary lobe (100% diameter), 90° secondary lobe (~80% diameter), and Burrow cone at pivot; elevate deep under nasalis on nose.",
+        "3. For Limberg rhomboid: draw 60°/120° rhombus with extension off 120° short diagonal and parallel 60° back-cut; for Dufourmentel bisect angle between short diagonal and side extension.",
+        "4. Undermine periphery broadly to prevent trapdooring, close secondary defect FIRST, then inset transposed lobes without tension."
+      ],
+      "pearls": ["Always size the Zitelli bilobed primary lobe at 100% of the defect diameter to prevent alar rim retraction, and undermine widely around the periphery to prevent trapdooring."],
+      "pitfalls": ["Designing a bilobed arc >110° creates severe standing cones and nasal asymmetry."]
+    },
+    "recipient_vessels_options": ["Local random-pattern transposition"],
+    "complications": ["Trapdoor / pincushioning deformity", "Alar rim elevation / ectropion", "Tip epidermolysis"],
+    "alternatives": ["paramedian-forehead-flap", "nasolabial-flap", "keystone-flap", "z-plasty-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": { "defect_locations": ["nose", "cheek-lip", "scalp", "abdomen-wall", "forearm-elbow"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": false, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.5–1 h" },
+    "spec3d": { "regionId": "head-neck", "side": "midline", "paddleCenter": [-0.012, 1.622, 0.106], "paddleNormal": [-0.35, 0.1, 0.93], "paddleSize": [0.024, 0.016], "pediclePath": [[-0.022, 1.628, 0.098], [-0.012, 1.622, 0.106]], "pivotPoint": [-0.02, 1.625, 0.1], "arcRadius": 0.025, "typicalRecipientPoint": [0, 1.612, 0.112], "angiosomeColor": "#f59e0b" },
+    "references": [{ "book": "Zitelli JA. Arch Dermatol (The Bilobed Flap for Nasal Reconstruction)", "edition": "1989; 125(7):957–959", "chapter_or_section": "Bilobed & Rhomboid Geometric Flaps", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  }
+]

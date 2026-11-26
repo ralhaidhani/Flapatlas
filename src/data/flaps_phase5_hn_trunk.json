@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "famm-flap",
+    "name": "Facial Artery Musculomucosal (FAMM) Flap",
+    "synonyms": ["FAMM", "Buccinator musculomucosal flap", "Pribaz flap"],
+    "region": "Head & Neck (buccal mucosa / oral cavity)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Musculomucosal", "Axial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Axial musculomucosal (facial artery)", "perforator_type": null },
+    "tissue_components": ["Buccal mucosa", "Submucosa", "Buccinator muscle strip", "Facial artery"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Facial artery (inferiorly based antegrade or superiorly based retrograde via angular artery)",
+        "artery_origin": "External carotid artery",
+        "artery_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "verify" },
+        "veins": "Submucosal buccal venous plexus (facial vein often lies posterior to flap)",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["Buccal branch of maxillary artery"],
+      "perforators": [
+        {
+          "label": "Facial Artery Buccal Perforators",
+          "type": "Musculocutaneous",
+          "location": "Along oblique line from retromolar trigone toward alar base",
+          "relation_to_landmarks": "Course just deep to buccinator and anterior to Stensen duct papilla",
+          "typical_count": "Multiple axial branches",
+          "caliber_mm": null,
+          "position3d": [-0.038, 1.59, 0.088]
+        }
+      ],
+      "angiosome": "Facial artery oral-buccal angiosome",
+      "venous_drainage_notes": "Relies on intact submucosal venous plexus along a 1.5–2 cm mucosal base; skeletonizing the artery alone risks venous congestion.",
+      "vascular_variants": ["Prior neck dissection with facial artery ligation precludes inferiorly based harvest"]
+    },
+    "nerves": {
+      "motor": ["Buccal branches of facial nerve lie just deep to buccinator — stay on deep muscular plane carefully"],
+      "sensory": ["Long buccal nerve"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Minimal intraoral mucosal sensory alteration."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 7.0, "max": 9.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 2.5, "max": 3.5, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Thin, pliable, hairless, mucus-secreting mucosal lining ideally matching oral cavity defects.",
+      "primary_closure_max_width_cm": { "min": 2.5, "max": 3.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Retromolar trigone (inferiorly based) or gingivolabial sulcus (superiorly based)",
+      "reach_description": "Inferiorly based reaches floor of mouth, ventral tongue, and lower alveolus; superiorly based reaches hard palate, upper alveolus, and nasal septum.",
+      "reach_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Floor of mouth and ventral tongue defects", "Palatal fistula and anterior skull base/nasal lining", "Lip vermilion and alveolar ridge reconstruction"],
+    "contraindications": ["Prior ipsilateral facial artery ligation (for inferiorly based)", "Dentition biting across pedicle without bite block or extraction"],
+    "advantages": ["Like-with-like mucosal replacement without hair or external skin scar", "Rapid single-stage or minor pedicle-division staging"],
+    "disadvantages": ["Limited width (~3 cm)", "Potential pedicle compression by molar teeth requiring bite block or second-stage division"],
+    "donor_site": {
+      "closure": "Primary mucosal closure if ≤2.5–3 cm; buccal fat pad advancement or healing by secondary intention if wider.",
+      "morbidity": ["Mild transient trismus", "Risk of Stensen duct injury if posterior margin is not preserved"],
+      "functional_loss": "Minimal; jaw-opening exercises prevent trismus."
+    },
+    "technique": {
+      "patient_positioning": "Supine with nasal intubation and mouth gag.",
+      "preoperative_planning": ["Map facial artery intraorally with handheld Doppler", "Identify and protect Stensen duct papilla opposite upper 2nd molar"],
+      "landmarks": ["Stensen duct papilla", "Retromolar trigone", "Oral commissure", "Alar base"],
+      "design": "Oblique 2.5–3 cm wide mucosal island centered over Doppler facial artery path anterior to Stensen duct.",
+      "harvest_steps": [
+        "1. Mark Stensen duct papilla and Doppler trace facial artery along buccal mucosa.",
+        "2. Incise distal tip first to identify and ligate distal facial artery cleanly.",
+        "3. Elevate mucosa, submucosa, and thin buccinator cuff while keeping facial artery attached to deep surface.",
+        "4. Preserve 1.5–2 cm mucosal/submucosal base for venous outflow and inset without tension."
+      ],
+      "pearls": ["Identify the facial artery distally first at the superior or inferior tip before committing both sides of the flap."],
+      "pitfalls": ["Injuring Stensen duct or skeletonizing the artery without submucosal venous cuff."]
+    },
+    "recipient_vessels_options": ["Pedicled axial flap on facial artery"],
+    "complications": ["Venous congestion", "Partial tip necrosis", "Pedicle trauma from molars", "Trismus"],
+    "alternatives": ["rfff-flap", "submental-island-flap", "nasolabial-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["oral-cavity", "cheek-lip", "nose"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "right",
+      "paddleCenter": [-0.04, 1.595, 0.088],
+      "paddleNormal": [-0.65, 0, 0.76],
+      "paddleSize": [0.065, 0.025],
+      "pediclePath": [[-0.048, 1.545, 0.068], [-0.044, 1.572, 0.082], [-0.04, 1.595, 0.088]],
+      "pivotPoint": [-0.048, 1.55, 0.072],
+      "arcRadius": 0.08,
+      "typicalRecipientPoint": [0, 1.585, 0.092],
+      "angiosomeColor": "#ec4899"
+    },
+    "references": [
+      { "book": "Pribaz J et al. Plast Reconstr Surg (FAMM Flap)", "edition": "1992; 90(3):421–429", "chapter_or_section": "Facial Artery Musculomucosal Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "submental-island-flap",
+    "name": "Submental Artery Island Flap",
+    "synonyms": ["Submental flap", "Martin flap", "SMIF"],
+    "region": "Head & Neck (submental triangle / upper neck)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Fasciocutaneous", "Myocutaneous", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Axial fasciocutaneous / musculocutaneous", "perforator_type": "Septocutaneous / Musculocutaneous" },
+    "tissue_components": ["Submental skin", "Platysma", "Optional ipsilateral anterior belly of digastric"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Submental artery",
+        "artery_origin": "Facial artery (deep to submandibular gland)",
+        "artery_diameter_mm": { "min": 1.0, "max": 2.0, "unit": "mm", "confidence": "verify" },
+        "veins": "Submental vein draining to common facial / anterior jugular vein",
+        "vein_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": ["Contralateral submental anastomoses"],
+      "perforators": [
+        {
+          "label": "Submental Perforators",
+          "type": "Mixed",
+          "location": "Inferior border of mandible near anterior belly of digastric",
+          "relation_to_landmarks": "Course deep or superficial to anterior belly of digastric (~70% deep)",
+          "typical_count": "1–4",
+          "caliber_mm": null,
+          "position3d": [-0.015, 1.535, 0.072]
+        }
+      ],
+      "angiosome": "Submental / facial artery angiosome",
+      "venous_drainage_notes": "Preserve common facial vein confluence; reverse-flow modification possible for upper face if facial vessels intact distally.",
+      "vascular_variants": ["Submental artery runs deep to anterior belly of digastric in ~70% of dissections — include anterior belly of digastric to safeguard pedicle"]
+    },
+    "nerves": {
+      "motor": ["Marginal mandibular branch of facial nerve (at risk near facial vessels — identify and preserve)", "Nerve to mylohyoid"],
+      "sensory": ["Transverse cervical nerve branches"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Submental numbness; contour often improves neck profile."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 12.0, "max": 18.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 5.0, "max": 7.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Thin, pliable, excellent facial skin color and texture match; beard hair in male patients requires caution for oral cavity.",
+      "primary_closure_max_width_cm": { "min": 5.0, "max": 7.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Facial artery takeoff beneath submandibular gland",
+      "reach_description": "Reaches oral cavity, tongue, floor of mouth, lower/midface, cheek, and lower lip.",
+      "reach_cm": { "min": 10.0, "max": 15.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Oral cavity / hemiglossectomy reconstruction when free flap is contraindicated or rapid OR time desired", "Lower and midfacial cutaneous resurfacing (ideal color match)", "Pharyngeal / palatal defects"],
+    "contraindications": ["Clinically positive Level IA/IB nodal metastases (oncologic contraindication)", "Prior facial vessel ligation"],
+    "advantages": ["Excellent facial color/texture match", "Concealed submental scar with aesthetic necklift effect", "Shorter OR time than RFFF"],
+    "disadvantages": ["Risk of marginal mandibular nerve palsy", "Hair-bearing intraoral paddle in men", "Oncologic concern in N+ level I neck"],
+    "donor_site": {
+      "closure": "Primary closure in submental crease (pinch test preoperatively).",
+      "morbidity": ["Transient marginal mandibular neuropraxia", "Submental tightness"],
+      "functional_loss": "Negligible."
+    },
+    "technique": {
+      "patient_positioning": "Supine with neck gently extended.",
+      "preoperative_planning": ["Perform pinch test to confirm primary submental closure", "Confirm N0 status in Level IA/IB on imaging"],
+      "landmarks": ["Mandibular symphysis", "Inferior mandibular border", "Hyoid bone", "Anterior belly of digastric"],
+      "design": "Transverse ellipse from angle to angle just beneath mandibular border.",
+      "harvest_steps": [
+        "1. Incise superior border ~1.5 cm below mandible and identify marginal mandibular nerve.",
+        "2. Elevate from contralateral side in subplatysmal plane toward ipsilateral anterior belly of digastric.",
+        "3. Include ipsilateral anterior belly of digastric and mylohyoid cuff to protect submental vessels.",
+        "4. Skeletonize facial vessels proximally if extra pedicle reach is needed and tunnel into oral cavity or cheek."
+      ],
+      "pearls": ["Routine inclusion of the ipsilateral anterior belly of digastric prevents inadvertent pedicle injury."],
+      "pitfalls": ["Harvesting in patients with occult Level IB nodal disease."]
+    },
+    "recipient_vessels_options": ["Pedicled on facial artery/vein"],
+    "complications": ["Marginal mandibular nerve injury", "Venous congestion", "Intraoral hair growth"],
+    "alternatives": ["rfff-flap", "alt-flap", "famm-flap", "cervicofacial-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["oral-cavity", "cheek-lip", "neck"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "2–3 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "midline",
+      "paddleCenter": [0, 1.535, 0.068],
+      "paddleNormal": [0, -0.75, 0.66],
+      "paddleSize": [0.11, 0.045],
+      "pediclePath": [[-0.045, 1.535, 0.045], [-0.025, 1.532, 0.062], [0, 1.535, 0.068]],
+      "pivotPoint": [-0.045, 1.535, 0.045],
+      "arcRadius": 0.13,
+      "typicalRecipientPoint": [-0.02, 1.59, 0.095],
+      "angiosomeColor": "#db2777"
+    },
+    "references": [
+      { "book": "Martin D et al. Plast Reconstr Surg (Submental Island Flap)", "edition": "1993; 92(5):867–873", "chapter_or_section": "Submental Island Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "temporalis-muscle-flap",
+    "name": "Temporalis Muscle Flap",
+    "synonyms": ["Temporalis myofascial flap", "TMF"],
+    "region": "Head & Neck (temporal fossa)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Muscle", "Myofascial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type III (anterior & posterior deep temporal arteries)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Temporalis muscle", "Deep temporal fascia"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Anterior and posterior deep temporal arteries",
+        "artery_origin": "Second part of internal maxillary artery",
+        "artery_diameter_mm": { "min": 1.0, "max": 1.5, "unit": "mm", "confidence": "verify" },
+        "veins": "Deep temporal veins draining to pterygoid venous plexus",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": { "min": 2.0, "max": 4.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["Middle temporal artery (from superficial temporal artery)"],
+      "perforators": [],
+      "angiosome": "Deep temporal / internal maxillary angiosome",
+      "venous_drainage_notes": "Dual anterior/posterior deep temporal supply allows sagittal splitting of the muscle into anterior and posterior halves.",
+      "vascular_variants": ["Pedicles enter the deep medial surface just superior to the coronoid process"]
+    },
+    "nerves": {
+      "motor": ["Deep temporal nerves (V3 mandibular division of trigeminal nerve)"],
+      "sensory": ["Auriculotemporal nerve (superficial)"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Temporal hollowing contour deformity unless reconstructed with implant/fat/posterior muscle advancement."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": null, "max": null, "width": null },
+      "thickness_notes": "Fan-shaped muscle ~8–12 cm wide, well-vascularized myofascial surface that mucosalizes rapidly inside oral/palatal defects.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Coronoid process / infratemporal fossa (releasing zygomatic arch increases reach by 2–3 cm)",
+      "reach_description": "Reaches orbit, maxilla, hard/soft palate, retromolar trigone, lateral skull base, and oral commissure (facial reanimation).",
+      "reach_cm": { "min": 10.0, "max": 14.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Maxillectomy and palatal defect obliteration (mucosalizes spontaneously)", "Orbital exenteration cavity obliteration", "Dynamic facial reanimation (orthodromic temporalis tendon transfer / Labbé lengthening myoplasty)", "Skull base and TMJ interposition"],
+    "contraindications": ["Prior ipsilateral internal maxillary artery ligation or sacrifice", "High-dose infratemporal irradiation risking necrosis"],
+    "advantages": ["Exceptionally reliable dual deep vascular supply", "Spontaneous intraoral mucosalization without skin graft", "Allows dynamic smile reanimation"],
+    "disadvantages": ["Visible temporal hollowing donor deformity", "Risk to frontal branch of facial nerve during zygomatic arch osteotomy", "Moderate trismus"],
+    "donor_site": {
+      "closure": "Hemicoronal scalp incision closed primarily; consider MEDPOR/PEEK implant or posterior muscle transposition to fill temporal hollow.",
+      "morbidity": ["Temporal fossa hollowing", "Mild trismus", "Frontal branch facial nerve neuropraxia"],
+      "functional_loss": "Minimal mastication loss if contralateral temporalis and masseters are intact."
+    },
+    "technique": {
+      "patient_positioning": "Supine with head turned away.",
+      "preoperative_planning": ["Confirm internal maxillary artery patency on CT/MRI", "Plan temporal contour reconstruction if full muscle is transferred"],
+      "landmarks": ["Superior temporal line", "Zygomatic arch", "Coronoid process", "Pitanguy line (frontal branch)"],
+      "design": "Hemicoronal incision preserving superficial temporal vessels in scalp flap; harvest entire muscle or split anterior/posterior.",
+      "harvest_steps": [
+        "1. Elevate scalp flap deep to superficial temporal fascia (preserving frontal branch within TPF).",
+        "2. Incise pericranium along superior temporal line and strip temporalis subperiosteally off temporal bone.",
+        "3. Protect anterior and posterior deep temporal pedicles on deep surface near infratemporal crest.",
+        "4. Perform zygomatic arch osteotomy or coronoidectomy if needed to pass muscle cleanly into maxilla/orbit."
+      ],
+      "pearls": ["Splitting the muscle sagittally allows transferring the anterior half while transposing the posterior half forward to eliminate temporal hollowing."],
+      "pitfalls": ["Injuring the frontal branch of the facial nerve by dissecting superficial to the deep temporal fascia fat pad."]
+    },
+    "recipient_vessels_options": ["Pedicled muscle flap on deep temporal arteries"],
+    "complications": ["Temporal hollowing", "Frontal nerve weakness", "Trismus", "Partial distal necrosis"],
+    "alternatives": ["tpff-flap", "alt-flap", "rfff-flap", "gracilis-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["oral-cavity", "cheek-lip", "scalp", "mandible"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": true,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "2–3 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "right",
+      "paddleCenter": [-0.072, 1.66, 0.02],
+      "paddleNormal": [-0.97, 0.15, 0.18],
+      "paddleSize": [0.09, 0.065],
+      "pediclePath": [[-0.058, 1.605, 0.028], [-0.068, 1.635, 0.025], [-0.072, 1.66, 0.02]],
+      "pivotPoint": [-0.058, 1.605, 0.028],
+      "arcRadius": 0.11,
+      "typicalRecipientPoint": [-0.032, 1.605, 0.088],
+      "angiosomeColor": "#be185d"
+    },
+    "references": [
+      { "book": "Mathes SJ, Nahai F. Reconstructive Surgery: Principles, Anatomy, & Technique", "edition": "1st ed.", "chapter_or_section": "Temporalis Muscle Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "deltopectoral-flap",
+    "name": "Deltopectoral (Bakamjian) Flap",
+    "synonyms": ["DP flap", "Bakamjian flap", "Medially based thoracoacromial/IMA flap"],
+    "region": "Trunk (anterior upper chest & deltoid)",
+    "region_group": "Trunk",
+    "flap_type": ["Fasciocutaneous", "Axial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Type A axial fasciocutaneous (proximal) + random extension over deltoid", "perforator_type": "Direct cutaneous / Perforator (IMA 1st–4th)" },
+    "tissue_components": ["Skin", "Subcutaneous tissue", "Pectoral fascia"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Internal mammary artery (IMA) perforators (2nd & 3rd intercostal spaces dominant)",
+        "artery_origin": "Subclavian artery",
+        "artery_diameter_mm": { "min": 1.0, "max": 1.8, "unit": "mm", "confidence": "verify" },
+        "veins": "Internal mammary perforating veins",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": ["Thoracoacromial cutaneous branches (divided during elevation — lateral portion becomes random-pattern)"],
+      "perforators": [
+        {
+          "label": "2nd & 3rd IMA Perforators",
+          "type": "Direct cutaneous",
+          "location": "1.5–2 cm lateral to sternal border in 2nd and 3rd intercostal spaces",
+          "relation_to_landmarks": "2nd ICS perforator is typically the largest axial contributor",
+          "typical_count": "2–3",
+          "caliber_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.032, 1.38, 0.115]
+        }
+      ],
+      "angiosome": "Internal mammary angiosome (with choke capture of thoracoacromial/deltoid territory)",
+      "venous_drainage_notes": "Distal extension beyond the deltopectoral groove crosses choke vessels and carries high risk of distal necrosis without surgical delay.",
+      "vascular_variants": ["Prior sternotomy or CABG harvesting ipsilateral IMA is an absolute contraindication"]
+    },
+    "nerves": {
+      "motor": [],
+      "sensory": ["Anterior cutaneous intercostal nerves", "Supraclavicular nerves"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Anterior chest / infraclavicular paresthesia."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 20.0, "max": 28.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 8.0, "max": 12.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Thin, pliable infraclavicular/deltoid skin; superior contour to pectoralis major for anterior neck resurfacing.",
+      "primary_closure_max_width_cm": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Parasternal 2nd–3rd intercostal spaces (stop dissection ≥2 cm lateral to sternum)",
+      "reach_description": "Reaches anterior neck, tracheostoma, pharyngocutaneous fistulae, lower face, and upper sternum.",
+      "reach_cm": { "min": 20.0, "max": 26.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Anterior neck resurfacing and tracheostoma/pharyngostoma closure", "Salvage head & neck coverage when free flaps fail or recipient vessels depleted", "Burn scar contracture release of anterior neck"],
+    "contraindications": ["Ipsilateral IMA harvest (CABG) or prior sternotomy", "Previous chest wall radiation across parasternal base"],
+    "advantages": ["Thin, well-matched neck/lower face skin without muscle bulk", "No microsurgery required", "Preserves pectoralis major for potential concurrent or backup use"],
+    "disadvantages": ["Donor site over deltoid/chest typically requires STSG", "Often requires surgical delay (2–3 weeks) if extended lateral to deltopectoral groove", "Two-stage pedicle division if tubed across intact neck skin"],
+    "donor_site": {
+      "closure": "Split-thickness skin graft over deltoid/anterior chest defect (or partial primary closure medially).",
+      "morbidity": ["Conspicuous anterior chest STSG scar", "Mild nipple distortion if inferior border drops too low"],
+      "functional_loss": "None."
+    },
+    "technique": {
+      "patient_positioning": "Supine with ipsilateral shoulder slightly elevated.",
+      "preoperative_planning": ["Verify intact IMA (no prior LIMA/RIMA CABG)", "Consider surgical delay 14–21 days prior if extending past deltopectoral groove"],
+      "landmarks": ["Clavicle", "Sternal border (1st–4th ICS)", "Deltopectoral groove", "Anterior axillary fold"],
+      "design": "Superior border along clavicle; inferior border parallel above anterior axillary fold and nipple; extend over deltoid as needed.",
+      "harvest_steps": [
+        "1. Elevate lateral-to-medial in subfascial plane (including deltoid and pectoral fascia).",
+        "2. Divide thoracoacromial cutaneous perforators at the deltopectoral groove carefully.",
+        "3. Stop medial dissection 2 cm lateral to sternal border to safeguard 2nd and 3rd IMA perforators.",
+        "4. Rotate superiorly into neck/lower face defect without kinking base; graft donor defect."
+      ],
+      "pearls": ["Never dissect closer than 2 cm to the sternal edge where IMA perforators emerge."],
+      "pitfalls": ["Extending over the lateral deltoid without prior surgical delay leads to distal tip necrosis."]
+    },
+    "recipient_vessels_options": ["Pedicled axial flap on IMA perforators"],
+    "complications": ["Distal tip necrosis (up to 15–25% if undelayed)", "Donor STSG contracture", "Fistula recurrence"],
+    "alternatives": ["pec-major-flap", "ld-flap", "alt-flap", "rfff-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["neck", "chest-sternum", "cheek-lip"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "chest-breast",
+      "side": "right",
+      "paddleCenter": [-0.11, 1.385, 0.108],
+      "paddleNormal": [-0.25, 0.12, 0.96],
+      "paddleSize": [0.18, 0.085],
+      "pediclePath": [[-0.028, 1.38, 0.116], [-0.072, 1.385, 0.114], [-0.12, 1.388, 0.105]],
+      "pivotPoint": [-0.028, 1.38, 0.116],
+      "arcRadius": 0.22,
+      "typicalRecipientPoint": [0, 1.50, 0.068],
+      "angiosomeColor": "#ea580c"
+    },
+    "references": [
+      { "book": "Bakamjian VY. Plast Reconstr Surg (Deltopectoral Flap)", "edition": "1965; 36:173–184", "chapter_or_section": "Pharyngoesophageal Reconstruction", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "trapezius-flap",
+    "name": "Lower / Lateral Trapezius Myocutaneous Flap",
+    "synonyms": ["Lower trapezius island flap", "Dorsal scapular artery trapezius flap"],
+    "region": "Trunk (posterior upper back / neck)",
+    "region_group": "Trunk",
+    "flap_type": ["Myocutaneous", "Muscle", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type II (transverse cervical / dorsal scapular dominant + occipital & intercostal minor)", "cormack_lamberty": null, "perforator_type": "Musculocutaneous" },
+    "tissue_components": ["Skin", "Subcutaneous fat", "Lower trapezius muscle"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Transverse cervical artery (superficial branch) and dorsal scapular artery (deep branch)",
+        "artery_origin": "Thyrocervical trunk / subclavian artery",
+        "artery_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "verify" },
+        "veins": "Transverse cervical vein (drains to external jugular or subclavian vein)",
+        "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 10.0, "max": 16.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["Occipital artery (superiorly)", "Posterior intercostal perforators (medially)"],
+      "perforators": [
+        {
+          "label": "Lower Trapezius Musculocutaneous Perforators",
+          "type": "Musculocutaneous",
+          "location": "Between vertebral border of scapula and spinous processes (T4–T10)",
+          "relation_to_landmarks": "Dorsal scapular artery pierces rhomboid minor/major to supply lower trapezius",
+          "typical_count": "Multiple",
+          "caliber_mm": null,
+          "position3d": [-0.065, 1.29, -0.115]
+        }
+      ],
+      "angiosome": "Transverse cervical / dorsal scapular angiosome",
+      "venous_drainage_notes": "Preserving both superficial descending transverse cervical and deep dorsal scapular branches maximizes safe paddle length below the scapular tip.",
+      "vascular_variants": ["Dorsal scapular artery arises directly from subclavian artery in ~70% of patients and passes through brachial plexus"]
+    },
+    "nerves": {
+      "motor": ["Spinal accessory nerve (CN XI) — preserve upper trapezius fibers to prevent shoulder droop"],
+      "sensory": ["Posterior thoracic rami"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Posterior thoracic cutaneous numbness."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 18.0, "max": 26.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 7.0, "max": 10.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Thinner and more pliable than pectoralis major or latissimus dorsi for lateral skull base, occipital, and neck wounds.",
+      "primary_closure_max_width_cm": { "min": 7.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Posterior triangle of neck / medial border of levator scapulae",
+      "reach_description": "Reaches occiput, lateral skull base, auricle, posterior/lateral neck, upper thoracic spine, and shoulder.",
+      "reach_cm": { "min": 22.0, "max": 30.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Occipital scalp and lateral skull base / temporal bone defects", "Posterior neck and cervical spine hardware coverage", "Salvage head & neck reconstruction outside prior anterior radiation fields"],
+    "contraindications": ["Prior radical neck dissection with sacrifice of transverse cervical AND dorsal scapular vessels"],
+    "advantages": ["Outside standard anterior neck radiation ports", "Preserves shoulder elevation when upper trapezius and CN XI are spared", "Primary donor closure up to 8–9 cm"],
+    "disadvantages": ["Requires lateral decubitus or prone positioning", "Variable transverse cervical vs dorsal scapular dominance"],
+    "donor_site": {
+      "closure": "Primary vertical closure over suction drains.",
+      "morbidity": ["Back seroma", "Shoulder droop if upper trapezius or CN XI is injured"],
+      "functional_loss": "Minimal if upper fibers of trapezius and CN XI are preserved."
+    },
+    "technique": {
+      "patient_positioning": "Lateral decubitus or prone.",
+      "preoperative_planning": ["Verify prior neck dissection records for transverse cervical/dorsal scapular patency", "Mark spinous processes, medial scapular border, and inferior scapular angle"],
+      "landmarks": ["Spinous processes C7–T12", "Medial border & inferior angle of scapula", "Levator scapulae"],
+      "design": "Vertical skin island centered between medial scapular border and midline, keeping ≥50% of paddle overlying trapezius muscle.",
+      "harvest_steps": [
+        "1. Incise lateral margin to identify lateral border of lower trapezius overlying latissimus dorsi.",
+        "2. Elevate lower trapezius off rhomboid major from inferior to superior.",
+        "3. Identify dorsal scapular artery emerging between rhomboid minor and major and preserve if maintaining deep supply (or divide rhomboid minor to lengthen arc).",
+        "4. Preserve upper trapezius fibers and spinal accessory nerve; tunnel into neck/occiput."
+      ],
+      "pearls": ["Keep at least half of the skin island directly over the lower trapezius muscle above the scapular tip for reliable perfusion."],
+      "pitfalls": ["Sacrificing the upper trapezius or CN XI causes debilitating winged scapula and shoulder drop."]
+    },
+    "recipient_vessels_options": ["Pedicled on transverse cervical / dorsal scapular vessels"],
+    "complications": ["Distal skin tip necrosis (if designed too low below T12)", "Seroma", "Shoulder dysfunction"],
+    "alternatives": ["ld-flap", "pec-major-flap", "alt-flap", "paraspinous-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["scalp", "neck", "shoulder-arm"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "2–3.5 h"
+    },
+    "spec3d": {
+      "regionId": "back",
+      "side": "right",
+      "paddleCenter": [-0.068, 1.29, -0.116],
+      "paddleNormal": [-0.2, 0, -0.98],
+      "paddleSize": [0.18, 0.075],
+      "pediclePath": [[-0.075, 1.46, -0.055], [-0.072, 1.38, -0.095], [-0.068, 1.29, -0.114]],
+      "pivotPoint": [-0.075, 1.46, -0.055],
+      "arcRadius": 0.25,
+      "typicalRecipientPoint": [-0.04, 1.60, -0.08],
+      "angiosomeColor": "#8b5cf6"
+    },
+    "references": [
+      { "book": "Netterville JL, Wood DE. Arch Otolaryngol Head Neck Surg (Lower Trapezius Flap)", "edition": "1991; 117:73–76", "chapter_or_section": "Lower Trapezius Myocutaneous Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "scm-flap",
+    "name": "Sternocleidomastoid (SCM) Muscle Flap",
+    "synonyms": ["SCM flap", "Sternomastoid flap"],
+    "region": "Head & Neck (anterolateral neck)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Muscle", "Myocutaneous", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type II (occipital superiorly, superior thyroid middle, transverse cervical inferiorly)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Sternocleidomastoid muscle", "Optional small overlying skin paddle (less reliable)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Occipital artery (superiorly based) and superior thyroid artery (middle segment)",
+        "artery_origin": "External carotid artery",
+        "artery_diameter_mm": { "min": 1.0, "max": 1.8, "unit": "mm", "confidence": "verify" },
+        "veins": "Accompanying veins to internal jugular / external jugular system",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": ["Suprascapular / transverse cervical branch (inferior third)"],
+      "perforators": [],
+      "angiosome": "Occipital / superior thyroid segmental neck angiosomes",
+      "venous_drainage_notes": "Muscle-only flap is markedly more reliable than myocutaneous version because skin perforators are tenuous.",
+      "vascular_variants": ["Segmental tripartite supply — preserve at least 2 of 3 pedicles when possible"]
+    },
+    "nerves": {
+      "motor": ["Spinal accessory nerve (CN XI) — enters posterior border; preserve carefully to avoid trapezius palsy"],
+      "sensory": ["Great auricular nerve (superficial — preserve if possible)"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Ear lobule numbness if great auricular nerve is sacrificed."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "verify" }, "width": { "min": 3.0, "max": 5.0, "unit": "cm", "confidence": "verify" } },
+      "thickness_notes": "Compact, well-vascularized muscle ideal for parotid bed contour, Frey syndrome prevention, and pharyngeal/esophageal reinforcement.",
+      "primary_closure_max_width_cm": { "min": 4.0, "max": 5.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Mastoid tip (superiorly based) or clavicle/sternum (inferiorly based)",
+      "reach_description": "Superiorly based fills parotidectomy bed, mastoid, floor of mouth, and mandible; inferiorly based reinforces tracheoesophageal / cervical esophageal repairs.",
+      "reach_cm": { "min": 8.0, "max": 12.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Parotidectomy defect contour restoration & Frey syndrome prophylaxis", "Carotid artery coverage after neck dissection", "Cervical esophageal / tracheoesophageal fistula interposition", "Floor of mouth / orocutaneous fistula reinforcement"],
+    "contraindications": ["N+ ipsilateral neck requiring radical neck dissection", "High-dose neck radiation with compromised segmental supply"],
+    "advantages": ["Immediate proximity within existing neck/parotid incision", "Minimal operative time (<30 min)", "Effective interposition barrier for Frey syndrome and fistulae"],
+    "disadvantages": ["Unreliable cutaneous paddle (high skin loss rate)", "Risk to spinal accessory nerve", "Mild neck contour asymmetry"],
+    "donor_site": {
+      "closure": "Existing neck or parotidectomy incision closed primarily.",
+      "morbidity": ["Mild lateral neck flattening", "Risk of CN XI traction injury"],
+      "functional_loss": "Minimal head-turning weakness."
+    },
+    "technique": {
+      "patient_positioning": "Supine with neck slightly extended and turned contralaterally.",
+      "preoperative_planning": ["Determine superiorly vs inferiorly based pivot", "Plan preservation of CN XI"],
+      "landmarks": ["Mastoid process", "Clavicular and sternal heads", "Great auricular nerve", "Erb point (CN XI)"],
+      "design": "Split or full-thickness muscle flap leaving either superior occipital or inferior clavicular pedicle intact.",
+      "harvest_steps": [
+        "1. Expose SCM through parotidectomy or transverse neck incision while protecting great auricular nerve.",
+        "2. Identify and protect spinal accessory nerve entering the deep/posterior aspect of upper-middle SCM.",
+        "3. Divide sternal and clavicular insertions (for superiorly based) or mastoid attachment (for inferiorly based).",
+        "4. Rotate muscle into parotid bed, over carotid sheath, or between trachea and esophagus."
+      ],
+      "pearls": ["Use as a muscle-only flap whenever possible; avoid relying on large SCM cutaneous paddles."],
+      "pitfalls": ["Transecting the spinal accessory nerve during superior mobilization causes trapezius paralysis."]
+    },
+    "recipient_vessels_options": ["Pedicled muscle flap"],
+    "complications": ["Skin paddle necrosis (if myocutaneous)", "CN XI neuropraxia", "Hematoma"],
+    "alternatives": ["pec-major-flap", "temporalis-muscle-flap", "submental-island-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["neck", "cheek-lip", "oral-cavity"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "0.5–1.5 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "right",
+      "paddleCenter": [-0.042, 1.52, 0.025],
+      "paddleNormal": [-0.88, 0, 0.47],
+      "paddleSize": [0.11, 0.032],
+      "pediclePath": [[-0.055, 1.59, -0.01], [-0.048, 1.555, 0.01], [-0.042, 1.52, 0.025]],
+      "pivotPoint": [-0.055, 1.59, -0.01],
+      "arcRadius": 0.11,
+      "typicalRecipientPoint": [-0.06, 1.595, 0.035],
+      "angiosomeColor": "#f43f5e"
+    },
+    "references": [
+      { "book": "Mathes SJ, Nahai F. Reconstructive Surgery: Principles, Anatomy, & Technique", "edition": "1st ed.", "chapter_or_section": "Sternocleidomastoid Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "cervicofacial-flap",
+    "name": "Cervicofacial Advancement-Rotation Flap",
+    "synonyms": ["Mustardé cheek flap", "Cervicofacial rotation flap", "Deep-plane cervicofacial flap"],
+    "region": "Head & Neck (cheek, preauricular, & upper neck)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Random-pattern", "Fasciocutaneous", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Random subdermal / SMAS-composite rotation-advancement", "perforator_type": "Subdermal plexus" },
+    "tissue_components": ["Cheek & neck skin", "Subcutaneous tissue", "Optional SMAS (deep-plane variant)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Random subdermal plexus fed by facial, submental, and transverse cervical perforators",
+        "artery_origin": "External carotid / subclavian systems",
+        "artery_diameter_mm": null,
+        "veins": "Subdermal venous plexus",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Cheek & lateral neck subdermal plexus",
+      "venous_drainage_notes": "Deep-plane (sub-SMAS / subplatysmal) dissection significantly enhances distal tip vascularity in smokers and large medial cheek defects.",
+      "vascular_variants": ["Heavy tobacco use substantially increases distal medial tip necrosis if raised subcutaneously"]
+    },
+    "nerves": {
+      "motor": ["Facial nerve branches (protected deep to parotidomasseteric fascia in subcutaneous plane; carefully visualized in deep plane)"],
+      "sensory": ["Great auricular nerve", "Infraorbital nerve"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Temporary cheek/preauricular hypoesthesia."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 6.0, "max": 12.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 4.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Gold-standard facial color, hair, and texture match across the cheek aesthetic subunit.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Inferior neck / retroauricular back-cut (extends to chest as cervicopectoral flap if needed)",
+      "reach_description": "Closes medium-to-large medial cheek, infraorbital, lateral nasal sidewall, and lower eyelid/malar defects.",
+      "reach_cm": { "min": 5.0, "max": 10.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Medium-to-large cheek and infraorbital defects (>3–4 cm)", "Lower eyelid / malar composite defects (Mustardé design)", "Parotid-cheek cutaneous defects"],
+    "contraindications": ["Active heavy smoking (strongly favor deep-plane dissection or alternative)", "Prior preauricular/neck irradiation"],
+    "advantages": ["Ideal like-for-like facial skin match", "Scars hidden in lateral canthal, preauricular, hairline, and neck creases", "Single-stage outpatient or short-stay procedure"],
+    "disadvantages": ["Risk of lower eyelid ectropion if tension is directed inferiorly", "Distal medial tip necrosis in smokers", "Facial nerve injury risk in deep-plane dissection"],
+    "donor_site": {
+      "closure": "Primary tension-free closure along preauricular and cervical incisions with standing-cone excision in nasolabial fold.",
+      "morbidity": ["Ectropion if not anchored to lateral orbital rim periosteum", "Distal tip epidermolysis", "Hematoma"],
+      "functional_loss": "None when facial nerve and lower lid support are preserved."
+    },
+    "technique": {
+      "patient_positioning": "Supine with head elevated 15°.",
+      "preoperative_planning": ["Draw incision curving HIGH superiorly above lateral canthus (Mustardé arc) to prevent lower lid ectropion", "Decide subcutaneous vs deep-plane (sub-SMAS) based on smoking history"],
+      "landmarks": ["Lateral canthus & lateral orbital rim", "Preauricular crease", "Nasolabial fold", "Anterior border of sternocleidomastoid"],
+      "design": "Carry superior limb superolaterally above lateral canthus toward temporal hairline, then down preauricular crease and into upper neck crease.",
+      "harvest_steps": [
+        "1. Incise along superolateral Mustardé arc, preauricular crease, and cervical extension.",
+        "2. Elevate in subcutaneous plane (or sub-SMAS / subplatysmal in smokers) protecting facial nerve branches.",
+        "3. Rotate superomedially and suspend dermal/SMAS layer firmly to lateral orbital rim periosteum.",
+        "4. Excise inferior standing cone along nasolabial fold and close without vertical tension on lower eyelid."
+      ],
+      "pearls": ["Always arc the superior incision ABOVE the lateral canthus and suture-anchor the flap to the lateral orbital rim periosteum to prevent ectropion."],
+      "pitfalls": ["Directing closing tension vertically downward on the lower eyelid causes severe cicatricial ectropion."]
+    },
+    "recipient_vessels_options": ["Local rotation-advancement flap"],
+    "complications": ["Lower eyelid ectropion", "Distal tip necrosis", "Hematoma", "Facial nerve neuropraxia"],
+    "alternatives": ["submental-island-flap", "alt-flap", "rfff-flap", "bilobed-rhomboid-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": {
+      "defect_locations": ["cheek-lip", "neck"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "right",
+      "paddleCenter": [-0.056, 1.595, 0.068],
+      "paddleNormal": [-0.82, 0, 0.57],
+      "paddleSize": [0.09, 0.065],
+      "pediclePath": [[-0.048, 1.515, 0.04], [-0.055, 1.555, 0.055], [-0.056, 1.595, 0.068]],
+      "pivotPoint": [-0.048, 1.515, 0.04],
+      "arcRadius": 0.1,
+      "typicalRecipientPoint": [-0.025, 1.62, 0.092],
+      "angiosomeColor": "#f97316"
+    },
+    "references": [
+      { "book": "Baker SR. Local Flaps in Facial Reconstruction", "edition": "4th ed.", "chapter_or_section": "Cheek & Cervicofacial Flaps", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "abbe-estlander-flap",
+    "name": "Abbé–Estlander & Karapandzic Lip Flaps",
+    "synonyms": ["Cross-lip flap", "Abbé flap", "Estlander flap", "Karapandzic neurovascular lip flap"],
+    "region": "Head & Neck (upper & lower lips)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Composite", "Axial", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Axial composite musculocutaneous-mucosal (labial artery)", "perforator_type": null },
+    "tissue_components": ["Lip skin", "Orbicularis oris muscle", "Vermilion", "Labial mucosa"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Superior or inferior labial artery (courses in submucosal plane ~5–10 mm from free vermilion margin)",
+        "artery_origin": "Facial artery",
+        "artery_diameter_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" },
+        "veins": "Labial submucosal venous plexus",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Superior / inferior labial artery angiosome",
+      "venous_drainage_notes": "Preserving a 5–7 mm vermilion/mucosal pedicle bridge safeguards the labial artery and accompanying veins.",
+      "vascular_variants": ["Labial artery lies deep to orbicularis oris (between muscle and mucosa) at level of vermilion-cutaneous junction"]
+    },
+    "nerves": {
+      "motor": ["Buccal & marginal mandibular facial nerve twigs (preserved intact in Karapandzic; divided/reinnervated in Abbé)"],
+      "sensory": ["Infraorbital / mental nerve branches (preserved in Karapandzic)"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Karapandzic preserves immediate sensation and oral competence; Abbé regains partial sensation over 6–12 months."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 2.0, "max": 4.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 1.5, "max": 3.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "True 3-layer composite lip reconstruction (skin, functional orbicularis sphincter, mucosa) designed at 1/2 the width of the defect.",
+      "primary_closure_max_width_cm": { "min": 2.0, "max": 3.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Labial artery at vermilion border (Abbé/Estlander) or bilateral commissures (Karapandzic)",
+      "reach_description": "Reconstructs 30–80% full-thickness central or lateral upper/lower lip defects while sharing loss evenly across both lips.",
+      "reach_cm": { "min": 2.0, "max": 4.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Full-thickness lip defects involving 35–65% of lip width (Abbé for central/paracentral, Estlander for commissure)", "Large lower lip defects 50–80% requiring immediate dynamic oral competence (Karapandzic)", "Bilateral cleft lip whistle/philtral tight upper lip reconstruction (Abbé)"],
+    "contraindications": ["Patients unable to tolerate 2–3 week cross-lip pedicle bridge (Abbé) or microstomia (Karapandzic)"],
+    "advantages": ["Restores exact vermilion white roll, mucosa, and functional orbicularis oris sphincter", "Balances upper and lower lip width evenly"],
+    "disadvantages": ["Abbé requires 2-stage pedicle division at 14–21 days", "Estlander blunts oral commissure (often needs secondary commissuroplasty)", "Karapandzic risks microstomia in >75% lip defects"],
+    "donor_site": {
+      "closure": "Precise 3-layer primary closure aligning vermilion-cutaneous white roll.",
+      "morbidity": ["Microstomia (Karapandzic / large Estlander)", "Commissure rounding"],
+      "functional_loss": "Minimal; preserves oral competence and speech."
+    },
+    "technique": {
+      "patient_positioning": "Supine with nasal intubation.",
+      "preoperative_planning": ["Design Abbé/Estlander width equal to 50% of defect width (height matches defect)", "Tattoo vermilion white roll before local anesthetic injection"],
+      "landmarks": ["Vermilion-cutaneous junction (white roll)", "Oral commissure", "Philtral columns", "Labial artery (~5–8 mm deep to mucosa)"],
+      "design": "Full-thickness wedge/shield on opposite lip (half defect width) hinged on labial artery; or circumoral Karapandzic neurovascular advancement.",
+      "harvest_steps": [
+        "1. Mark white roll precisely before infiltration.",
+        "2. Incise full-thickness lip on non-pedicle side completely; stop 5–7 mm short of vermilion on pedicle side.",
+        "3. Rotate 180° across oral aperture and perform meticulous 3-layer closure (mucosa, orbicularis, skin).",
+        "4. Divide cross-lip pedicle and inset vermilion cleanly at 14–21 days (Abbé); Estlander is single-stage."
+      ],
+      "pearls": ["Design the cross-lip flap width at HALF the defect width so upper and lower lips end up symmetrical."],
+      "pitfalls": ["Misaligning the vermilion white roll by even 1 mm creates an obvious step-off deformity."]
+    },
+    "recipient_vessels_options": ["Axial labial artery pedicle"],
+    "complications": ["Microstomia", "Commissural blunting", "White roll step-off", "Dehiscence"],
+    "alternatives": ["rfff-flap", "famm-flap", "nasolabial-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": {
+      "defect_locations": ["cheek-lip", "oral-cavity"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": true,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "1–2 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "midline",
+      "paddleCenter": [0, 1.575, 0.098],
+      "paddleNormal": [0, 0, 1],
+      "paddleSize": [0.025, 0.02],
+      "pediclePath": [[-0.024, 1.578, 0.092], [-0.012, 1.576, 0.096], [0, 1.575, 0.098]],
+      "pivotPoint": [-0.018, 1.578, 0.094],
+      "arcRadius": 0.035,
+      "typicalRecipientPoint": [0, 1.592, 0.098],
+      "angiosomeColor": "#e11d48"
+    },
+    "references": [
+      { "book": "Baker SR. Local Flaps in Facial Reconstruction", "edition": "4th ed.", "chapter_or_section": "Reconstruction of the Lips", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "jejunal-free-flap",
+    "name": "Free Jejunal Visceral Flap",
+    "synonyms": ["Free jejunum", "Jejunal interposition flap"],
+    "region": "Trunk (intra-abdominal jejunum)",
+    "region_group": "Trunk",
+    "flap_type": ["Visceral", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Visceral enteric free flap", "perforator_type": null },
+    "tissue_components": ["Tubularized jejunal mucosa", "Smooth muscle wall", "Mesenteric vascular arcade"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "2nd or 3rd jejunal arterial arcade",
+        "artery_origin": "Superior mesenteric artery (SMA)",
+        "artery_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Single paired jejunal mesenteric vein (larger caliber)",
+        "vein_diameter_mm": { "min": 2.5, "max": 4.0, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 4.0, "max": 7.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Superior mesenteric jejunal arcade",
+      "venous_drainage_notes": "Thin-walled, friable mesenteric vein requires delicate handling; extremely short warm ischemia tolerance (~1–2 hours max).",
+      "vascular_variants": ["Transilluminate mesentery intraoperatively to select a long single-pedicle arcade"]
+    },
+    "nerves": {
+      "motor": ["Intrinsic enteric plexus (retains uncoordinated peristalsis)"],
+      "sensory": [],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Laparotomy/laparoscopic abdominal donor site."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 12.0, "max": 22.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 3.0, "max": 4.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Pre-formed mucinous conduit matching circumferential pharyngoesophageal lumen diameter (~3–4 cm).",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Free microvascular transfer",
+      "reach_description": "Circumferential pharyngoesophageal conduit from oropharynx to thoracic inlet.",
+      "reach_cm": null
+    },
+    "indications": ["Circumferential total laryngopharyngectomy defects", "Salvage pharyngoesophageal stricture or fistula", "Mucosal resurfacing (opened jejunal patch)"],
+    "contraindications": ["Severe mesenteric atherosclerosis or prior extensive small bowel resection", "Inability to tolerate laparotomy/laparoscopy"],
+    "advantages": ["Pre-tubularized lubricated mucosal conduit with lowest stricture rate", "Low early pharyngocutaneous fistula rate", "Can exteriorize a small sentinel monitoring loop"],
+    "disadvantages": ["Requires abdominal entry (laparotomy/laparoscopic harvest)", "Very low ischemia tolerance (<2 hours)", "Wet/gurgly tracheoesophageal voice quality compared to tubed ALT/RFFF"],
+    "donor_site": {
+      "closure": "End-to-end jejunojejunostomy and abdominal wall closure.",
+      "morbidity": ["Ileus", "Small bowel obstruction", "Anastomotic leak (rare)", "Incisional hernia"],
+      "functional_loss": "None after uncomplicated small bowel anastomosis."
+    },
+    "technique": {
+      "patient_positioning": "Supine (simultaneous two-team head & neck and abdominal harvest).",
+      "preoperative_planning": ["Coordinate general surgery team for laparotomy or laparoscopic harvest", "Prepare neck recipient vessels BEFORE dividing mesenteric pedicle to minimize ischemia time"],
+      "landmarks": ["Ligament of Treitz (harvest 20–40 cm distal)", "SMA 2nd/3rd jejunal arcades"],
+      "design": "12–20 cm isoperistaltic jejunal segment plus optional 3 cm sentinel exteriorized monitoring loop on same arcade.",
+      "harvest_steps": [
+        "1. Prepare cervical recipient vessels completely before pedicle division.",
+        "2. Transilluminate mesentery 20–40 cm distal to ligament of Treitz to isolate single long arcade.",
+        "3. Mark proximal end with silk suture to guarantee isoperistaltic orientation in neck.",
+        "4. Perform revascularization FIRST (or rapid inset + microanastomosis) to keep ischemia <90 minutes; complete pharyngeal and esophageal anastomoses."
+      ],
+      "pearls": ["Always mark proximal end to ensure isoperistaltic inset and complete microvascular anastomosis promptly because mucosa sloughs rapidly after 2 hours of warm ischemia."],
+      "pitfalls": ["Anti-peristaltic inset causes severe dysphagia; redundant bowel length causes kinking and stasis."]
+    },
+    "recipient_vessels_options": ["Superior thyroid / facial / transverse cervical artery", "Internal jugular (end-to-side) or facial vein"],
+    "complications": ["Mucosal ischemia/necrosis", "Pharyngocutaneous fistula", "Anastomotic stricture", "Abdominal ileus/obstruction"],
+    "alternatives": ["alt-flap", "rfff-flap", "pec-major-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["neck", "oral-cavity"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": false,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "High",
+      "typical_or_time": "5–7 h"
+    },
+    "spec3d": {
+      "regionId": "abdomen",
+      "side": "midline",
+      "paddleCenter": [-0.02, 1.07, 0.055],
+      "paddleNormal": [0, 0, 1],
+      "paddleSize": [0.15, 0.04],
+      "pediclePath": [[0, 1.12, 0.015], [-0.015, 1.09, 0.038], [-0.02, 1.07, 0.055]],
+      "pivotPoint": [0, 1.12, 0.015],
+      "arcRadius": 0.12,
+      "typicalRecipientPoint": [0, 1.51, 0.052],
+      "angiosomeColor": "#d946ef"
+    },
+    "references": [
+      { "book": "Wei FC, Mardini S. Flaps and Reconstructive Surgery", "edition": "2nd ed.", "chapter_or_section": "Free Jejunal Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "serratus-anterior-flap",
+    "name": "Serratus Anterior Muscle / Osteomuscular Flap",
+    "synonyms": ["Serratus anterior flap", "Serratus-rib chimeric flap"],
+    "region": "Trunk (lateral thoracic wall)",
+    "region_group": "Trunk",
+    "flap_type": ["Muscle", "Osteomuscular", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": "Type III (lateral thoracic artery + serratus branch of thoracodorsal artery)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Lower 3–4 slips of serratus anterior muscle", "Optional vascularized 6th/7th rib", "Optional fascial slip"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Serratus branch of thoracodorsal artery (subscapular system)",
+        "artery_origin": "Subscapular artery (from axillary artery)",
+        "artery_diameter_mm": { "min": 1.8, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Thoracodorsal / subscapular vein",
+        "vein_diameter_mm": { "min": 2.5, "max": 3.5, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 10.0, "max": 16.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": ["Lateral thoracic artery (upper slips)"],
+      "perforators": [],
+      "angiosome": "Subscapular / thoracodorsal angiosome",
+      "venous_drainage_notes": "Shares the subscapular vascular tree with latissimus dorsi and parascapular flaps for massive mega/chimeric reconstructions.",
+      "vascular_variants": ["1–3 serratus branches arise from thoracodorsal artery; occasionally direct from subscapular trunk"]
+    },
+    "nerves": {
+      "motor": ["Long thoracic nerve (C5–C7) — preserve superior slips to prevent scapular winging"],
+      "sensory": ["Intercostobrachial & lateral intercostal branches"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Lateral chest wall sensory patch."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": null, "width": null },
+      "thickness_notes": "Thin, malleable, digitated muscle slips (lower 3–4 slips: ~8 × 12 cm) ideal for contoured extremity, facial reanimation, or intrathoracic coverage.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Subscapular / axillary vessels",
+      "reach_description": "Pedicled to axilla, chest wall, intrathoracic bronchial stump/empyema; free flap for hand/foot dorsum, scalp, mandible/rib, and multi-vector facial reanimation.",
+      "reach_cm": { "min": 16.0, "max": 22.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Thin contoured muscle + STSG for hand/wrist and foot/ankle defects", "Intrathoracic bronchial stump reinforcement / empyema obliteration", "Chimeric subscapular-system reconstruction with LD/scapular flaps", "Vascularized rib + muscle for orbital/mandibular defects"],
+    "contraindications": ["Harvesting upper 5 slips (causes severe winged scapula)", "Prior axillary dissection dividing thoracodorsal pedicle"],
+    "advantages": ["Exceptionally long, large-caliber pedicle (up to 16 cm)", "Thin, flat muscle slips conform cleanly to irregular contours", "Independent muscular slips allow multi-vector dynamic facial reanimation"],
+    "disadvantages": ["Risk of scapular winging if >4 lower slips or upper long thoracic nerve is damaged", "Lateral decubitus positioning", "Risk of pneumothorax if rib is harvested"],
+    "donor_site": {
+      "closure": "Primary closure over drain along midaxillary line.",
+      "morbidity": ["Scapular winging (if upper slips or long thoracic nerve violated)", "Seroma", "Pneumothorax (with rib harvest)"],
+      "functional_loss": "Negligible if only the lowest 3–4 slips are harvested."
+    },
+    "technique": {
+      "patient_positioning": "Lateral decubitus with arm abducted 90°.",
+      "preoperative_planning": ["Limit harvest strictly to lowest 3–4 slips (ribs 6–9) to avoid scapular winging", "Plan subscapular chimeric harvest if large combined defect"],
+      "landmarks": ["Anterior border of latissimus dorsi", "Midaxillary line", "Ribs 6–9", "Inferior angle of scapula"],
+      "design": "Midaxillary curvilinear incision exposing anterior border of latissimus dorsi and serratus slips.",
+      "harvest_steps": [
+        "1. Retract anterior border of latissimus dorsi posteriorly to expose thoracodorsal pedicle and serratus branch.",
+        "2. Trace long thoracic nerve along superficial surface of serratus; preserve branches to upper 5–6 slips.",
+        "3. Divide lowest 3–4 muscular slips off ribs 6–9 and scapular tip (leave intercostal fascia intact to avoid pneumothorax).",
+        "4. Trace serratus branch proximally onto thoracodorsal / subscapular vessels for maximum length."
+      ],
+      "pearls": ["Restricting harvest to the lower 3 slips while keeping the upper long thoracic nerve intact prevents scapular winging."],
+      "pitfalls": ["Violating parietal pleura during periosteal rib elevation."]
+    },
+    "recipient_vessels_options": ["Radial / ulnar (hand)", "Anterior / posterior tibial (foot)", "Facial / superficial temporal (H&N)"],
+    "complications": ["Scapular winging", "Seroma", "Pneumothorax (rib harvest)"],
+    "alternatives": ["ld-flap", "gracilis-flap", "scapular-flap", "tdap-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["hand-digits", "foot-plantar", "leg-distal-ankle", "chest-sternum", "scalp", "mandible"],
+      "provides_bone": true,
+      "provides_muscle": true,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": true,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": true,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "3–4.5 h"
+    },
+    "spec3d": {
+      "regionId": "right-lateral",
+      "side": "right",
+      "paddleCenter": [-0.158, 1.24, -0.01],
+      "paddleNormal": [-0.98, 0, 0.18],
+      "paddleSize": [0.12, 0.08],
+      "pediclePath": [[-0.175, 1.38, -0.02], [-0.168, 1.31, -0.02], [-0.158, 1.24, -0.01]],
+      "pivotPoint": [-0.175, 1.38, -0.02],
+      "arcRadius": 0.19,
+      "typicalRecipientPoint": [-0.08, 1.30, 0.11],
+      "angiosomeColor": "#0d9488"
+    },
+    "references": [
+      { "book": "Wei FC, Mardini S. Flaps and Reconstructive Surgery", "edition": "2nd ed.", "chapter_or_section": "Serratus Anterior Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "igap-flap",
+    "name": "Inferior Gluteal Artery Perforator (IGAP) Flap",
+    "synonyms": ["IGAP", "Infragluteal perforator flap"],
+    "region": "Perineum & Pelvis (inferior buttock)",
+    "region_group": "Perineum & Pelvis",
+    "flap_type": ["Perforator", "Fasciocutaneous", "Free", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": null, "perforator_type": "Musculocutaneous (through lower gluteus maximus)" },
+    "tissue_components": ["Gluteal skin", "Dense subcutaneous fat"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Inferior gluteal artery (IGA) perforators",
+        "artery_origin": "Anterior division of internal iliac artery",
+        "artery_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Inferior gluteal venae comitantes",
+        "vein_diameter_mm": { "min": 2.5, "max": 4.0, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 7.0, "max": 11.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        {
+          "label": "Inferior Gluteal Perforators",
+          "type": "Musculocutaneous",
+          "location": "Inferior half of buttock, 1–5 cm above inferior gluteal crease",
+          "relation_to_landmarks": "Emerge inferior to piriformis near line from PSIS to ischial tuberosity",
+          "typical_count": "2–4",
+          "caliber_mm": { "min": 0.8, "max": 1.4, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.095, 0.84, -0.118]
+        }
+      ],
+      "angiosome": "Inferior gluteal angiosome",
+      "venous_drainage_notes": "Slightly longer pedicle than SGAP (7–11 cm) because vessels course obliquely through lower gluteus maximus.",
+      "vascular_variants": ["Close proximity to sciatic nerve and posterior femoral cutaneous nerve"]
+    },
+    "nerves": {
+      "motor": ["Sciatic nerve (lies deep to piriformis — preserve)", "Inferior gluteal nerve (preserve)"],
+      "sensory": ["Posterior femoral cutaneous nerve (can harvest for sensate breast or preserve to avoid sitting paresthesia)"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Posterior thigh/gluteal sensory change; sitting discomfort if ischial fat pad is over-resected."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 18.0, "max": 24.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Firm, projection-holding gluteal fat; scar concealed in the inferior gluteal crease (unlike SGAP).",
+      "primary_closure_max_width_cm": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Infrapiriform foramen",
+      "reach_description": "Pedicled for ischial pressure injuries and perineal defects; free flap for autologous breast reconstruction.",
+      "reach_cm": { "min": 10.0, "max": 15.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Secondary autologous breast reconstruction when DIEP is unavailable", "Ischial pressure injury coverage (pedicled propeller / V-Y IGAP)", "Perineal / vulvovaginal reconstruction"],
+    "contraindications": ["Prior gluteal liposuction or silicone injections", "Chronic sciatic neuropathy"],
+    "advantages": ["Well-concealed scar in inferior gluteal crease", "Longer pedicle than SGAP", "Spares gluteus maximus muscle"],
+    "disadvantages": ["Requires intraoperative prone-to-supine position change for breast reconstruction", "Risk of sitting pain over ischial tuberosity if deep ischial fat pad is removed", "Sciatic nerve proximity"],
+    "donor_site": {
+      "closure": "Primary layered closure in inferior gluteal fold; preserve fat pad directly over ischial tuberosity.",
+      "morbidity": ["Sitting discomfort", "Posterior thigh dysesthesia", "Gluteal contour asymmetry"],
+      "functional_loss": "None when gluteus maximus is spared."
+    },
+    "technique": {
+      "patient_positioning": "Prone for harvest; reposition supine for breast inset.",
+      "preoperative_planning": ["Preoperative CTA to map dominant IGA perforators", "Mark inferior gluteal fold standing to conceal scar"],
+      "landmarks": ["Inferior gluteal crease", "Ischial tuberosity", "PSIS", "Greater trochanter"],
+      "design": "Oblique ellipse parallel to and ~1 cm above inferior gluteal crease; bevel superiorly, NOT over ischial tuberosity.",
+      "harvest_steps": [
+        "1. Elevate subfascially from lateral to medial identifying dominant IGA perforators.",
+        "2. Split lower gluteus maximus fibers carefully following perforator toward IGA trunk.",
+        "3. Identify and protect sciatic nerve and posterior femoral cutaneous nerve.",
+        "4. Leave generous fat pad over ischial tuberosity and close over drains."
+      ],
+      "pearls": ["Preserve the protective fat pad directly overlying the ischial tuberosity to prevent chronic postoperative sitting pain."],
+      "pitfalls": ["Aggressive medial inferior beveling exposes the ischial tuberosity and causes painful sitting."]
+    },
+    "recipient_vessels_options": ["Internal mammary artery/vein (breast)", "Thoracodorsal vessels"],
+    "complications": ["Postoperative sitting pain", "Sciatic or PFCN neuralgia", "Seroma", "Microvascular thrombosis"],
+    "alternatives": ["sgap-flap", "pap-flap", "diep-flap", "tug-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["breast", "sacrum-ischium", "groin-perineum"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "High",
+      "typical_or_time": "5–7 h"
+    },
+    "spec3d": {
+      "regionId": "back",
+      "side": "right",
+      "paddleCenter": [-0.095, 0.84, -0.118],
+      "paddleNormal": [-0.2, -0.15, -0.96],
+      "paddleSize": [0.17, 0.065],
+      "pediclePath": [[-0.06, 0.88, -0.05], [-0.082, 0.855, -0.092], [-0.095, 0.84, -0.118]],
+      "pivotPoint": [-0.06, 0.88, -0.05],
+      "arcRadius": 0.15,
+      "typicalRecipientPoint": [-0.08, 1.32, 0.125],
+      "angiosomeColor": "#7c3aed"
+    },
+    "references": [
+      { "book": "Blondeel PN et al. Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "IGAP Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "lap-flap",
+    "name": "Lumbar Artery Perforator (LAP) Flap",
+    "synonyms": ["LAP flap", "Lumbar perforator flap"],
+    "region": "Trunk (posterior flank / love-handle)",
+    "region_group": "Trunk",
+    "flap_type": ["Perforator", "Fasciocutaneous", "Free", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": null, "perforator_type": "Septocutaneous / Musculocutaneous (thoracolumbar fascia)" },
+    "tissue_components": ["Flank skin", "Gluteal-lumbar subcutaneous fat"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "4th (or 3rd) lumbar artery perforator",
+        "artery_origin": "Abdominal aorta (posterior segmental lumbar arteries)",
+        "artery_diameter_mm": { "min": 1.2, "max": 2.0, "unit": "mm", "confidence": "verify" },
+        "veins": "Lumbar perforating vein (often requires composite DIEV/thoracodorsal interposition graft for breast)",
+        "vein_diameter_mm": { "min": 1.8, "max": 3.0, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 4.0, "max": 6.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": ["Superior gluteal & iliolumbar linking vessels"],
+      "perforators": [
+        {
+          "label": "4th Lumbar Perforator",
+          "type": "Septocutaneous",
+          "location": "7–9 cm lateral to posterior midline, just superior to posterior iliac crest",
+          "relation_to_landmarks": "Pierces thoracolumbar fascia between erector spinae and quadratus lumborum",
+          "typical_count": "1–2 dominant",
+          "caliber_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.088, 1.02, -0.105]
+        }
+      ],
+      "angiosome": "Lumbar segmental angiosome",
+      "venous_drainage_notes": "Short native pedicle (4–6 cm) usually mandates a composite arteriovenous interposition graft (commonly deep inferior epigastric vessels) for free breast transfer.",
+      "vascular_variants": ["4th lumbar perforator is most consistent for breast volume; verify exact level on preoperative CTA"]
+    },
+    "nerves": {
+      "motor": [],
+      "sensory": ["Superior cluneal nerves (can be coapted for sensate breast reconstruction)"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Upper buttock/flank numbness; waist-contouring aesthetic donor site."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 18.0, "max": 26.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Soft, natural breast-like flank fat that improves waist contour (body-lift effect).",
+      "primary_closure_max_width_cm": { "min": 7.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Lateral border of erector spinae / thoracolumbar fascia",
+      "reach_description": "Pedicled for lumbosacral spine defects; free flap (with composite AV graft) for autologous breast reconstruction.",
+      "reach_cm": { "min": 10.0, "max": 16.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Autologous breast reconstruction in thin patients lacking abdominal tissue", "Lumbosacral spine wound / hardware coverage (pedicled propeller LAP)"],
+    "contraindications": ["Prior extensive posterior flank liposuction", "Inability to perform composite vascular interposition graft"],
+    "advantages": ["Natural soft breast tissue consistency", "Favorable waist/flank donor contour", "Preserves rectus, gluteal, and back muscles"],
+    "disadvantages": ["Short pedicle (4–6 cm) almost always requiring AV interposition graft", "High technical difficulty and prone-to-supine position change", "High donor seroma rate"],
+    "donor_site": {
+      "closure": "Primary layered closure with progressive tension sutures and closed suction drains.",
+      "morbidity": ["Prolonged donor seroma (common)", "Flank asymmetry"],
+      "functional_loss": "None."
+    },
+    "technique": {
+      "patient_positioning": "Prone for harvest; supine for breast microanastomosis (plus DIEV interposition graft harvest).",
+      "preoperative_planning": ["Preoperative CTA essential to localize dominant L3/L4 perforator", "Plan composite DIEV or thoracodorsal vascular graft"],
+      "landmarks": ["Posterior iliac crest", "Spinous processes L3–L5", "Lateral border of erector spinae"],
+      "design": "Oblique fusiform paddle over flank / upper buttock centered on L4 perforator (~8 cm from midline).",
+      "harvest_steps": [
+        "1. Harvest composite arteriovenous interposition graft (e.g., DIEA/V) while supine if performing breast transfer.",
+        "2. Prone: elevate lateral-to-medial over gluteal/thoracolumbar fascia toward lateral erector spinae border.",
+        "3. Dissect L4 perforator through thoracolumbar fascia between erector spinae and quadratus lumborum.",
+        "4. Divide pedicle, close flank with progressive tension sutures, reposition supine, and anastomose via interposition graft."
+      ],
+      "pearls": ["Harvesting a composite deep inferior epigastric AV graft solves both the short pedicle length and small arterial caliber mismatch."],
+      "pitfalls": ["High seroma rate if quilting/progressive tension sutures are omitted."]
+    },
+    "recipient_vessels_options": ["Internal mammary vessels via DIEA/V interposition graft"],
+    "complications": ["Donor seroma", "Interposition graft thrombosis", "Wound dehiscence"],
+    "alternatives": ["diep-flap", "pap-flap", "sgap-flap", "igap-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["breast", "sacrum-ischium"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "High",
+      "typical_or_time": "6–8 h"
+    },
+    "spec3d": {
+      "regionId": "back",
+      "side": "right",
+      "paddleCenter": [-0.095, 1.02, -0.105],
+      "paddleNormal": [-0.45, 0, -0.89],
+      "paddleSize": [0.18, 0.07],
+      "pediclePath": [[-0.035, 1.03, -0.045], [-0.068, 1.025, -0.085], [-0.095, 1.02, -0.105]],
+      "pivotPoint": [-0.055, 1.025, -0.075],
+      "arcRadius": 0.14,
+      "typicalRecipientPoint": [-0.08, 1.32, 0.125],
+      "angiosomeColor": "#6366f1"
+    },
+    "references": [
+      { "book": "Opsomer D et al. Plast Reconstr Surg (LAP Flap for Breast Reconstruction)", "edition": "2018; 141(1):1–10", "chapter_or_section": "Lumbar Artery Perforator Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "omental-flap",
+    "name": "Greater Omental (Gastroepiploic) Visceral Flap",
+    "synonyms": ["Omental flap", "Greater omentum flap", "Gastroepiploic lymph node flap"],
+    "region": "Trunk (intra-abdominal greater omentum)",
+    "region_group": "Trunk",
+    "flap_type": ["Visceral", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Visceral vascularized adipose-lymphoid sheet", "perforator_type": null },
+    "tissue_components": ["Vascularized omental fat", "Rich lymphatic/immunologic tissue", "Gastroepiploic arcade", "STSG coverage"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Right gastroepiploic artery (dominant — larger caliber) and left gastroepiploic artery",
+        "artery_origin": "Gastroduodenal artery (right) / Splenic artery (left)",
+        "artery_diameter_mm": { "min": 1.8, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Right gastroepiploic vein (drains to superior mesenteric / gastrocolic trunk)",
+        "vein_diameter_mm": { "min": 2.5, "max": 4.0, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 12.0, "max": 25.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["Left gastroepiploic arcade"],
+      "perforators": [],
+      "angiosome": "Gastroepiploic visceral arcade (Barkow arcade)",
+      "venous_drainage_notes": "Preserving the main gastroepiploic arch and dividing short gastric branches allows dramatic pedicle lengthening.",
+      "vascular_variants": ["Right gastroepiploic artery is typically larger and preferred for pedicled sternal/pelvic or free transfer"]
+    },
+    "nerves": {
+      "motor": [],
+      "sensory": [],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Laparoscopic or upper midline laparotomy incisions."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": null, "width": null },
+      "thickness_notes": "Exceptionally malleable vascular-immunologic apron (~20 × 30 cm unfolded); conforms into deep sternal, mediastinal, skull base, or chronic osteomyelitis cavities.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Pylorus / right gastroepiploic origin (or splenic hilum for left)",
+      "reach_description": "Pedicled via diaphragmatic/subxiphoid tunnel to mediastinum, sternum, chest wall, breast, neck, or pelvis; free flap for scalp, extremity osteomyelitis, and vascularized lymph node transfer (VLNT).",
+      "reach_cm": { "min": 25.0, "max": 40.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Deep sternal wound infection / mediastinitis & infected vascular grafts (gold-standard salvage)", "Radionecrotic chest wall or pelvic cavity obliteration", "Vascularized lymph node transfer (VLNT) for lymphedema", "Large scalp / cranial osteomyelitis defects (+ STSG)"],
+    "contraindications": ["Prior total omentectomy or extensive gastrectomy dividing gastroepiploic arch", "Severe intra-abdominal carcinomatosis/adhesions"],
+    "advantages": ["Unmatched immunologic/angiogenic resistance in infected or irradiated beds", "Long reach and extreme malleability", "Laparoscopic harvest minimizes abdominal morbidity"],
+    "disadvantages": ["Requires peritoneal entry", "Requires STSG for surface coverage", "Risk of epigastric/diaphragmatic tunnel hernia"],
+    "donor_site": {
+      "closure": "Laparoscopic port closure or midline fascial closure leaving loose tunnel without strangulating pedicle.",
+      "morbidity": ["Epigastric incisional hernia", "Ileus", "Gastric outlet distortion (rare)"],
+      "functional_loss": "None."
+    },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Review prior abdominal surgical history", "Consider laparoscopic harvest to reduce hernia/ileus risk"],
+      "landmarks": ["Greater curvature of stomach", "Transverse colon (avascular plane)", "Right gastroepiploic origin at pylorus"],
+      "design": "Detach omentum from transverse colon along avascular plane, divide left gastroepiploic and short gastric branches while preserving right gastroepiploic arcade.",
+      "harvest_steps": [
+        "1. Enter abdomen (laparoscopically or via upper midline laparotomy) and inspect omental volume and arch.",
+        "2. Separate greater omentum off transverse colon in avascular plane.",
+        "3. Ligate left gastroepiploic vessels and serial gastric branches close to greater curvature to preserve Barkow arcade.",
+        "4. Deliver pedicled omentum through subxiphoid fascial tunnel (2–3 fingerbreadths) into mediastinum/chest without twist, or divide right gastroepiploic pedicle for free transfer."
+      ],
+      "pearls": ["Laparoscopic omental harvest avoids a full laparotomy while preserving full pedicle length for sternal or breast coverage."],
+      "pitfalls": ["Creating an overly tight subxiphoid fascial tunnel causes pedicle venous congestion; overly wide tunnel causes epigastric hernia."]
+    },
+    "recipient_vessels_options": ["Pedicled on right gastroepiploic artery", "Superficial temporal / facial / radial / tibial (free)"],
+    "complications": ["Epigastric hernia", "Ileus", "Partial distal omental fat necrosis", "Gastric injury"],
+    "alternatives": ["pec-major-flap", "vram-flap", "ld-flap", "alt-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["chest-sternum", "scalp", "groin-perineum", "breast", "abdomen-wall"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "2–3.5 h"
+    },
+    "spec3d": {
+      "regionId": "abdomen",
+      "side": "midline",
+      "paddleCenter": [0, 1.12, 0.085],
+      "paddleNormal": [0, 0, 1],
+      "paddleSize": [0.18, 0.14],
+      "pediclePath": [[-0.03, 1.19, 0.045], [-0.01, 1.16, 0.068], [0, 1.12, 0.085]],
+      "pivotPoint": [-0.03, 1.19, 0.045],
+      "arcRadius": 0.3,
+      "typicalRecipientPoint": [0, 1.35, 0.125],
+      "angiosomeColor": "#eab308"
+    },
+    "references": [
+      { "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Omental Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "external-oblique-flap",
+    "name": "External Oblique Musculofascial / Myocutaneous Flap",
+    "synonyms": ["External oblique advancement flap", "Component separation (Ramirez)", "EO myocutaneous flap"],
+    "region": "Trunk (anterolateral abdominal wall)",
+    "region_group": "Trunk",
+    "flap_type": ["Myocutaneous", "Musculofascial", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type IV (segmental lower 8 posterior intercostal arteries)", "cormack_lamberty": null, "perforator_type": "Musculocutaneous" },
+    "tissue_components": ["External oblique muscle & aponeurosis", "Optional overlying anterolateral abdominal skin"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Segmental posterior intercostal arteries (T5–T12) and deep circumflex iliac branches",
+        "artery_origin": "Thoracic aorta / external iliac artery",
+        "artery_diameter_mm": null,
+        "veins": "Segmental intercostal veins",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": ["Lumbar segmental branches"],
+      "perforators": [],
+      "angiosome": "Lateral intercostal abdominal wall angiosome",
+      "venous_drainage_notes": "Preserving lateral/posterior segmental intercostal entries allows wide medial and superior advancement.",
+      "vascular_variants": ["Release along linea semilunaris yields 5–10 cm per side of midline advancement in Ramirez components separation"]
+    },
+    "nerves": {
+      "motor": ["Lower thoracic intercostal nerves (T7–T12) — enter posteriorly; stay superficial to internal oblique"],
+      "sensory": ["Lateral cutaneous intercostal nerves"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Anterolateral abdominal sensory change."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 18.0, "max": 28.0, "unit": "cm", "confidence": "verify" },
+        "width": { "min": 10.0, "max": 16.0, "unit": "cm", "confidence": "verify" }
+      },
+      "thickness_notes": "Broad, durable musculofascial sheet providing dynamic innervated abdominal wall or lower chest wall coverage.",
+      "primary_closure_max_width_cm": { "min": 10.0, "max": 14.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Posterior/lateral segmental costal origin (midaxillary line)",
+      "reach_description": "Advances medially for complex ventral hernias (components separation) or rotates superiorly up to inframammary / lower chest wall (4th rib).",
+      "reach_cm": { "min": 12.0, "max": 20.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Complex midline ventral hernia repair (Ramirez anterior components separation)", "Large lower chest wall / mastectomy / chest-wall radionecrosis defects", "Upper abdominal wall full-thickness defects"],
+    "contraindications": ["Prior extensive lateral abdominal wall transection (e.g., chevron/subcostal + flank incisions dividing segmental supply)"],
+    "advantages": ["Restores dynamic, autologous abdominal wall continuity", "Huge surface area for chest wall salvage without microsurgery", "Preserves rectus abdominis"],
+    "disadvantages": ["Risk of lateral abdominal bulge if internal oblique/transversus abdominis is violated", "Skin undermining in open components separation increases seroma/wound breakdown"],
+    "donor_site": {
+      "closure": "Primary closure (perforator-sparing components separation reduces wound morbidity); mesh reinforcement if needed.",
+      "morbidity": ["Seroma", "Wound dehiscence", "Lateral bulge if internal oblique is injured"],
+      "functional_loss": "Minimal when internal oblique and transversus abdominis remain intact."
+    },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Review abdominal CT for prior ostomies, incisions, and fascial defect width", "Consider perforator-sparing tunnels to preserve periumbilical DIEA skin supply"],
+      "landmarks": ["Linea semilunaris (lateral border of rectus)", "Costal margin", "Iliac crest", "ASIS"],
+      "design": "Incise external oblique aponeurosis 1–2 cm lateral to linea semilunaris from costal margin to inguinal ligament.",
+      "harvest_steps": [
+        "1. Expose external oblique aponeurosis lateral to linea semilunaris (preserving periumbilical perforators if possible).",
+        "2. Incise external oblique aponeurosis longitudinally 1.5–2 cm lateral to rectus sheath.",
+        "3. Develop avascular plane between external oblique and internal oblique laterally to midaxillary line.",
+        "4. Advance musculofascial complex medially (or rotate composite myocutaneous flap superiorly onto chest wall)."
+      ],
+      "pearls": ["Staying 1.5–2 cm lateral to the linea semilunaris prevents inadvertent entry into the rectus sheath or injury to the neurovascular bundle on the surface of transversus abdominis."],
+      "pitfalls": ["Violating the internal oblique fascia creates a difficult-to-repair lateral Spigelian-type hernia."]
+    },
+    "recipient_vessels_options": ["Pedicled segmental musculofascial / myocutaneous flap"],
+    "complications": ["Seroma", "Lateral abdominal bulge", "Skin necrosis (if periumbilical perforators sacrificed)"],
+    "alternatives": ["vram-flap", "alt-flap", "ld-flap", "tfl-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["abdomen-wall", "chest-sternum"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": true,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "2–3 h"
+    },
+    "spec3d": {
+      "regionId": "abdomen",
+      "side": "right",
+      "paddleCenter": [-0.115, 1.09, 0.085],
+      "paddleNormal": [-0.72, 0, 0.69],
+      "paddleSize": [0.19, 0.11],
+      "pediclePath": [[-0.148, 1.15, 0.01], [-0.135, 1.12, 0.052], [-0.115, 1.09, 0.085]],
+      "pivotPoint": [-0.148, 1.14, 0.015],
+      "arcRadius": 0.18,
+      "typicalRecipientPoint": [-0.04, 1.24, 0.125],
+      "angiosomeColor": "#0891b2"
+    },
+    "references": [
+      { "book": "Mathes SJ, Nahai F. Reconstructive Surgery: Principles, Anatomy, & Technique", "edition": "1st ed.", "chapter_or_section": "External Oblique Flap & Abdominal Wall", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "paraspinous-flap",
+    "name": "Paraspinous Muscle Turnover / Advancement Flap",
+    "synonyms": ["Paraspinal muscle flap", "Erector spinae flap"],
+    "region": "Trunk (posterior midline thoracic & lumbar spine)",
+    "region_group": "Trunk",
+    "flap_type": ["Muscle", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": "Type IV (segmental posterior intercostal & lumbar medial/lateral branches)", "cormack_lamberty": null, "perforator_type": null },
+    "tissue_components": ["Bilateral erector spinae / paraspinous muscles", "Thoracolumbar fascia"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Segmental medial and lateral branches of posterior intercostal (thoracic) and lumbar arteries",
+        "artery_origin": "Descending thoracic & abdominal aorta",
+        "artery_diameter_mm": null,
+        "veins": "Segmental paravertebral venous plexus",
+        "vein_diameter_mm": null,
+        "pedicle_length_cm": null
+      },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Posterior segmental intercostal / lumbar angiosome",
+      "venous_drainage_notes": "Medial branches enter near transverse processes (preserved in medial advancement); lateral branches enter laterally (preserved in turnover/bipedicled advancement).",
+      "vascular_variants": ["Extensive spine hardware dissection often disrupts medial branches — rely on lateral segmental supply when mobilizing bilaterally"]
+    },
+    "nerves": {
+      "motor": ["Posterior primary rami of spinal nerves"],
+      "sensory": ["Posterior cutaneous rami"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Midline back hypoesthesia."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": null, "width": null },
+      "thickness_notes": "Thick, well-vascularized bilateral paravertebral muscle columns ideal for obliterating deep midline spine dead space over hardware.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Bipedicled medial advancement (lateral fascial release) or medial/lateral turnover",
+      "reach_description": "Covers exposed cervical, thoracic, and lumbar spinal hardware and dural repairs directly along the posterior midline.",
+      "reach_cm": { "min": 4.0, "max": 8.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": ["Prophylactic or salvage coverage of exposed thoracic/lumbar spinal instrumentation", "Post-laminectomy wound dehiscence and CSF leak reinforcement", "Irradiated spinal oncology defects"],
+    "contraindications": ["Severe muscle atrophy/destruction from massive tumor resection or infection", "Very wide (>8–10 cm) cutaneous defects requiring additional latissimus/trapezius/perforator flap"],
+    "advantages": ["Direct in-situ exposure through existing spine incision", "Preserves shoulder and extremity function", "High hardware-salvage rate in complex spine surgery"],
+    "disadvantages": ["Limited lateral reach (<6–8 cm width)", "High seroma risk without obliteration and prolonged drains"],
+    "donor_site": {
+      "closure": "Tension-free midline myofascial and skin closure over deep + subcutaneous drains.",
+      "morbidity": ["Seroma", "Wound dehiscence if skin closed under tension"],
+      "functional_loss": "Minimal postural impact beyond underlying spine fusion."
+    },
+    "technique": {
+      "patient_positioning": "Prone.",
+      "preoperative_planning": ["Determine whether medial pedicles were disrupted by spine exposure", "Have latissimus dorsi or trapezius ready as backup for large/irradiated defects"],
+      "landmarks": ["Spinous processes", "Transverse processes", "Lateral border of erector spinae", "Thoracolumbar fascia"],
+      "design": "Bilateral bipedicled paraspinous muscle advancement with longitudinal lateral fascial release.",
+      "harvest_steps": [
+        "1. Debride necrotic soft tissue and irrigate exposed spinal instrumentation thoroughly.",
+        "2. Elevate subcutaneous skin flaps laterally just beyond lateral border of paraspinous muscles.",
+        "3. Release thoracolumbar fascia longitudinally lateral to erector spinae and elevate muscle off ribs/transverse processes preserving lateral segmental pedicles.",
+        "4. Advance bilateral muscle columns medially over hardware and suture together in midline without tension over closed suction drains."
+      ],
+      "pearls": ["A bilateral longitudinal release of the lateral thoracolumbar fascia adds 3–5 cm of tension-free medial advancement over bulky pedicle screws."],
+      "pitfalls": ["Attempting to close tight irradiated midline skin directly over hardware without muscle interposition."]
+    },
+    "recipient_vessels_options": ["Pedicled segmental bilateral advancement"],
+    "complications": ["Seroma", "Recurrent dehiscence", "Persistent hardware infection"],
+    "alternatives": ["ld-flap", "trapezius-flap", "lap-flap", "gluteal-rotation-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["sacrum-ischium", "neck"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "1–2 h"
+    },
+    "spec3d": {
+      "regionId": "back",
+      "side": "midline",
+      "paddleCenter": [0, 1.15, -0.118],
+      "paddleNormal": [0, 0, -1],
+      "paddleSize": [0.22, 0.085],
+      "pediclePath": [[-0.055, 1.20, -0.095], [-0.032, 1.16, -0.11], [0, 1.15, -0.118]],
+      "pivotPoint": [-0.045, 1.15, -0.105],
+      "arcRadius": 0.07,
+      "typicalRecipientPoint": [0, 1.15, -0.12],
+      "angiosomeColor": "#4f46e5"
+    },
+    "references": [
+      { "book": "Mericli AF et al. Plast Reconstr Surg (Complex Spine Reconstruction)", "edition": "2019; 143(2):596–607", "chapter_or_section": "Paraspinous Muscle Flaps", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "Remix FlapAtlas 3D ",
+  "description": "Master your creative workflow with expert-guided prompts tailored to boost your AI generation results effortlessly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

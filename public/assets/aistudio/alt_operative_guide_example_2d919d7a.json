@@ -1,0 +1,471 @@
+{
+ "flapId": "ALT (anterolateral thigh)",
+ "contentBasis": "model_knowledge_summary",
+ "verificationStatus": "needs_review",
+ "refs": [
+  {
+   "book": "Blondeel PN, Morris SF, Hallock GG, Neligan PC. Perforator Flaps: Anatomy, Technique and Clinical Applications, 3rd ed.",
+   "locator": "ALT perforator flap chapter",
+   "pageVerified": false
+  },
+  {
+   "book": "Strauch B, et al. Grabb's Encyclopedia of Flaps, 4th ed.",
+   "locator": "Anterolateral thigh flap entry",
+   "pageVerified": false
+  },
+  {
+   "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique and Clinical Applications",
+   "locator": "Anterolateral thigh flap chapter",
+   "pageVerified": false
+  },
+  {
+   "book": "Neligan PC, Plastic Surgery Vol 1",
+   "locator": "Ch. 23 Vascular territories (LCFAP-vl nomenclature, p. 342)",
+   "pageVerified": true
+  }
+ ],
+ "overview": "Free or pedicled fasciocutaneous / musculocutaneous perforator flap from the anterolateral thigh based on perforators of the descending branch of the lateral circumflex femoral artery (LCFAP-vl nomenclature when the perforator passes through vastus lateralis).",
+ "preop": [
+  "Confirm the recipient defect, recipient vessels and the required pedicle length and skin/fat thickness.",
+  "Mark the line from the anterior superior iliac spine to the superolateral border of the patella; the rectus femoris–vastus lateralis septum lies close to this line.",
+  "Locate perforators with a handheld Doppler (and CT angiography when available); mark them on the skin. Reported clustering around the midpoint of the line, mostly lower-lateral quadrant (verify).",
+  "Look for prior thigh trauma or surgery, and vascular disease or radiation that may affect the pedicle."
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "phase": "Marking",
+   "title": "Position and design the paddle",
+   "actions": [
+    "Supine, thigh slightly internally rotated, hip and knee neutral.",
+    "Design the skin paddle with its long axis along the ASIS–patella line, centred on the best Doppler perforator, allowing for the pedicle's route to the recipient site."
+   ],
+   "structuresAtRisk": [
+    "Lateral femoral cutaneous nerve (subcutaneous, lateral thigh)"
+   ],
+   "pearls": [
+    "Mark both medial and lateral incision lines and keep the planned paddle width consistent with donor-site closure."
+   ],
+   "warnings": [
+    {
+     "text": "Do not centre the paddle away from the perforator you marked.",
+     "severity": "major",
+     "why": "A paddle that extends too far beyond the perforator's territory may become ischaemic at the margins."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "skin"
+    ],
+    "highlight": [
+     "anterior superior iliac spine",
+     "patella"
+    ],
+    "hide": []
+   }
+  },
+  {
+   "n": 2,
+   "phase": "Exposure",
+   "title": "Medial incision and subfascial approach",
+   "actions": [
+    "Incise the medial edge through skin and subcutaneous fat to the fascia lata.",
+    "Incise the fascia and dissect in the subfascial plane laterally over rectus femoris toward the rectus femoris–vastus lateralis septum.",
+    "Identify the perforators: septocutaneous (in the septum) or musculocutaneous (emerging through vastus lateralis)."
+   ],
+   "structuresAtRisk": [
+    "Rectus femoris",
+    "Vastus lateralis",
+    "Perforators",
+    "Descending branch of the lateral circumflex femoral artery"
+   ],
+   "pearls": [
+    "Confirming a suitable perforator through the medial approach before cutting the lateral edge lets you change the plan."
+   ],
+   "warnings": [
+    {
+     "text": "Keep the fascia attached to the flap around the perforator.",
+     "severity": "major",
+     "why": "The perforator and its small branches travel with the fascia; stripping it can injure them."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "skin",
+     "muscles"
+    ],
+    "highlight": [
+     "rectus femoris",
+     "vastus lateralis"
+    ],
+    "hide": [
+     "tensor fasciae latae"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "phase": "Perforator",
+   "title": "Select the perforator(s)",
+   "actions": [
+    "Choose the perforator with good caliber and pulsation closest to the paddle centre.",
+    "Include a second perforator for a large paddle or when the first is small.",
+    "If no usable perforator is found, consider an alternative donor (for example anteromedial thigh) before proceeding."
+   ],
+   "structuresAtRisk": [
+    "Perforators"
+   ],
+   "pearls": [
+    "Septocutaneous perforators are short to dissect; musculocutaneous ones need an intramuscular dissection."
+   ],
+   "warnings": [
+    {
+     "text": "Do not take a paddle larger than the selected perforator can reliably perfuse.",
+     "severity": "critical",
+     "why": "Distal paddle necrosis follows capturing territory beyond the perforasome without delay."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "skin",
+     "muscles",
+     "arteries"
+    ],
+    "highlight": [
+     "descending branch of lateral circumflex femoral artery"
+    ],
+    "hide": []
+   }
+  },
+  {
+   "n": 4,
+   "phase": "Pedicle",
+   "title": "Intramuscular dissection (musculocutaneous perforator)",
+   "actions": [
+    "Split the vastus lateralis fibres along the perforator's course.",
+    "Clip or coagulate muscular side branches with bipolar; keep both venae comitantes with the artery.",
+    "Preserve motor nerve branches to vastus lateralis."
+   ],
+   "structuresAtRisk": [
+    "Nerve to vastus lateralis",
+    "Vastus lateralis",
+    "Venae comitantes"
+   ],
+   "pearls": [
+    "Work from the perforator toward the pedicle, keeping the dissection plane close to the pedicle."
+   ],
+   "warnings": [
+    {
+     "text": "Avoid traction, twisting and monopolar diathermy near the pedicle.",
+     "severity": "critical",
+     "why": "Perforators are thin-walled; traction or heat causes spasm, intimal injury or thrombosis."
+    },
+    {
+     "text": "Do not divide the motor nerve branches to vastus lateralis.",
+     "severity": "major",
+     "why": "Loss of function and avoidable donor-site morbidity."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "muscles",
+     "arteries",
+     "veins"
+    ],
+    "highlight": [
+     "vastus lateralis",
+     "descending branch of lateral circumflex femoral artery"
+    ],
+    "hide": [
+     "skin"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "phase": "Pedicle",
+   "title": "Follow the descending branch proximally",
+   "actions": [
+    "Follow the perforator to the descending branch of the lateral circumflex femoral artery in the septum between rectus femoris and vastus lateralis.",
+    "Divide small branches; dissect proximally for the length required, up to the origin of the lateral circumflex femoral artery if needed.",
+    "Free the nerve to vastus lateralis from the pedicle and preserve it."
+   ],
+   "structuresAtRisk": [
+    "Descending branch of LCFA",
+    "Lateral circumflex femoral artery",
+    "Nerve to vastus lateralis",
+    "Rectus femoris branches"
+   ],
+   "pearls": [
+    "Pedicle length and calibre improve toward the LCFA origin; the artery of the descending branch is usually accompanied by two veins."
+   ],
+   "warnings": [
+    {
+     "text": "Check the pedicle for kinks and for any tethering branch before dividing it.",
+     "severity": "major",
+     "why": "A tethered or kinked pedicle becomes obstructed after inset."
+    }
+   ],
+   "view": {
+    "camera": "anterior-thigh",
+    "layers": [
+     "muscles",
+     "arteries"
+    ],
+    "highlight": [
+     "lateral circumflex femoral artery",
+     "descending branch of lateral circumflex femoral artery",
+     "rectus femoris"
+    ],
+    "hide": [
+     "skin"
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "phase": "Elevation",
+   "title": "Lateral incision and flap elevation",
+   "actions": [
+    "Incise the lateral edge through the fascia lata.",
+    "Elevate the flap in the subfascial plane from lateral to medial toward the perforator, leaving only the pedicle attached.",
+    "Thin the flap only away from the perforator, as planned."
+   ],
+   "structuresAtRisk": [
+    "Lateral femoral cutaneous nerve",
+    "Perforator"
+   ],
+   "pearls": [
+    "Mark the flap orientation before division so the inset is not reversed."
+   ],
+   "warnings": [
+    {
+     "text": "Do not thin fat directly around the perforator.",
+     "severity": "major",
+     "why": "Fat lobules near the perforator carry its branches into the subdermal plexus."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "skin"
+    ],
+    "highlight": [],
+    "hide": []
+   }
+  },
+  {
+   "n": 7,
+   "phase": "Harvest",
+   "title": "Perfusion check and pedicle division",
+   "actions": [
+    "Confirm bleeding and colour of the flap edges; use fluorescence angiography if available.",
+    "Divide the pedicle only after the recipient site and vessels are ready, to keep ischaemia time short."
+   ],
+   "structuresAtRisk": [
+    "Pedicle"
+   ],
+   "pearls": [],
+   "warnings": [
+    {
+     "text": "Do not clamp or divide the pedicle until the recipient site is ready.",
+     "severity": "major",
+     "why": "Unnecessary ischaemia time raises the risk of no-reflow."
+    }
+   ],
+   "view": {
+    "camera": "anterior-thigh",
+    "layers": [
+     "arteries",
+     "veins"
+    ],
+    "highlight": [
+     "descending branch of lateral circumflex femoral artery"
+    ],
+    "hide": [
+     "skin"
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "phase": "Donor site",
+   "title": "Close the donor site",
+   "actions": [
+    "Close the fascia lata only if this can be done without tension.",
+    "Close the skin primarily if the width allows; otherwise use a split-thickness skin graft over the muscle.",
+    "Place a drain and a non-compressive dressing."
+   ],
+   "structuresAtRisk": [
+    "Rectus femoris",
+    "Vastus lateralis"
+   ],
+   "pearls": [
+    "Primary-closure width limit varies; use a reference value flagged 'verify' (about 8–9 cm quoted in the literature)."
+   ],
+   "warnings": [
+    {
+     "text": "Avoid tight closure.",
+     "severity": "major",
+     "why": "Tension risks wound breakdown and thigh compartment pressure."
+    }
+   ],
+   "view": {
+    "camera": "anterolateral-thigh",
+    "layers": [
+     "skin",
+     "muscles"
+    ],
+    "highlight": [],
+    "hide": []
+   }
+  },
+  {
+   "n": 9,
+   "phase": "Inset",
+   "title": "Inset and anastomosis",
+   "actions": [
+    "Orient the pedicle without kink or twist; anastomose the artery and both veins when possible.",
+    "Inset the flap without tension and place the skin paddle so that it can be monitored."
+   ],
+   "structuresAtRisk": [
+    "Pedicle",
+    "Recipient vessels"
+   ],
+   "pearls": [
+    "Support the pedicle where it crosses mobile tissue."
+   ],
+   "warnings": [
+    {
+     "text": "Never inset with tension or leave the pedicle compressed by a tight tunnel.",
+     "severity": "critical",
+     "why": "External compression of the pedicle is a common cause of venous congestion and flap loss."
+    }
+   ],
+   "view": {
+    "camera": "recipient",
+    "layers": [
+     "skin"
+    ],
+    "highlight": [],
+    "hide": []
+   }
+  }
+ ],
+ "adjacent": {
+  "perforator": [
+   {
+    "structure": "Rectus femoris",
+    "relation": "Medial boundary of the septum",
+    "risk": "Branches to rectus femoris arise from the descending branch"
+   },
+   {
+    "structure": "Vastus lateralis",
+    "relation": "Lateral boundary; musculocutaneous perforators pass through it",
+    "risk": "Motor nerve injury; bleeding from muscular branches"
+   },
+   {
+    "structure": "Nerve to vastus lateralis",
+    "relation": "Runs with the descending branch",
+    "risk": "Denervation of vastus lateralis if divided"
+   },
+   {
+    "structure": "Descending branch of lateral circumflex femoral artery",
+    "relation": "The source of the perforators; in the septum",
+    "risk": "Injury or traction compromises the flap"
+   },
+   {
+    "structure": "Lateral femoral cutaneous nerve",
+    "relation": "In the subcutaneous plane of the lateral thigh",
+    "risk": "Numbness of the lateral thigh"
+   }
+  ],
+  "flap": [
+   {
+    "structure": "Tensor fasciae latae",
+    "relation": "Proximal-lateral to the flap",
+    "risk": "Avoid its ascending pedicle"
+   },
+   {
+    "structure": "Fascia lata / iliotibial tract",
+    "relation": "Deep boundary of the flap",
+    "risk": "Closure tension"
+   }
+  ]
+ },
+ "avoidNecrosis": [
+  {
+   "stage": "Planning",
+   "rule": "Use a perforator you have confirmed by Doppler, CT angiography or direct vision",
+   "rationale": "Reliable flap survival depends on the individual perforator and its connections with neighbouring perforators (Neligan Ch. 23)",
+   "severity": "critical"
+  },
+  {
+   "stage": "Planning",
+   "rule": "Keep the paddle within the perforator's reliable territory",
+   "rationale": "Survival length depends on dominant vessel caliber, connecting choke vessels and venous return (Neligan Ch. 23)",
+   "severity": "critical"
+  },
+  {
+   "stage": "Dissection",
+   "rule": "Keep the perforator and pedicle free of traction, twisting and heat",
+   "rationale": "Mechanical or thermal injury causes spasm or thrombosis",
+   "severity": "critical"
+  },
+  {
+   "stage": "Dissection",
+   "rule": "Preserve both venae comitantes where feasible",
+   "rationale": "A single vein can fail to drain the flap",
+   "severity": "major"
+  },
+  {
+   "stage": "Pedicle",
+   "rule": "Check for kinks before division",
+   "rationale": "A kinked pedicle obstructs inflow or outflow",
+   "severity": "major"
+  },
+  {
+   "stage": "Inset",
+   "rule": "Avoid pedicle compression by tight closure or tunnel",
+   "rationale": "Venous congestion is a common cause of flap failure",
+   "severity": "critical"
+  },
+  {
+   "stage": "Postoperative",
+   "rule": "Monitor colour, capillary refill, temperature, turgor and Doppler signal at intervals set by your unit protocol",
+   "rationale": "Early detection of a vascular problem allows salvage",
+   "severity": "critical"
+  },
+  {
+   "stage": "Patient",
+   "rule": "Account for smoking, diabetes, vasculopathy and prior radiation",
+   "rationale": "These factors raise the risk of vascular compromise",
+   "severity": "major"
+  }
+ ],
+ "monitoring": [
+  "Colour and capillary refill",
+  "Temperature and turgor",
+  "Handheld Doppler or implantable Doppler per unit protocol",
+  "Pinprick bleeding if concern arises"
+ ],
+ "salvage": [
+  "Return to theatre promptly if congestion or ischaemia is suspected; check the pedicle for kink, compression and hematoma, then revise the anastomosis as needed."
+ ],
+ "numbers": [
+  {
+   "label": "Perforator clustering",
+   "value": "midpoint of the ASIS–patella line, mostly lower-lateral quadrant",
+   "verify": true
+  },
+  {
+   "label": "Primary donor closure width",
+   "value": "about 8–9 cm",
+   "verify": true
+  }
+ ]
+}

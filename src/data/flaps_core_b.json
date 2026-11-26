@@ -1,0 +1,875 @@
+[
+  {
+    "id": "fibula-flap",
+    "name": "Free Fibula Osteocutaneous Flap",
+    "synonyms": ["Fibula free flap", "Vascularized fibula", "Peroneal osteocutaneous flap"],
+    "region": "Lower extremity (lateral leg / fibula)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Osteocutaneous", "Osseous", "Free"],
+    "classification": {
+      "mathes_nahai": null,
+      "cormack_lamberty": "Type D (osteomyofasciocutaneous extension via posterior crural septum)",
+      "perforator_type": "Septocutaneous (posterior crural septum)"
+    },
+    "tissue_components": ["Fibula cortical bone (up to 22–25 cm)", "Lateral leg skin paddle", "Flexor hallucis longus cuff (optional)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Peroneal (fibular) artery",
+        "artery_origin": "Tibioperoneal trunk",
+        "artery_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Paired venae comitantes of peroneal artery",
+        "vein_diameter_mm": { "min": 2.5, "max": 4.0, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 4.0, "max": 8.0, "unit": "cm", "confidence": "moderate", "note": "Lengthened up to 12 cm by discarding proximal bone" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        {
+          "label": "Distal Posterior Crural Septal Perforator",
+          "type": "Septocutaneous",
+          "location": "Junction of middle and distal thirds of fibula along posterior border",
+          "relation_to_landmarks": "Courses in posterior crural septum between soleus and peroneus longus",
+          "typical_count": "1–3",
+          "caliber_mm": { "min": 0.6, "max": 1.2, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.145, 0.25, -0.015]
+        }
+      ],
+      "angiosome": "Peroneal artery angiosome",
+      "venous_drainage_notes": "Dual endosteal (nutrient artery) and segmental periosteal blood supply enables multiple closing-wedge osteotomies.",
+      "vascular_variants": ["Peronea arteria magna (~1–5%): single-vessel foot supply — ABSOLUTE CONTRAINDICATION; preoperative CTA/MRA mandatory"]
+    },
+    "nerves": {
+      "motor": ["Common peroneal nerve wraps around fibular neck — leave ≥6–8 cm proximal fibula"],
+      "sensory": ["Sural nerve posteriorly; superficial peroneal nerve anteriorly"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Mild lateral leg hypoesthesia; avoid peroneal nerve palsy."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 14.0, "max": 24.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Up to 22–25 cm dense bicortical bone suitable for dental implants; preserve ≥6–8 cm proximal and distal fibula.",
+      "primary_closure_max_width_cm": { "min": 4.0, "max": 6.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Free microvascular transfer",
+      "reach_description": "Transferred as a free osteocutaneous flap to mandible, maxilla, or long-bone defects.",
+      "reach_cm": null
+    },
+    "indications": [
+      "Gold standard for segmental mandibular reconstruction (>6 cm or anterior symphysis)",
+      "Maxillary / midface composite osseous reconstruction",
+      "Long-bone intercalary defects (tumor resection, osteomyelitis, pseudarthrosis)"
+    ],
+    "contraindications": [
+      "Peronea arteria magna or severe two-vessel tibial occlusive disease on CTA/MRA",
+      "Deep venous insufficiency or severe prior lower leg trauma"
+    ],
+    "advantages": [
+      "Longest available vascularized cortical bone (22–25 cm) supporting osseointegrated dental implants",
+      "Segmental periosteal blood supply permits multiple osteotomies",
+      "Two-team simultaneous harvest"
+    ],
+    "disadvantages": [
+      "Mandatory preoperative CTA/MRA",
+      "Risk of ankle instability if <6–8 cm distal fibula remains; STSG often required if paddle >4–5 cm"
+    ],
+    "donor_site": {
+      "closure": "Primary closure if ≤4–5 cm (never under tension — compartment syndrome risk); otherwise STSG.",
+      "morbidity": ["Great toe flexion contracture (FHL)", "Ankle valgus if distal remnant too short", "Lateral leg graft scar"],
+      "functional_loss": "Minimal adult gait disturbance when 6–8 cm proximal and distal bone preserved."
+    },
+    "technique": {
+      "patient_positioning": "Supine with hip/knee flexed and bump under ipsilateral buttock under tourniquet.",
+      "preoperative_planning": ["Bilateral lower-extremity CTA/MRA (mandatory)", "Virtual surgical planning (VSP) cutting guides", "Handheld Doppler along posterior fibular border"],
+      "landmarks": ["Fibular head", "Lateral malleolus", "Posterior crural septum"],
+      "design": "Draw fibular head–lateral malleolus line; mark 6–8 cm proximal/distal safety zones; center paddle over junction of middle and distal thirds.",
+      "harvest_steps": [
+        "1. Incise anterior margin subfascially to expose posterior crural septum and septocutaneous perforators.",
+        "2. Detach peroneus muscles leaving 1–2 mm periosteal cuff and enter anterior compartment.",
+        "3. Perform proximal and distal osteotomies leaving ≥6–8 cm at both ends.",
+        "4. Divide interosseous membrane and ligate distal peroneal vessels.",
+        "5. Dissect tibialis posterior and FHL off posterior bone while protecting medial peroneal pedicle.",
+        "6. Complete VSP osteotomies on perfused leg, then divide proximal peroneal pedicle."
+      ],
+      "pearls": [
+        "Discard proximal excess bone subperiosteally to lengthen pedicle by 4–6 cm.",
+        "Never close lateral leg skin tightly — skin-graft generously to prevent compartment syndrome."
+      ],
+      "pitfalls": ["Failing to rule out peronea arteria magna on preoperative CTA/MRA."]
+    },
+    "recipient_vessels_options": ["Facial / superior thyroid artery", "Internal jugular vein (end-to-side) / facial vein"],
+    "complications": ["Skin paddle loss", "Plate exposure / nonunion", "Compartment syndrome", "Peroneal nerve neuropraxia"],
+    "alternatives": ["dcia-flap", "scapular-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["mandible", "oral-cavity", "leg-middle", "leg-distal-ankle", "forearm-elbow"],
+      "provides_bone": true,
+      "provides_muscle": true,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": false,
+      "free_capable": true,
+      "chimeric_capable": true,
+      "technical_difficulty": "High",
+      "typical_or_time": "6–9 h"
+    },
+    "spec3d": {
+      "regionId": "lower-limb-ant",
+      "side": "right",
+      "paddleCenter": [-0.148, 0.27, -0.01],
+      "paddleNormal": [-0.95, 0, -0.3],
+      "paddleSize": [0.16, 0.06],
+      "pediclePath": [[-0.12, 0.43, -0.025], [-0.132, 0.32, -0.025], [-0.132, 0.18, -0.018]],
+      "nervePath": [[-0.148, 0.45, -0.01], [-0.152, 0.41, 0.015]],
+      "pivotPoint": [-0.12, 0.43, -0.025],
+      "arcRadius": 0.16,
+      "typicalRecipientPoint": [0.035, 1.55, 0.075],
+      "angiosomeColor": "#eab308"
+    },
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Free Fibula Osteocutaneous Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "pap-flap",
+    "name": "Profunda Artery Perforator (PAP) Flap",
+    "synonyms": ["PAP flap", "Posterior thigh profunda perforator flap"],
+    "region": "Lower extremity (proximal posterior thigh)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Perforator", "Fasciocutaneous", "Free"],
+    "classification": {
+      "mathes_nahai": null,
+      "cormack_lamberty": null,
+      "perforator_type": "Musculocutaneous (through adductor magnus) or Septocutaneous"
+    },
+    "tissue_components": ["Skin", "Subcutaneous fat (posterior/posteromedial thigh)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "1st–3rd perforators of profunda femoris artery",
+        "artery_origin": "Profunda femoris artery",
+        "artery_diameter_mm": { "min": 1.5, "max": 2.2, "unit": "mm", "confidence": "moderate" },
+        "veins": "Paired venae comitantes of profunda perforator",
+        "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 8.0, "max": 13.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        {
+          "label": "Dominant Posterior Thigh Perforator",
+          "type": "Musculocutaneous",
+          "location": "3–6 cm inferior to gluteal crease, posterior to gracilis",
+          "relation_to_landmarks": "Emerges through adductor magnus medial to hamstrings",
+          "typical_count": "1–2",
+          "caliber_mm": { "min": 1.0, "max": 1.8, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.095, 0.78, -0.098]
+        }
+      ],
+      "angiosome": "Profunda femoris posterior thigh angiosome",
+      "venous_drainage_notes": "Good-caliber paired venae comitantes; avoids medial groin lymphatics.",
+      "vascular_variants": ["Variable dominant perforator location — MRA/CTA strongly recommended"]
+    },
+    "nerves": {
+      "motor": [],
+      "sensory": ["Posterior femoral cutaneous nerve (preserve to avoid sitting dysesthesia)"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Posterior thigh hypoesthesia possible."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 22.0, "max": 28.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Provides ~250–450 g soft fat per side; can be stacked bilaterally.",
+      "primary_closure_max_width_cm": { "min": 6.0, "max": 7.5, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Free microvascular transfer",
+      "reach_description": "Primary secondary autologous breast reconstruction flap when abdomen is unavailable.",
+      "reach_cm": null
+    },
+    "indications": [
+      "Autologous breast reconstruction when abdominal donor site is unavailable",
+      "Stacked bilateral PAP flaps for unilateral breast volume"
+    ],
+    "contraindications": ["Prior extensive posterior thigh liposuction", "Insufficient posterior thigh volume"],
+    "advantages": [
+      "Preserves gracilis muscle and spares inguinal lymphatics (minimal lymphedema risk)",
+      "Longer pedicle (8–13 cm) than TUG or SGAP; well-concealed gluteal crease scar"
+    ],
+    "disadvantages": ["Moderate volume vs DIEP", "Gluteal fold wound dehiscence risk (~10–15%)"],
+    "donor_site": {
+      "closure": "Layered primary closure 1 cm below inferior gluteal crease.",
+      "morbidity": ["Wound dehiscence", "Sitting tightness", "Posterior thigh numbness"],
+      "functional_loss": "None."
+    },
+    "technique": {
+      "patient_positioning": "Supine frog-leg (two-team breast surgery) or prone.",
+      "preoperative_planning": ["MRA or CTA to localize dominant profunda perforator", "Handheld Doppler"],
+      "landmarks": ["Inferior gluteal crease", "Posterior border of gracilis", "Ischial tuberosity"],
+      "design": "Transverse crescentic ellipse 1 cm below gluteal crease; vertical height ≤6–7 cm.",
+      "harvest_steps": [
+        "1. Incise anterior border over gracilis and expose adductor magnus fascia.",
+        "2. Dissect posteriorly to identify dominant profunda perforator.",
+        "3. Split adductor magnus fibers along perforator to profunda femoris vessels.",
+        "4. Bevel inferior subcutaneous fat carefully without flattening buttock.",
+        "5. Transfer to internal mammary vessels and close crease in layers."
+      ],
+      "pearls": ["Keep superior incision 1 cm below gluteal fold to prevent scar migration."],
+      "pitfalls": ["Designing vertical height >7–8 cm causing painful dehiscence."]
+    },
+    "recipient_vessels_options": ["Internal mammary vessels (preferred)", "Thoracodorsal vessels"],
+    "complications": ["Donor wound dehiscence", "Seroma", "Posterior thigh paresthesia"],
+    "alternatives": ["diep-flap", "tug-flap", "sgap-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": {
+      "defect_locations": ["breast", "sacrum-ischium"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": false,
+      "pedicled_capable": false,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "High",
+      "typical_or_time": "5–7 h"
+    },
+    "spec3d": {
+      "regionId": "lower-limb-post",
+      "side": "right",
+      "paddleCenter": [-0.095, 0.78, -0.098],
+      "paddleNormal": [-0.25, 0, -0.96],
+      "paddleSize": [0.16, 0.06],
+      "pediclePath": [[-0.085, 0.84, -0.03], [-0.09, 0.80, -0.07], [-0.095, 0.78, -0.095]],
+      "pivotPoint": [-0.085, 0.84, -0.03],
+      "arcRadius": 0.14,
+      "typicalRecipientPoint": [-0.075, 1.28, 0.132],
+      "angiosomeColor": "#ec4899"
+    },
+    "references": [
+      { "book": "Blondeel PN et al. Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "PAP Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "sgap-flap",
+    "name": "Superior Gluteal Artery Perforator (SGAP) Flap",
+    "synonyms": ["SGAP", "Superior gluteal perforator flap"],
+    "region": "Trunk / Pelvis (upper gluteal region)",
+    "region_group": "Trunk",
+    "flap_type": ["Perforator", "Fasciocutaneous", "Free", "Pedicled (regional)"],
+    "classification": {
+      "mathes_nahai": null,
+      "cormack_lamberty": null,
+      "perforator_type": "Musculocutaneous (through gluteus maximus)"
+    },
+    "tissue_components": ["Skin", "Dense gluteal subcutaneous fat"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Superior gluteal artery (SGA) perforator",
+        "artery_origin": "Posterior division of internal iliac artery",
+        "artery_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "verify" },
+        "veins": "Superior gluteal venae comitantes",
+        "vein_diameter_mm": { "min": 2.5, "max": 4.0, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        {
+          "label": "SGA Emergence Zone",
+          "type": "Musculocutaneous",
+          "location": "Junction of medial and middle thirds of line from PSIS to greater trochanter",
+          "relation_to_landmarks": "Courses obliquely through gluteus maximus superior to piriformis",
+          "typical_count": "2–4 perforators",
+          "caliber_mm": { "min": 1.0, "max": 1.5, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.088, 0.93, -0.118]
+        }
+      ],
+      "angiosome": "Superior gluteal artery angiosome",
+      "venous_drainage_notes": "Thin-walled gluteal veins near piriformis require meticulous clipping.",
+      "vascular_variants": ["Gluteus maximus thickness influences harvest depth and pedicle length"]
+    },
+    "nerves": {
+      "motor": ["Superior gluteal nerve (deep — preserve)"],
+      "sensory": ["Superior cluneal nerves"],
+      "can_be_sensate": true,
+      "donor_numbness_note": "Upper buttock numbness common."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 20.0, "max": 28.0, "unit": "cm", "confidence": "verify" },
+        "width": { "min": 8.0, "max": 11.0, "unit": "cm", "confidence": "verify" }
+      },
+      "thickness_notes": "Firm, dense gluteal adipose tissue provides strong projection.",
+      "primary_closure_max_width_cm": { "min": 8.0, "max": 10.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Superior gluteal perforator emergence",
+      "reach_description": "Pedicled V-Y/propeller covers sacral pressure injuries; free flap reconstructs breast.",
+      "reach_cm": { "min": 10.0, "max": 16.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": [
+      "Stage IV sacral pressure injury reconstruction (pedicled muscle-sparing)",
+      "Alternative autologous breast reconstruction when abdomen and thighs are unavailable"
+    ],
+    "contraindications": ["Prior gluteal liposuction or radiation violating SGA perforators"],
+    "advantages": [
+      "Preserves gluteus maximus muscle (essential in ambulatory sacral wound patients)",
+      "Available even in slender patients lacking abdominal tissue"
+    ],
+    "disadvantages": ["Deep intramuscular dissection through thick gluteus maximus", "Requires position change for breast"],
+    "donor_site": {
+      "closure": "Layered primary closure over drain.",
+      "morbidity": ["Buttock contour asymmetry", "Seroma", "Upper gluteal numbness"],
+      "functional_loss": "None when muscle is preserved."
+    },
+    "technique": {
+      "patient_positioning": "Prone (sacrum) or lateral decubitus (breast).",
+      "preoperative_planning": ["CTA of gluteal vasculature", "Handheld Doppler along PSIS–greater trochanter line"],
+      "landmarks": ["PSIS", "Greater trochanter", "Piriformis superior border"],
+      "design": "Oblique ellipse over lateral-most strong SGA perforator for maximum pedicle length.",
+      "harvest_steps": [
+        "1. Elevate suprafascially from lateral to medial over gluteus maximus.",
+        "2. Select a large lateral perforator for maximal pedicle length.",
+        "3. Split gluteus maximus fibers longitudinally down to sacral fascia.",
+        "4. Control deep venous tributaries carefully.",
+        "5. Advance pedicled island into sacral defect, or divide for free transfer."
+      ],
+      "pearls": ["Leaves inferior gluteal territory intact for future sacral recurrence."],
+      "pitfalls": ["Deep venous avulsion within thick gluteus maximus."]
+    },
+    "recipient_vessels_options": ["Internal mammary vessels (breast)", "Pedicled perforator (sacrum)"],
+    "complications": ["Seroma", "Buttock asymmetry", "Pedicle kinking"],
+    "alternatives": ["diep-flap", "pap-flap", "gluteal-rotation-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["breast", "sacrum-ischium"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "High",
+      "typical_or_time": "4–7 h"
+    },
+    "spec3d": {
+      "regionId": "back",
+      "side": "right",
+      "paddleCenter": [-0.09, 0.93, -0.12],
+      "paddleNormal": [-0.3, 0, -0.95],
+      "paddleSize": [0.18, 0.08],
+      "pediclePath": [[-0.052, 0.94, -0.045], [-0.075, 0.935, -0.09], [-0.088, 0.93, -0.118]],
+      "pivotPoint": [-0.068, 0.935, -0.085],
+      "arcRadius": 0.15,
+      "typicalRecipientPoint": [0, 0.94, -0.115],
+      "angiosomeColor": "#f43f5e"
+    },
+    "references": [
+      { "book": "Blondeel PN et al. Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "SGAP Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "gastrocnemius-flap",
+    "name": "Gastrocnemius Muscle Flap (Medial & Lateral Heads)",
+    "synonyms": ["Medial gastrocnemius flap", "Lateral gastrocnemius flap", "Gastroc flap"],
+    "region": "Lower extremity (proximal posterior leg)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Muscle", "Myocutaneous", "Pedicled (regional)"],
+    "classification": {
+      "mathes_nahai": "Type I (single dominant sural pedicle per head)",
+      "cormack_lamberty": null,
+      "perforator_type": "Musculocutaneous (if skin included)"
+    },
+    "tissue_components": ["Medial or lateral gastrocnemius muscle head", "STSG over muscle"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Medial sural artery (medial head) or Lateral sural artery (lateral head)",
+        "artery_origin": "Popliteal artery at knee joint level",
+        "artery_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "moderate" },
+        "veins": "Paired medial or lateral sural venae comitantes",
+        "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 3.0, "max": 5.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        {
+          "label": "Medial Sural Hilum",
+          "type": "Musculocutaneous",
+          "location": "2–4 cm below popliteal crease on deep surface of medial head",
+          "relation_to_landmarks": "Proximal entry allows wide anterior sweep across knee and proximal tibia",
+          "typical_count": "1 dominant pedicle per head",
+          "caliber_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "moderate" },
+          "position3d": [-0.088, 0.44, -0.068]
+        }
+      ],
+      "angiosome": "Sural artery angiosome",
+      "venous_drainage_notes": "Medial head is larger and reaches farther anteriorly than lateral head.",
+      "vascular_variants": ["Rare common sural trunk from popliteal artery"]
+    },
+    "nerves": {
+      "motor": ["Tibial nerve branches to gastrocnemius"],
+      "sensory": ["Sural nerve (midline raphe — protect)", "Common peroneal nerve (fibular neck — protect with lateral head)"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Protect sural nerve in midline raphe."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 15.0, "max": 22.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Grid-scoring the deep epimysium adds 2–3 cm reach and extra width.",
+      "primary_closure_max_width_cm": { "min": 5.0, "max": 7.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Popliteal fossa (sural pedicle entry)",
+      "reach_description": "Workhorse for anterior knee, exposed total knee arthroplasty (TKA) prosthesis, patellar tendon, and proximal third of tibia.",
+      "reach_cm": { "min": 14.0, "max": 20.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "indications": [
+      "Exposed total knee arthroplasty (TKA) prosthesis or infected knee joint",
+      "Proximal-third tibial Gustilo IIIB open fractures with exposed bone/hardware"
+    ],
+    "contraindications": [
+      "Popliteal occlusion or sural pedicle trauma",
+      "Middle- or distal-third tibial defects (beyond reach)"
+    ],
+    "advantages": [
+      "Fast, reliable pedicled regional harvest without microsurgery",
+      "Rich vascular muscle bed ideal for infected prosthetic wounds"
+    ],
+    "disadvantages": ["Cannot reach middle/distal tibia", "Requires STSG over muscle"],
+    "donor_site": {
+      "closure": "Primary posterior-medial calf closure; STSG over transposed muscle.",
+      "morbidity": ["Calf contour asymmetry", "Slight reduction in sprint push-off"],
+      "functional_loss": "Minimal for ambulation when soleus and opposite head remain intact."
+    },
+    "technique": {
+      "patient_positioning": "Supine with hip externally rotated and knee flexed.",
+      "preoperative_planning": ["Confirm popliteal/distal pulses", "Prefer medial head unless defect strictly superolateral"],
+      "landmarks": ["Medial tibial border (2 cm posterior)", "Midline raphe (sural nerve)", "Fibular neck (peroneal nerve)"],
+      "design": "Longitudinal incision 2 cm posterior to medial tibial border.",
+      "harvest_steps": [
+        "1. Develop plane between gastrocnemius and soleus (plantaris tendon marks plane).",
+        "2. Separate medial and lateral heads along midline raphe protecting sural nerve.",
+        "3. Divide medial head distally at Achilles aponeurosis leaving 1-cm fascial cuff.",
+        "4. Grid-score deep investing fascia to expand reach by 2–3 cm.",
+        "5. Transpose anteriorly to knee/proximal tibia (divide tight skin bridge rather than strangulating) and cover with STSG."
+      ],
+      "pearls": ["Plantaris tendon is the definitive landmark between gastrocnemius and soleus."],
+      "pitfalls": ["Compressing common peroneal nerve at fibular neck during lateral head transposition."]
+    },
+    "recipient_vessels_options": ["Pedicled on medial or lateral sural artery"],
+    "complications": ["Tunnel compression / tip necrosis", "STSG loss", "Common peroneal nerve palsy (lateral head)"],
+    "alternatives": ["soleus-flap", "msap-flap", "alt-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["leg-proximal"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "lower-limb-post",
+      "side": "right",
+      "paddleCenter": [-0.088, 0.37, -0.068],
+      "paddleNormal": [0.35, 0, -0.93],
+      "paddleSize": [0.16, 0.06],
+      "pediclePath": [[-0.105, 0.495, -0.04], [-0.09, 0.44, -0.065], [-0.088, 0.37, -0.068]],
+      "pivotPoint": [-0.095, 0.46, -0.055],
+      "arcRadius": 0.18,
+      "typicalRecipientPoint": [-0.11, 0.45, 0.06],
+      "angiosomeColor": "#16a34a"
+    },
+    "references": [
+      { "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Gastrocnemius Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "pec-major-flap",
+    "name": "Pectoralis Major Muscle / Myocutaneous Flap",
+    "synonyms": ["Pec major flap", "PMMC flap", "Thoracoacromial flap"],
+    "region": "Trunk (anterior chest)",
+    "region_group": "Trunk",
+    "flap_type": ["Muscle", "Myocutaneous", "Pedicled (regional)"],
+    "classification": {
+      "mathes_nahai": "Type V (dominant thoracoacromial + secondary segmental internal mammary perforators)",
+      "cormack_lamberty": null,
+      "perforator_type": "Musculocutaneous"
+    },
+    "tissue_components": ["Pectoralis major muscle", "Inferomedial chest skin paddle (optional)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Pectoral branch of thoracoacromial artery",
+        "artery_origin": "Second part of axillary artery",
+        "artery_diameter_mm": { "min": 1.8, "max": 2.5, "unit": "mm", "confidence": "verify" },
+        "veins": "Thoracoacromial venae comitantes",
+        "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["Internal mammary perforators (2nd–5th interspaces — sternal turnover)", "Lateral thoracic artery"],
+      "perforators": [
+        {
+          "label": "Inferomedial Skin Island",
+          "type": "Musculocutaneous",
+          "location": "Inferomedial to nipple-areolar complex over 5th–7th ribs",
+          "relation_to_landmarks": "Pedicle follows acromion–xiphoid line curving down from mid-clavicle",
+          "typical_count": "Multiple",
+          "caliber_mm": null,
+          "position3d": [-0.068, 1.26, 0.125]
+        }
+      ],
+      "angiosome": "Thoracoacromial and internal mammary angiosomes",
+      "venous_drainage_notes": "Turnover flap requires intact ipsilateral IMA (verify CABG LIMA harvest!).",
+      "vascular_variants": ["Prior LIMA CABG harvest precludes left sternal turnover (use thoracoacromial advancement instead)"]
+    },
+    "nerves": {
+      "motor": ["Lateral pectoral nerve", "Medial pectoral nerve"],
+      "sensory": ["Intercostal anterior/lateral branches"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Anterior chest sensory alteration."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 12.0, "max": 18.0, "unit": "cm", "confidence": "verify" },
+        "width": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "verify" }
+      },
+      "thickness_notes": "Bulky myocutaneous paddle in obese/female patients; muscle-only ideal for sternal wounds.",
+      "primary_closure_max_width_cm": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Mid-clavicle (thoracoacromial pedicle) or parasternal border (turnover)",
+      "reach_description": "Workhorse for deep sternal wounds (advancement or turnover) and head & neck salvage (carotid coverage, pharynx, floor of mouth).",
+      "reach_cm": { "min": 20.0, "max": 28.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": [
+      "Deep sternal wound infection / mediastinitis (bilateral advancement or turnover)",
+      "Head & neck salvage (carotid protection, pharyngocutaneous fistula, failed free flap)"
+    ],
+    "contraindications": ["Prior LIMA/RIMA harvest contraindicates ipsilateral turnover flap"],
+    "advantages": [
+      "Dependable regional workhorse requiring no microsurgery",
+      "Dual Mathes–Nahai Type V versatility (advancement vs turnover)"
+    ],
+    "disadvantages": ["Supraclavicular bulk in H&N", "Breast asymmetry in female patients"],
+    "donor_site": {
+      "closure": "Primary chest wall closure over drains.",
+      "morbidity": ["Breast asymmetry", "Anterior axillary fold deformity", "Seroma/hematoma"],
+      "functional_loss": "Mild decrease in horizontal shoulder adduction."
+    },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Verify CABG LIMA/RIMA harvest status", "Mark acromion–xiphoid and mid-clavicular lines"],
+      "landmarks": ["Midpoint of clavicle", "Acromion", "Xiphoid", "Deltopectoral groove"],
+      "design": "For sternum: mobilize through sternotomy wound; for H&N: paddle inferomedial to nipple.",
+      "harvest_steps": [
+        "1. Elevate subcutaneous plane off pectoralis major laterally to deltopectoral groove.",
+        "2. Detach sternal/costal origins medially while visualizing thoracoacromial pedicle on deep surface.",
+        "3. Release humeral insertion if additional medial advancement is needed.",
+        "4. For H&N PMMC, tack skin dermis to fascia and pass through wide neck tunnel."
+      ],
+      "pearls": ["Tack skin paddle dermis to muscle fascia to prevent perforator shear."],
+      "pitfalls": ["Raising a left sternal turnover flap after LIMA harvest."]
+    },
+    "recipient_vessels_options": ["Pedicled on thoracoacromial artery or internal mammary perforators"],
+    "complications": ["Distal skin paddle necrosis (H&N)", "Hematoma / seroma", "Chest asymmetry"],
+    "alternatives": ["ld-flap", "vram-flap", "alt-flap", "rfff-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["chest-sternum", "oral-cavity", "cheek-lip"],
+      "provides_bone": false,
+      "provides_muscle": true,
+      "provides_thin_pliable": false,
+      "provides_bulk": true,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "1.5–3 h"
+    },
+    "spec3d": {
+      "regionId": "chest-breast",
+      "side": "right",
+      "paddleCenter": [-0.072, 1.30, 0.125],
+      "paddleNormal": [-0.15, 0, 0.98],
+      "paddleSize": [0.14, 0.10],
+      "pediclePath": [[-0.14, 1.41, 0.045], [-0.095, 1.36, 0.092], [-0.068, 1.29, 0.12]],
+      "minorPediclePath": [[-0.025, 1.32, 0.115], [-0.055, 1.30, 0.122]],
+      "pivotPoint": [-0.095, 1.40, 0.075],
+      "arcRadius": 0.25,
+      "typicalRecipientPoint": [0, 1.31, 0.128],
+      "angiosomeColor": "#e11d48"
+    },
+    "references": [
+      { "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Pectoralis Major Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "paramedian-forehead-flap",
+    "name": "Paramedian Forehead Flap",
+    "synonyms": ["Indian forehead flap", "Supratrochlear forehead flap"],
+    "region": "Head & Neck (forehead)",
+    "region_group": "Head & Neck",
+    "flap_type": ["Axial pattern", "Interpolated", "Regional"],
+    "classification": {
+      "mathes_nahai": null,
+      "cormack_lamberty": "Axial cutaneous",
+      "perforator_type": "Direct axial cutaneous (supratrochlear)"
+    },
+    "tissue_components": ["Forehead skin", "Subcutaneous tissue", "Frontalis muscle (proximal pedicle)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Supratrochlear artery",
+        "artery_origin": "Ophthalmic artery (internal carotid system)",
+        "artery_diameter_mm": { "min": 0.8, "max": 1.2, "unit": "mm", "confidence": "verify" },
+        "veins": "Supratrochlear veins draining to angular/facial vein",
+        "vein_diameter_mm": { "min": 0.8, "max": 1.4, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": ["Angular and supraorbital anastomotic arcade at medial canthus"],
+      "perforators": [
+        {
+          "label": "Supratrochlear Orbital Rim Exit",
+          "type": "Direct cutaneous",
+          "location": "1.7–2.2 cm lateral to midline at medial superior orbital rim",
+          "relation_to_landmarks": "Pierces corrugator supercilii and becomes subcutaneous ~1.5–2 cm above brow",
+          "typical_count": "1 axial vessel",
+          "caliber_mm": { "min": 0.8, "max": 1.2, "unit": "mm", "confidence": "verify" },
+          "position3d": [0.018, 1.658, 0.096]
+        }
+      ],
+      "angiosome": "Ophthalmic / supratrochlear angiosome",
+      "venous_drainage_notes": "1.2–1.5 cm pedicle base reliably captures artery and venous plexus without kinking.",
+      "vascular_variants": ["Emergence varies 1.5–2.5 cm from midline — confirm with Doppler"]
+    },
+    "nerves": {
+      "motor": ["Frontal branch of facial nerve lies lateral — protect"],
+      "sensory": ["Supratrochlear nerve (divided at stage 2)"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Forehead scalp numbness superior to donor site."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 3.0, "max": 5.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Unmatched color, texture, and sebaceous match for nasal subunits; use 3-stage thinning in smokers.",
+      "primary_closure_max_width_cm": { "min": 3.0, "max": 4.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Medial brow / corrugator base (1.7–2.2 cm from midline)",
+      "reach_description": "Reaches entire nose (tip, columella, ala, dorsum, sidewall) and medial canthus.",
+      "reach_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "indications": [
+      "Gold standard for major nasal defects (>1.5–2 cm), multi-subunit defects, or exposed cartilage/bone",
+      "Nasal tip, alar, and columellar reconstruction"
+    ],
+    "contraindications": ["Prior trauma dividing both supratrochlear pedicles", "Inability to tolerate staged pedicle division at 3 weeks"],
+    "advantages": [
+      "Best facial skin color and texture match for the nose",
+      "Robust axial vascularity with narrow 1.2–1.5 cm base"
+    ],
+    "disadvantages": ["Requires minimum 2 stages (division at 3 weeks)", "Temporary exteriorized bridge"],
+    "donor_site": {
+      "closure": "Lower forehead closed primarily; superior gap (>3.5 cm) heals remarkably well by secondary intention.",
+      "morbidity": ["Vertical paramedian forehead scar", "3-week pedicle bridge"],
+      "functional_loss": "None."
+    },
+    "technique": {
+      "patient_positioning": "Supine with head elevated 15°.",
+      "preoperative_planning": ["Doppler supratrochlear artery at medial brow", "3D foil subunit template"],
+      "landmarks": ["Facial midline", "Medial brow (1.7–2.2 cm from midline)", "Frontal hairline"],
+      "design": "Trace subunit template along vertical axis of supratrochlear artery with 1.2–1.5 cm pedicle base.",
+      "harvest_steps": [
+        "1. Complete nasal subunit excision (Burget–Menick) and build cartilage support + lining.",
+        "2. Verify reach from medial brow to nasal tip with gauze template.",
+        "3. Elevate distally subcutaneously (or subgaleal in smokers), transitioning subperiosteally 1.5 cm above rim.",
+        "4. Transpose 180° onto nose without tension.",
+        "5. Stage 2 (3 weeks): divide pedicle, re-inset medial brow without medializing brows."
+      ],
+      "pearls": ["Allow upper forehead gap to heal by secondary intention rather than distorting brows."],
+      "pitfalls": ["Aggressive primary distal thinning in active smokers causing tip necrosis."]
+    },
+    "recipient_vessels_options": ["Interpolated axial pedicle on supratrochlear artery"],
+    "complications": ["Distal tip ischemia", "Alar notching without cartilage graft", "Pin-cushioning"],
+    "alternatives": ["nasolabial-flap", "bilobed-rhomboid-flap", "rfff-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["nose", "cheek-lip"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": false,
+      "chimeric_capable": false,
+      "technical_difficulty": "Moderate",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "head-neck",
+      "side": "left",
+      "paddleCenter": [0.02, 1.71, 0.092],
+      "paddleNormal": [0.15, 0.2, 0.96],
+      "paddleSize": [0.06, 0.035],
+      "pediclePath": [[0.018, 1.655, 0.096], [0.018, 1.685, 0.097], [0.02, 1.715, 0.091]],
+      "pivotPoint": [0.018, 1.655, 0.096],
+      "arcRadius": 0.075,
+      "typicalRecipientPoint": [0, 1.63, 0.11],
+      "angiosomeColor": "#f59e0b"
+    },
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Paramedian Forehead Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "groin-flap",
+    "name": "Groin Flap (SCIA / SCIP)",
+    "synonyms": ["Pedicled groin flap", "McGregor flap", "SCIA flap", "SCIP flap"],
+    "region": "Perineum & Groin (inguinal / iliac region)",
+    "region_group": "Perineum & Pelvis",
+    "flap_type": ["Axial pattern", "Perforator", "Pedicled (regional)", "Free"],
+    "classification": {
+      "mathes_nahai": null,
+      "cormack_lamberty": "Axial direct cutaneous / Perforator (SCIP)",
+      "perforator_type": "Direct cutaneous / Superficial or deep branch of SCIA"
+    },
+    "tissue_components": ["Skin", "Subcutaneous fat", "Iliac crest bone (optional)", "Inguinal lymph nodes (optional)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Superficial circumflex iliac artery (SCIA)",
+        "artery_origin": "Femoral artery ~2–3 cm inferior to inguinal ligament",
+        "artery_diameter_mm": { "min": 1.0, "max": 1.8, "unit": "mm", "confidence": "verify" },
+        "veins": "Superficial circumflex iliac vein (SCIV) + small venae comitantes",
+        "vein_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "verify" },
+        "pedicle_length_cm": { "min": 4.0, "max": 7.0, "unit": "cm", "confidence": "verify" }
+      },
+      "minor_pedicles": ["SIEA (common trunk in ~45%)"],
+      "perforators": [
+        {
+          "label": "Superficial & Deep SCIA Branches",
+          "type": "Direct cutaneous",
+          "location": "2 cm below and parallel to inguinal ligament crossing sartorius toward ASIS",
+          "relation_to_landmarks": "Include sartorius fascia medial to its lateral border to protect deep branch",
+          "typical_count": "1–2",
+          "caliber_mm": { "min": 0.6, "max": 1.2, "unit": "mm", "confidence": "verify" },
+          "position3d": [-0.112, 0.915, 0.095]
+        }
+      ],
+      "angiosome": "Superficial circumflex iliac angiosome",
+      "venous_drainage_notes": "SCIV drains reliably into saphenous bulb.",
+      "vascular_variants": ["Small caliber (<1 mm) makes free SCIP supermicrosurgery demanding"]
+    },
+    "nerves": {
+      "motor": [],
+      "sensory": ["Lateral femoral cutaneous nerve (near ASIS — protect)"],
+      "can_be_sensate": false,
+      "donor_numbness_note": "Protect LFCN to avoid lateral thigh paresthesia."
+    },
+    "dimensions": {
+      "max_skin_paddle_cm": {
+        "length": { "min": 18.0, "max": 30.0, "unit": "cm", "confidence": "moderate" },
+        "width": { "min": 8.0, "max": 12.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "thickness_notes": "Thin in lean patients (especially SCIP elevated above Scarpa fascia).",
+      "primary_closure_max_width_cm": { "min": 8.0, "max": 10.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": {
+      "pivot_point": "Medial border of sartorius (~2 cm below inguinal ligament)",
+      "reach_description": "Pedicled distant attachment for dorsal/volar hand and multi-digit degloving (divide at 3 weeks); free SCIP for thin resurfacing.",
+      "reach_cm": { "min": 18.0, "max": 25.0, "unit": "cm", "confidence": "verify" }
+    },
+    "indications": [
+      "Salvage pedicled coverage for complex hand, wrist, or multi-digit degloving injuries",
+      "Ultra-thin free SCIP flap for foot, hand, or head & neck resurfacing"
+    ],
+    "contraindications": ["Prior inguinal surgery violating SCIA", "Severe shoulder/elbow arthritis (pedicled attachment)"],
+    "advantages": ["Dependable non-microsurgical hand salvage", "Concealed bikini-line donor scar"],
+    "disadvantages": ["3 weeks of upper-limb immobilization (pedicled)", "Small caliber / short pedicle (free SCIP)"],
+    "donor_site": {
+      "closure": "Primary closure with hip slightly flexed.",
+      "morbidity": ["Inguinal scar", "Upper-limb stiffness during 3-week attachment"],
+      "functional_loss": "None at hip."
+    },
+    "technique": {
+      "patient_positioning": "Supine.",
+      "preoperative_planning": ["Handheld Doppler 2 cm inferior to inguinal ligament from femoral pulse toward ASIS"],
+      "landmarks": ["Femoral pulse", "Inguinal ligament", "ASIS", "Sartorius borders"],
+      "design": "Axis 2 cm inferior and parallel to inguinal ligament extending lateral to ASIS.",
+      "harvest_steps": [
+        "1. Elevate lateral-to-medial above deep fascia.",
+        "2. At lateral border of sartorius, incise sartorius fascia and include it medially.",
+        "3. Stop ~2 cm lateral to femoral artery for pedicled flap.",
+        "4. Tube pedicle bridge, inset onto hand, and divide at 3 weeks."
+      ],
+      "pearls": ["Include sartorius fascia medial to the lateral border of sartorius."],
+      "pitfalls": ["Injuring LFCN near ASIS or allowing arm weight to avulse inset."]
+    },
+    "recipient_vessels_options": ["Pedicled distant attachment (hand)", "Dorsalis pedis / radial (free SCIP)"],
+    "complications": ["Upper-limb joint stiffness", "Distal tip necrosis", "Pedicle maceration"],
+    "alternatives": ["pia-flap", "rfff-flap", "alt-flap", "lateral-arm-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": {
+      "defect_locations": ["hand-digits", "forearm-elbow", "groin-perineum", "leg-distal-ankle"],
+      "provides_bone": false,
+      "provides_muscle": false,
+      "provides_thin_pliable": true,
+      "provides_bulk": false,
+      "provides_motor": false,
+      "provides_gliding_or_durable": true,
+      "pedicled_capable": true,
+      "free_capable": true,
+      "chimeric_capable": false,
+      "technical_difficulty": "Low",
+      "typical_or_time": "1.5–2.5 h"
+    },
+    "spec3d": {
+      "regionId": "perineum",
+      "side": "right",
+      "paddleCenter": [-0.125, 0.94, 0.09],
+      "paddleNormal": [-0.45, 0.1, 0.88],
+      "paddleSize": [0.16, 0.075],
+      "pediclePath": [[-0.082, 0.875, 0.075], [-0.112, 0.915, 0.092], [-0.145, 0.96, 0.082]],
+      "pivotPoint": [-0.088, 0.885, 0.082],
+      "arcRadius": 0.18,
+      "typicalRecipientPoint": [-0.36, 0.83, 0.04],
+      "angiosomeColor": "#d97706"
+    },
+    "references": [
+      { "book": "Zenn MR, Jones G. Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Groin Flap", "verify": true }
+    ],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  }
+]

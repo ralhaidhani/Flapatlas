@@ -1,0 +1,241 @@
+{
+  "terms": [
+    {
+      "id": "g-angiosome",
+      "term": "Angiosome",
+      "category": "Vascular Concepts",
+      "definition": "A three-dimensional composite block of tissue (skin, subcutaneous tissue, fascia, muscle, and bone) supplied anatomically by a single named source artery and drained by its accompanying veins (Taylor & Palmer, 1987).",
+      "clinicalExample": "Adjacent angiosomes are linked by choke vessels or true anastomoses; raising a flap across more than one choke-vessel boundary increases distal necrosis risk."
+    },
+    {
+      "id": "g-perforasome",
+      "term": "Perforasome",
+      "category": "Vascular Concepts",
+      "definition": "The unique vascular territory supplied by a single cutaneous perforator, connected to adjacent perforasomes via direct and indirect linking vessels (Saint-Cyr et al., 2009).",
+      "clinicalExample": "Flow within a perforasome preferentially follows the axiality of the limb or perpendicular to the midline on the trunk."
+    },
+    {
+      "id": "g-choke-vessels",
+      "term": "Choke Vessels",
+      "category": "Vascular Concepts",
+      "definition": "Reduced-caliber anastomotic arterioles connecting adjacent angiosomes or perforasomes that regulate flow across vascular territories and dilate permanently during the surgical delay phenomenon.",
+      "clinicalExample": "In a pedicled TRAM flap, superior epigastric inflow traverses choke vessels to perfuse the DIEA angiosome."
+    },
+    {
+      "id": "g-linking-vessels",
+      "term": "Direct & Indirect Linking Vessels",
+      "category": "Vascular Concepts",
+      "definition": "Subdermal and suprafascial vascular connections between adjacent perforasomes (Saint-Cyr). Direct linking vessels connect perforator-to-perforator directly; indirect linking vessels communicate via the subdermal plexus.",
+      "clinicalExample": "Oriented longitudinally in the extremities, allowing long elliptical skin paddles along the limb axis in ALT and fibula flaps."
+    },
+    {
+      "id": "g-perforator",
+      "term": "Perforator (Gent Consensus)",
+      "abbreviation": "Perf.",
+      "category": "Nomenclature",
+      "definition": "Per the 2002 Gent Consensus, a vessel that pierces the deep fascia to supply the overlying subcutaneous tissue and skin. Subclassified as muscle perforators (musculocutaneous) or septal perforators (septocutaneous).",
+      "clinicalExample": "A DIEP flap is named after its source vessel (Deep Inferior Epigastric) rather than the traversed muscle (rectus abdominis)."
+    },
+    {
+      "id": "g-pedicle",
+      "term": "Vascular Pedicle",
+      "category": "Vascular Concepts",
+      "definition": "The artery and accompanying vein(s) (venae comitantes or superficial vein) that supply and drain a flap.",
+      "clinicalExample": "The dominant pedicle of the ALT flap is the descending branch of the lateral circumflex femoral artery with paired venae comitantes."
+    },
+    {
+      "id": "g-venae-comitantes",
+      "term": "Venae Comitantes",
+      "abbreviation": "VC",
+      "category": "Vascular Concepts",
+      "definition": "Paired deep veins running intimately alongside a deep source artery and communicating via cross-bridges, providing deep venous drainage for most extremity and perforator flaps.",
+      "clinicalExample": "In RFFF harvest, venous outflow can be via the deep venae comitantes, the superficial cephalic vein, or both."
+    },
+    {
+      "id": "g-arc-of-rotation",
+      "term": "Arc of Rotation",
+      "category": "Flap Mechanics",
+      "definition": "The geometric sweep over which a pedicled flap can be transposed around its vascular pivot point without tension, kinking, or pedicle avulsion.",
+      "clinicalExample": "The medial gastrocnemius pivots on the medial sural pedicle to reach the anterior knee and proximal third of the tibia."
+    },
+    {
+      "id": "g-pivot-point",
+      "term": "Pivot Point",
+      "category": "Flap Mechanics",
+      "definition": "The fixed anatomical origin of the flap's vascular pedicle or skin base around which rotation or transposition occurs; effective reach decreases as the angle of rotation increases due to dog-ear tethering.",
+      "clinicalExample": "Dividing the humeral insertion of latissimus dorsi shifts the functional pivot point closer to the thoracodorsal hilum, extending anterior chest reach."
+    },
+    {
+      "id": "g-chimeric",
+      "term": "Chimeric Flap",
+      "category": "Flap Types",
+      "definition": "A composite flap consisting of multiple independent tissue components (e.g., skin paddle, muscle segment, bone) each supplied by separate branches arising from a single common source pedicle (Hallock).",
+      "clinicalExample": "Subscapular system chimeric flap combining latissimus dorsi muscle, serratus anterior, and parascapular skin on the subscapular artery."
+    },
+    {
+      "id": "g-propeller",
+      "term": "Perforator Propeller Flap",
+      "category": "Flap Types",
+      "definition": "An island flap based on a skeletonized eccentric perforator that rotates up to 180° like a propeller blade, placing the larger blade into the defect and the smaller blade toward the donor site (Tokyo Consensus, 2011).",
+      "clinicalExample": "Peroneal or posterior tibial artery perforator propeller flap for small-to-moderate distal leg defects."
+    },
+    {
+      "id": "g-freestyle-flap",
+      "term": "Free-Style Perforator Flap",
+      "category": "Flap Types",
+      "definition": "A flap designed around any audible Doppler-mapped cutaneous perforator without pre-specifying the deep source vessel, traced retrograde until adequate pedicle length and caliber are achieved (Wei & Mardini).",
+      "clinicalExample": "Local V–Y or propeller resurfacing on the trunk or thigh using an adjacent high-signal Doppler perforator."
+    },
+    {
+      "id": "g-axial-random",
+      "term": "Axial vs. Random Pattern Flap",
+      "category": "Flap Types",
+      "definition": "Axial flaps incorporate a named longitudinal arteriovenous system along their axis, enabling long length-to-width ratios; random flaps rely solely on the dermal–subdermal plexus and are constrained by base-to-length ratios.",
+      "clinicalExample": "Paramedian forehead (axial on supratrochlear artery) vs. cheek rhomboid transposition (random subdermal plexus)."
+    },
+    {
+      "id": "g-osteocutaneous",
+      "term": "Osteocutaneous Flap",
+      "category": "Flap Types",
+      "definition": "A vascularized composite flap incorporating cortical/cancellous bone together with a skin paddle fed by periosteal or septocutaneous vessels from the same source artery.",
+      "clinicalExample": "Free fibula osteocutaneous flap for segmental mandibular or long-bone reconstruction."
+    },
+    {
+      "id": "g-keystone",
+      "term": "Keystone Design Perforator Island Flap",
+      "abbreviation": "KDPIF",
+      "category": "Flap Types",
+      "definition": "A trapezoidal curvilinear fasciocutaneous island flap designed adjacent to an elliptical defect (1:1 width ratio, 90° lateral limbs) relying on random underlying musculocutaneous/fasciocutaneous perforators (Behan Types I–IV).",
+      "clinicalExample": "Type IIA (deep fascial division along the convex outer margin) closes moderate trunk or extremity oncologic wounds without microsurgery."
+    },
+    {
+      "id": "g-prefab-prelam",
+      "term": "Prefabricated vs. Prelaminated Flap",
+      "category": "Flap Types",
+      "definition": "Prefabrication implants a new vascular pedicle beneath a desired donor tissue to neovascularize it before transfer. Prelamination grafts additional tissue layers (e.g., cartilage, mucosa) onto an existing axial flap before transfer.",
+      "clinicalExample": "Prelaminating a radial forearm flap with auricular cartilage and skin graft for subtotal nasal or tracheal reconstruction."
+    },
+    {
+      "id": "g-delay",
+      "term": "Surgical Delay Phenomenon",
+      "category": "Physiology",
+      "definition": "Staged partial devascularization (typically 10–14 days prior to transfer) that induces sympathectomy, permanent dilation of choke vessels, and longitudinal reorientation of microcirculation, increasing survivable flap length.",
+      "clinicalExample": "Ligation of the deep inferior epigastric vessels 2 weeks before a pedicled TRAM flap in high-risk patients."
+    },
+    {
+      "id": "g-hartrampf-holm",
+      "term": "Hartrampf & Holm Perfusion Zones",
+      "category": "Physiology",
+      "definition": "Classification of lower abdominal skin perfusion across the midline in TRAM/DIEP flaps. Holm updated Hartrampf's scheme showing ipsilateral lateral tissue (Holm Zone II) often perfuses better than contralateral medial tissue (Holm Zone III).",
+      "clinicalExample": "Discarding Zone IV (contralateral lateral tip) prevents fat necrosis and distal skin loss in unilateral DIEP breast reconstruction."
+    },
+    {
+      "id": "g-reconstructive-elevator",
+      "term": "Reconstructive Ladder & Elevator",
+      "category": "Principles",
+      "definition": "The traditional ladder progresses from secondary intention → primary closure → skin graft → local flap → regional flap → free flap. The modern reconstructive elevator (Gottlieb & Krieger) selects the optimal rung directly based on form, function, and wound bed.",
+      "clinicalExample": "Moving directly to a free fibula osteocutaneous flap for an anterior segmental mandibular defect."
+    },
+    {
+      "id": "g-rstl-lme",
+      "term": "RSTL & Line of Maximal Extensibility",
+      "abbreviation": "RSTL / LME",
+      "category": "Flap Mechanics",
+      "definition": "Relaxed Skin Tension Lines (RSTL) follow natural facial/body creases along minimal closing tension. The Line of Maximal Extensibility (LME) runs perpendicular to RSTL and represents the direction of greatest skin stretch.",
+      "clinicalExample": "Placing the short diagonal of a Limberg rhomboid flap parallel to the LME aligns the donor scar with RSTL."
+    },
+    {
+      "id": "g-burow-cone",
+      "term": "Standing Cone (Burow's Triangle)",
+      "category": "Flap Mechanics",
+      "definition": "Redundant triangular skin fold created at the pivot base of a rotation or transposition flap, excised as a Burow's triangle away from the vascular pedicle to allow flat contour inset.",
+      "clinicalExample": "Excising a small standing cone along the nasofacial sulcus during a Zitelli 90° bilobed nasal flap."
+    },
+    {
+      "id": "g-allen-test",
+      "term": "Modified Allen Test",
+      "category": "Preoperative Evaluation",
+      "definition": "Bedside maneuver compressing both radial and ulnar arteries, exsanguinating the hand, and releasing the ulnar artery to verify intact palmar arch perfusion prior to radial artery harvest.",
+      "clinicalExample": "Capillary refill >6–10 seconds or abnormal Doppler signal suggests ulnar insufficiency and contraindicates RFFF harvest."
+    },
+    {
+      "id": "g-peronea-magna",
+      "term": "Peronea Arteria Magna",
+      "category": "Preoperative Evaluation",
+      "definition": "Congenital lower-extremity vascular anomaly in which a dominant peroneal artery supplies the foot while anterior and posterior tibial arteries are hypoplastic or absent (~0.2–5% incidence).",
+      "clinicalExample": "Absolute contraindication to free fibula harvest; ruled out via preoperative CTA or MRA runoff."
+    },
+    {
+      "id": "g-supercharging",
+      "term": "Supercharging / Turbocharging",
+      "category": "Microsurgery",
+      "definition": "Supercharging augments a flap by anastomosing a distant source pedicle (e.g., SIEV to cephalic vein) to recipient vessels. Turbocharging anastomoses an additional pedicle within the flap to a branch of the primary pedicle.",
+      "clinicalExample": "Venous supercharging of a congested DIEP flap via the superficial inferior epigastric vein (SIEV)."
+    },
+    {
+      "id": "g-neurotized",
+      "term": "Innervated / Neurotized Flap",
+      "category": "Microsurgery",
+      "definition": "A free or pedicled flap whose sensory nerve (for protective sensation) or motor nerve (for functional muscle transfer) is coapted to a recipient nerve.",
+      "clinicalExample": "Functional free gracilis muscle transfer coapted to the masseteric or cross-facial nerve for facial reanimation."
+    },
+    {
+      "id": "g-coupler",
+      "term": "Microvascular Venous Coupler",
+      "category": "Microsurgery",
+      "definition": "Ring-pin anastomotic device that everts venous intima-to-intima rapidly without intraluminal suture material, reducing ischemia time and thrombosis risk in venous anastomoses.",
+      "clinicalExample": "2.5–3.0 mm venous coupler used for internal mammary or facial vein anastomosis in DIEP/ALT transfer."
+    },
+    {
+      "id": "g-buried-monitor",
+      "term": "Buried Flap Monitoring",
+      "category": "Microsurgery",
+      "definition": "Postoperative surveillance strategies for flaps without an external skin paddle (e.g., buried bone or hypopharyngeal flaps), including an externalized monitoring skin island, implantable Cook-Swartz Doppler, or near-infrared spectroscopy.",
+      "clinicalExample": "Placing an implantable 20-MHz Doppler probe on the venous pedicle of a buried free fibula."
+    },
+    {
+      "id": "g-zone-of-injury",
+      "term": "Zone of Injury",
+      "category": "Principles",
+      "definition": "The perimeter of perivascular inflammation, friable intima, and fibrosis extending beyond visible open fracture or radiation margins; microvascular anastomoses performed inside this zone carry elevated thrombosis risk.",
+      "clinicalExample": "Performing end-to-side anastomosis proximal to a Gustilo IIIB tibial fracture or utilizing arteriovenous loops / vein grafts."
+    }
+  ],
+  "classifications": {
+    "mathes_nahai": [
+      { "type": "Type I", "pattern": "One vascular pedicle", "examples": "Gastrocnemius, Tensor fascia lata (TFL), Rectus femoris" },
+      { "type": "Type II", "pattern": "Dominant pedicle(s) plus minor pedicle(s)", "examples": "Gracilis, Soleus, Temporalis, Trapezius, Peroneus brevis, SCM" },
+      { "type": "Type III", "pattern": "Two dominant pedicles (either can sustain muscle)", "examples": "Gluteus maximus, Rectus abdominis, Serratus anterior, Semimembranosus" },
+      { "type": "Type IV", "pattern": "Segmental vascular pedicles", "examples": "Sartorius, Tibialis anterior, Extensor hallucis longus, External oblique" },
+      { "type": "Type V", "pattern": "One dominant pedicle plus secondary segmental pedicles", "examples": "Latissimus dorsi, Pectoralis major" }
+    ],
+    "cormack_lamberty": [
+      { "type": "Type A", "pattern": "Multiple fasciocutaneous perforators entering base of flap and oriented along longitudinal fascial plexus", "examples": "Pontén superflap of lower leg" },
+      { "type": "Type B", "pattern": "Single moderate-sized fasciocutaneous perforator reliable enough to support an island or free flap", "examples": "Scapular, Parascapular, Medial arm, Saphenous" },
+      { "type": "Type C", "pattern": "Multiple small perforators passing along an intermuscular septum from a deep source artery", "examples": "Radial forearm (RFFF), Lateral arm, Posterior interosseous (PIA)" },
+      { "type": "Type D", "pattern": "Osteomyofasciocutaneous extension of Type C incorporating adjacent muscle and bone", "examples": "Osteocutaneous radial forearm, Free fibula osteocutaneous" }
+    ],
+    "nakajima": [
+      { "type": "Type I", "pattern": "Direct cutaneous artery piercing fascia directly to skin", "examples": "Groin (SCIA), Deltopectoral, Paramedian forehead" },
+      { "type": "Type II", "pattern": "Direct septocutaneous perforator traversing intermuscular septum", "examples": "Radial forearm, Scapular/parascapular, Lateral arm" },
+      { "type": "Type III", "pattern": "Direct cutaneous branch of muscular vessel piercing fascia adjacent to muscle", "examples": "Some ALT septocutaneous variants, TDAP" },
+      { "type": "Type IV", "pattern": "Perforating cutaneous branch of muscular vessel (classic musculocutaneous perforator)", "examples": "DIEP, MSAP, SGAP, PAP, musculocutaneous ALT" },
+      { "type": "Type V", "pattern": "Septocutaneous perforator feeding deep fascial plexus before skin", "examples": "Lower leg fasciocutaneous / PTAP / peroneal perforator" },
+      { "type": "Type VI", "pattern": "Musculocutaneous perforator feeding deep fascial plexus extensively", "examples": "Reverse sural / adipofascial lower extremity flaps" }
+    ],
+    "gent_consensus": [
+      { "rule": "Definition of Perforator (Gent 2002)", "detail": "A vessel that pierces the deep fascia to reach the skin. Direct cutaneous vessels bypass deep fascia." },
+      { "rule": "Muscle vs. Septal Perforator", "detail": "Muscle (musculocutaneous) perforators traverse muscle before piercing fascia; septal (septocutaneous) perforators travel exclusively in intermuscular septa." },
+      { "rule": "Standard Naming Convention", "detail": "Name the flap after its nutrient source vessel (e.g., DIEP, TDAP, SGAP, MSAP, PAP) rather than the underlying muscle, adding anatomical region if ambiguous (e.g., ALT)." },
+      { "rule": "Hallock / Tokyo Propeller Extension", "detail": "Clarifies direct vs. indirect perforators and defines propeller flaps by eccentric perforator pivot rotation (typically 90°–180°)." }
+    ],
+    "reconstructive_ladder": [
+      { "rung": "1. Secondary Intention", "indication": "Small concave defects (medial canthus, fingertip without bone) or contaminated wounds awaiting demarcation", "examples": "Wet-to-moist dressing, NPWT" },
+      { "rung": "2. Primary Closure", "indication": "Tension-free wound edges along RSTL with healthy vascularized tissue", "examples": "Layered linear closure, Dog-ear excision" },
+      { "rung": "3. Skin Graft (STSG / FTSG)", "indication": "Well-vascularized wound bed without exposed bare bone, cartilage, tendon, or hardware", "examples": "Meshed STSG, Supraclavicular FTSG" },
+      { "rung": "4. Local Flap / Tissue Expansion", "indication": "Exposed vital structures or need for color/texture match using adjacent laxity", "examples": "Limberg rhomboid, Zitelli bilobed, Z-plasty, Keystone" },
+      { "rung": "5. Regional (Pedicled) Flap", "indication": "Moderate defects within reliable vascular arc of rotation", "examples": "Gastrocnemius, Pectoralis major, Paramedian forehead, VRAM" },
+      { "rung": "6. Free Tissue Transfer (Elevator)", "indication": "Large, composite, irradiated, osseous, or distal-third defects requiring distant uninjured tissue", "examples": "ALT, DIEP, Free Fibula, RFFF, Gracilis" }
+    ]
+  }
+}

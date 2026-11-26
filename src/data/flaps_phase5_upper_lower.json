@@ -1,0 +1,435 @@
+[
+  {
+    "id": "ulnar-forearm-flap",
+    "name": "Ulnar Artery Forearm Flap (UAFF)",
+    "synonyms": ["Ulnar forearm free flap", "UAFF", "Ulnar artery perforator flap"],
+    "region": "Upper Extremity (volar-ulnar forearm)",
+    "region_group": "Upper Extremity",
+    "flap_type": ["Fasciocutaneous", "Perforator", "Free", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Type B septocutaneous (between FCU & FDS)", "perforator_type": "Septocutaneous" },
+    "tissue_components": ["Thin hairless volar-ulnar skin", "Antebrachial fascia", "Optional FCU / pisiform"],
+    "vascular_anatomy": {
+      "dominant_pedicle": {
+        "artery": "Ulnar artery (or ulnar artery perforator)",
+        "artery_origin": "Brachial artery bifurcation",
+        "artery_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+        "veins": "Paired ulnar venae comitantes + basilic vein",
+        "vein_diameter_mm": { "min": 2.0, "max": 3.5, "unit": "mm", "confidence": "moderate" },
+        "pedicle_length_cm": { "min": 8.0, "max": 14.0, "unit": "cm", "confidence": "moderate" }
+      },
+      "minor_pedicles": [],
+      "perforators": [
+        { "label": "Ulnar Septocutaneous Perforators", "type": "Septocutaneous", "location": "Line from medial epicondyle to pisiform between FCU and FDS", "relation_to_landmarks": "Distal constant perforator ~3–5 cm proximal to pisiform", "typical_count": "2–4", "caliber_mm": { "min": 0.6, "max": 1.2, "unit": "mm", "confidence": "verify" }, "position3d": [-0.305, 1.0, 0.025] }
+      ],
+      "angiosome": "Ulnar artery angiosome",
+      "venous_drainage_notes": "Dual deep venae comitantes and superficial basilic system provide reliable outflow.",
+      "vascular_variants": ["Ulnar artery is often dominant supply to superficial palmar arch — mandatory Allen test before sacrificing trunk"]
+    },
+    "nerves": { "motor": ["Ulnar nerve lies immediately ulnar to artery in distal two-thirds — meticulous protection"], "sensory": ["Medial antebrachial cutaneous nerve (MABC)"], "can_be_sensate": true, "donor_numbness_note": "Volar-ulnar forearm numbness; protect dorsal cutaneous branch of ulnar nerve." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 10.0, "max": 18.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 5.0, "max": 8.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Thinner and less hair-bearing than radial forearm skin, with concealed ulnar donor site.",
+      "primary_closure_max_width_cm": { "min": 4.0, "max": 5.0, "unit": "cm", "confidence": "verify" }
+    },
+    "arc_of_rotation": { "pivot_point": "Distal ulnar wrist (reverse) or cubital fossa (antegrade)", "reach_description": "Free flap for oral cavity/pharynx/hand; reverse pedicled to palm and dorsum of hand.", "reach_cm": { "min": 12.0, "max": 18.0, "unit": "cm", "confidence": "verify" } },
+    "indications": ["Oral cavity and pharyngeal reconstruction requiring thin hairless skin", "Hand/wrist coverage", "Alternative to RFFF when radial artery is unusable"],
+    "contraindications": ["Abnormal Allen test (radial-deficient palmar arch)", "Prior ulnar nerve or vascular trauma"],
+    "advantages": ["Less hair-bearing than RFFF", "Donor bed over FDS/FCU muscle bellies takes STSG better than exposed FCR tendon", "Concealed ulnar scar"],
+    "disadvantages": ["Sacrifices dominant palmar arch artery in many patients", "Intimate proximity to ulnar nerve"],
+    "donor_site": { "closure": "Primary if ≤4–5 cm; STSG over muscle bellies heals reliably.", "morbidity": ["Ulnar nerve neuropraxia risk", "Cold intolerance"], "functional_loss": "Minimal when Allen test passes and ulnar nerve is spared." },
+    "technique": {
+      "patient_positioning": "Supine with arm on hand table under tourniquet.",
+      "preoperative_planning": ["Perform modified Allen test + Doppler to confirm radial palmar arch perfusion", "Map perforators along medial epicondyle–pisiform line"],
+      "landmarks": ["Medial humeral epicondyle", "Pisiform", "FCU", "FDS"],
+      "design": "Center paddle over septum between FCU and FDS in middle-to-distal volar-ulnar forearm.",
+      "harvest_steps": [
+        "1. Incise radial margin subfascially over FDS to septum between FDS and FCU.",
+        "2. Identify ulnar artery, venae comitantes, and ulnar nerve; carefully separate ulnar nerve out of flap.",
+        "3. Preserve dorsal cutaneous branch of ulnar nerve ~5 cm proximal to pisiform.",
+        "4. Release tourniquet and confirm brisk hand perfusion via radial artery before dividing ulnar pedicle."
+      ],
+      "pearls": ["Always perform an intraoperative vascular clamp test on the ulnar artery with tourniquet deflated before ligating it."],
+      "pitfalls": ["Traction or thermal injury to the ulnar nerve or its dorsal sensory branch."]
+    },
+    "recipient_vessels_options": ["Facial / superior thyroid (H&N)", "Radial / ulnar (hand)"],
+    "complications": ["Ulnar nerve neuropraxia", "Hand cold intolerance", "Partial donor STSG loss"],
+    "alternatives": ["rfff-flap", "msap-flap", "alt-flap", "pia-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": { "defect_locations": ["oral-cavity", "hand-digits", "forearm-elbow"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": true, "chimeric_capable": false, "technical_difficulty": "Moderate", "typical_or_time": "3–4.5 h" },
+    "spec3d": { "regionId": "upper-limb-ant", "side": "right", "paddleCenter": [-0.305, 1.0, 0.025], "paddleNormal": [0.25, 0, 0.96], "paddleSize": [0.11, 0.055], "pediclePath": [[-0.275, 1.12, 0.015], [-0.292, 1.06, 0.022], [-0.305, 1.0, 0.025]], "pivotPoint": [-0.275, 1.12, 0.015], "arcRadius": 0.14, "typicalRecipientPoint": [0, 1.58, 0.095], "angiosomeColor": "#0284c7" },
+    "references": [{ "book": "Wei FC, Mardini S. Flaps and Reconstructive Surgery", "edition": "2nd ed.", "chapter_or_section": "Ulnar Forearm Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "cross-finger-flap",
+    "name": "Cross-Finger Flap (Standard & Reverse)",
+    "synonyms": ["Cross-finger flap", "Reverse cross-finger de-epithelialized flap"],
+    "region": "Upper Extremity (hand / dorsal middle phalanx)",
+    "region_group": "Upper Extremity",
+    "flap_type": ["Random-pattern", "Pedicled (regional)", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Random subdermal digital flap (staged)", "perforator_type": "Subdermal plexus" },
+    "tissue_components": ["Dorsal middle phalangeal skin & subcutaneous tissue (or de-epithelialized subcutaneous flap for dorsal defects)"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Random subdermal plexus from dorsal branches of proper digital artery", "artery_origin": "Proper palmar digital artery", "artery_diameter_mm": null, "veins": "Dorsal digital venous plexus", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Dorsal digital angiosome",
+      "venous_drainage_notes": "Wide lateral hinge along mid-axial line provides robust random perfusion.",
+      "vascular_variants": ["Reverse turn-over de-epithelialized cross-finger flap covers dorsal defects of adjacent finger + FTSG"]
+    },
+    "nerves": { "motor": [], "sensory": ["Dorsal digital sensory branches (optional innervated cross-finger variant)"], "can_be_sensate": true, "donor_numbness_note": "Mild dorsal middle phalanx hypoesthesia." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 2.0, "max": 3.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 1.5, "max": 2.5, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Thin, pliable, dependable tissue matching volar pulp or middle phalanx defects with exposed tendon/bone.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Mid-axial hinge on adjacent donor finger", "reach_description": "Covers volar pulp/middle phalanx defects of adjacent finger (or thumb from index dorsal proximal phalanx).", "reach_cm": { "min": 1.5, "max": 2.5, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Volar fingertip/pulp defects with exposed bone or flexor tendon too large for V-Y advancement", "Dorsal digital tendon/joint exposure (reverse cross-finger)", "Thumb volar pulp defects"],
+    "contraindications": ["Severe osteoarthritis or Dupuytren contracture with high PIP stiffness risk", "Vascular compromise of adjacent donor finger"],
+    "advantages": ["Reliable, technically straightforward workhorse in hand trauma", "Preserves injured digit length"],
+    "disadvantages": ["Requires two stages (division at 14–21 days)", "PIP joint stiffness risk without early therapy", "Donor digit requires FTSG"],
+    "donor_site": { "closure": "Full-thickness skin graft over intact extensor paratenon.", "morbidity": ["Dorsal color mismatch / contour depression", "Transient PIP stiffness"], "functional_loss": "Minimal with prompt hand therapy after division." },
+    "technique": {
+      "patient_positioning": "Supine with hand table and tourniquet.",
+      "preoperative_planning": ["Preserve extensor paratenon meticulously on donor finger so FTSG takes reliably", "Avoid crossing volar joint creases"],
+      "landmarks": ["Dorsal PIP & DIP creases", "Mid-axial lines", "Extensor paratenon"],
+      "design": "Rectangular flap spanning dorsal aesthetic subunit of adjacent middle phalanx, hinged toward recipient finger.",
+      "harvest_steps": [
+        "1. Incise 3 sides down to — but NOT through — extensor paratenon.",
+        "2. Elevate off paratenon carefully; divide Cleland ligaments at hinge to increase reach.",
+        "3. Open flap like a book page onto recipient finger volar defect and inset loosely.",
+        "4. Cover donor bed with FTSG + bolster; divide pedicle at 14–21 days and mobilize aggressively."
+      ],
+      "pearls": ["Harvesting the entire dorsal aesthetic subunit from mid-axial to mid-axial line hides the FTSG borders cleanly."],
+      "pitfalls": ["Stripping extensor paratenon causes donor FTSG failure and exposed extensor tendon."]
+    },
+    "recipient_vessels_options": ["Staged regional digital flap (division at 2–3 weeks)"],
+    "complications": ["PIP joint stiffness", "Donor FTSG hyperpigmentation/loss", "Cold intolerance"],
+    "alternatives": ["atasoy-vy-flap", "moberg-flap", "kite-fdma-flap", "littler-island-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["hand-digits"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.75–1.5 h" },
+    "spec3d": { "regionId": "hand", "side": "right", "paddleCenter": [-0.365, 0.85, 0.032], "paddleNormal": [0, 0, -1], "paddleSize": [0.025, 0.02], "pediclePath": [[-0.365, 0.86, 0.035], [-0.365, 0.85, 0.032]], "pivotPoint": [-0.365, 0.855, 0.034], "arcRadius": 0.03, "typicalRecipientPoint": [-0.352, 0.845, 0.04], "angiosomeColor": "#0ea5e9" },
+    "references": [{ "book": "Green's Operative Hand Surgery", "edition": "8th ed.", "chapter_or_section": "Fingertip & Cross-Finger Flaps", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "moberg-flap",
+    "name": "Moberg Volar Advancement Flap",
+    "synonyms": ["Moberg flap", "Thumb volar neurovascular advancement flap"],
+    "region": "Upper Extremity (thumb volar surface)",
+    "region_group": "Upper Extremity",
+    "flap_type": ["Axial", "Neurovascular", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Bipedicled axial neurovascular advancement flap", "perforator_type": null },
+    "tissue_components": ["Volar thumb glabrous skin", "Bilateral radial & ulnar neurovascular bundles"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Bilateral radial and ulnar proper palmar digital arteries of thumb", "artery_origin": "Princeps pollicis artery", "artery_diameter_mm": { "min": 0.8, "max": 1.2, "unit": "mm", "confidence": "verify" }, "veins": "Volar subcutaneous venous plexus", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": ["Independent dorsal thumb arteries (make Moberg safe in thumb ONLY)"],
+      "perforators": [],
+      "angiosome": "Princeps pollicis palmar digital angiosome",
+      "venous_drainage_notes": "Independent dorsal blood supply in the thumb prevents dorsal skin necrosis when volar bundles are advanced.",
+      "vascular_variants": ["Do NOT perform classic Moberg in index–small fingers due to risk of dorsal digital necrosis"]
+    },
+    "nerves": { "motor": [], "sensory": ["Bilateral radial and ulnar digital nerves of thumb (intact)"], "can_be_sensate": true, "donor_numbness_note": "Preserves normal 2-point discrimination at thumb tip." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 3.0, "max": 4.5, "unit": "cm", "confidence": "moderate" }, "width": { "min": 1.5, "max": 2.2, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Glabrous, durable, sensate thumb pulp skin — ideal tactile match for pinch.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Linear distal advancement (≤1.5–2.0 cm with IP flexion or O'Brien proximal release)", "reach_description": "Covers transverse or volar-oblique thumb tip pulp defects ≤1.5–2.0 cm.", "reach_cm": { "min": 1.5, "max": 2.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Thumb tip / volar pulp amputations ≤1.5–2.0 cm with exposed distal phalanx", "Sensate thumb length preservation"],
+    "contraindications": ["Defects >2.0 cm (use FDMA kite or Littler flap)", "Non-thumb fingers (risk of dorsal necrosis)"],
+    "advantages": ["Single-stage glabrous sensate pulp with normal 2-point discrimination", "Preserves thumb length and pinch"],
+    "disadvantages": ["Risk of thumb IP joint flexion contracture if advanced >1.5 cm without O'Brien release", "Restricted to thumb"],
+    "donor_site": { "closure": "Primary closure along mid-axial lines (or proximal FTSG / V-Y in O'Brien modification).", "morbidity": ["IP joint flexion contracture if over-flexed"], "functional_loss": "Minimal when IP flexion ≤30°." },
+    "technique": {
+      "patient_positioning": "Supine with hand table and tourniquet.",
+      "preoperative_planning": ["Measure volar pulp loss (ideal ≤1.5 cm)", "Plan O'Brien proximal transverse incision + FTSG if >1.5 cm advancement needed"],
+      "landmarks": ["Thumb mid-axial lines", "FPL tendon sheath", "Thumb MP crease"],
+      "design": "Bilateral mid-axial incisions strictly dorsal to both neurovascular bundles extending to MP crease.",
+      "harvest_steps": [
+        "1. Make bilateral mid-axial incisions dorsal to radial and ulnar digital neurovascular bundles.",
+        "2. Elevate volar skin + both neurovascular bundles off intact FPL tendon sheath.",
+        "3. Advance distally with gentle IP flexion (≤30°); add O'Brien proximal release + FTSG if tight.",
+        "4. Inset over distal phalanx and excise small proximal Burow triangles if needed."
+      ],
+      "pearls": ["If thumb IP flexion exceeds 30° to reach the tip, convert to the O'Brien modification to prevent IP contracture."],
+      "pitfalls": ["Applying classic Moberg to non-thumb digits risks dorsal skin necrosis."]
+    },
+    "recipient_vessels_options": ["Local bipedicled neurovascular advancement"],
+    "complications": ["Thumb IP joint flexion contracture", "Hook-nail deformity"],
+    "alternatives": ["kite-fdma-flap", "littler-island-flap", "cross-finger-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": { "defect_locations": ["hand-digits"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.5–1 h" },
+    "spec3d": { "regionId": "hand", "side": "right", "paddleCenter": [-0.335, 0.875, 0.052], "paddleNormal": [0.35, 0, 0.93], "paddleSize": [0.032, 0.018], "pediclePath": [[-0.34, 0.9, 0.048], [-0.335, 0.875, 0.052]], "pivotPoint": [-0.34, 0.9, 0.048], "arcRadius": 0.025, "typicalRecipientPoint": [-0.33, 0.86, 0.055], "angiosomeColor": "#06b6d4" },
+    "references": [{ "book": "Green's Operative Hand Surgery", "edition": "8th ed.", "chapter_or_section": "Thumb Tip & Moberg Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "atasoy-vy-flap",
+    "name": "Atasoy–Kleinert Volar V-Y Advancement Flap",
+    "synonyms": ["Atasoy flap", "Volar V-Y fingertip flap", "Kutler bilateral V-Y"],
+    "region": "Upper Extremity (volar fingertip)",
+    "region_group": "Upper Extremity",
+    "flap_type": ["Random-pattern", "Local"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Subcutaneous pedicle V-Y advancement", "perforator_type": "Subcutaneous vertical septa" },
+    "tissue_components": ["Volar glabrous fingertip skin", "Subcutaneous pulp fat"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Terminal digital pulp arterial arborizations within deep subcutaneous pedicle", "artery_origin": "Proper palmar digital arteries", "artery_diameter_mm": null, "veins": "Subcutaneous digital pulp veins", "vein_diameter_mm": null, "pedicle_length_cm": null },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Terminal palmar digital pulp plexus",
+      "venous_drainage_notes": "Preserving deep subcutaneous pulp tissue while dividing only vertical fibrous septa maintains reliable viability.",
+      "vascular_variants": ["Contraindicated in volar-oblique loss with insufficient proximal volar pulp"]
+    },
+    "nerves": { "motor": [], "sensory": ["Terminal digital pulp sensory branches (intact)"], "can_be_sensate": true, "donor_numbness_note": "Maintains near-normal fingertip sensibility and glabrous durability." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 1.2, "max": 2.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 1.0, "max": 1.5, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Glabrous, padded fingertip pulp ideally matching amputated fingertip.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Linear distal advancement (≤1.0 cm)", "reach_description": "Covers transverse or dorsal-oblique fingertip amputations with exposed distal phalanx up to ~1.0 cm.", "reach_cm": { "min": 0.8, "max": 1.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Transverse fingertip amputations with exposed bone", "Dorsal-oblique fingertip amputations (ideal geometry)", "Nail bed support and finger length preservation"],
+    "contraindications": ["Volar-oblique amputations", "Defects requiring >1.0 cm advancement"],
+    "advantages": ["Single-stage local anesthetic procedure", "Restores sensate, padded, glabrous fingertip skin", "Avoids adjacent digit morbidity"],
+    "disadvantages": ["Limited to ~1.0 cm advancement", "Tip necrosis if closed under excessive tension"],
+    "donor_site": { "closure": "V-to-Y primary closure distal to DIP flexion crease.", "morbidity": ["Fingertip tenderness / cold intolerance", "Hook-nail if bony support inadequate"], "functional_loss": "None." },
+    "technique": {
+      "patient_positioning": "Supine with digital block and finger tourniquet.",
+      "preoperative_planning": ["Confirm transverse or dorsal-oblique amputation angle", "Do NOT extend apex of V proximal to DIP crease"],
+      "landmarks": ["DIP volar flexion crease", "Distal phalanx & FDP insertion", "Nail bed"],
+      "design": "Isosceles triangle on volar pulp with base at amputation edge and apex at DIP crease.",
+      "harvest_steps": [
+        "1. Incise dermal margins carefully without cutting deep subcutaneous neurovascular pedicle.",
+        "2. Release deep vertical fibrous septa off distal phalanx periosteum and FDP sheath with tenotomy scissors.",
+        "3. Advance triangular island distally up to 1 cm and suture leading edge to nail bed.",
+        "4. Close proximal stem loosely as a Y without strangulating the subcutaneous pedicle."
+      ],
+      "pearls": ["Divide ONLY vertical fibrous septa—never undermine deeply through the subcutaneous fat pedicle."],
+      "pitfalls": ["Attempting Atasoy V-Y on a volar-oblique amputation leaves insufficient volar skin."]
+    },
+    "recipient_vessels_options": ["Local subcutaneous advancement flap"],
+    "complications": ["Flap tip necrosis from tension", "Hook-nail deformity", "Pulp hypersensitivity"],
+    "alternatives": ["cross-finger-flap", "moberg-flap", "littler-island-flap"],
+    "reconstructive_ladder_level": "Local flap",
+    "advisor_tags": { "defect_locations": ["hand-digits"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Low", "typical_or_time": "0.5 h" },
+    "spec3d": { "regionId": "hand", "side": "right", "paddleCenter": [-0.355, 0.825, 0.042], "paddleNormal": [0, 0, 1], "paddleSize": [0.018, 0.014], "pediclePath": [[-0.355, 0.838, 0.042], [-0.355, 0.825, 0.042]], "pivotPoint": [-0.355, 0.838, 0.042], "arcRadius": 0.015, "typicalRecipientPoint": [-0.355, 0.818, 0.043], "angiosomeColor": "#14b8a6" },
+    "references": [{ "book": "Atasoy E et al. J Bone Joint Surg Am (Triangular Volar Flap)", "edition": "1970; 52(5):921–926", "chapter_or_section": "Fingertip Reconstruction", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "littler-island-flap",
+    "name": "Littler Heterodigital Neurovascular Island Flap",
+    "synonyms": ["Littler flap", "Heterodigital neurovascular island flap"],
+    "region": "Upper Extremity (ulnar ring / radial middle finger pulp)",
+    "region_group": "Upper Extremity",
+    "flap_type": ["Axial", "Neurovascular", "Pedicled (regional)"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Axial neurovascular island flap", "perforator_type": null },
+    "tissue_components": ["Glabrous finger pulp skin", "Proper digital artery & nerve", "Perivascular venous cuff"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Ulnar proper digital artery of middle or ring finger", "artery_origin": "Common palmar digital artery (superficial palmar arch)", "artery_diameter_mm": { "min": 0.8, "max": 1.2, "unit": "mm", "confidence": "verify" }, "veins": "Perivascular venae comitantes within fibrofatty cuff", "vein_diameter_mm": null, "pedicle_length_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": [],
+      "perforators": [],
+      "angiosome": "Proper palmar digital angiosome",
+      "venous_drainage_notes": "ALWAYS preserve a 3–5 mm fibrofatty perivascular cuff for venous outflow.",
+      "vascular_variants": ["Ligate adjacent finger's proper digital artery at bifurcation to gain palmar pivot reach"]
+    },
+    "nerves": { "motor": [], "sensory": ["Proper palmar digital nerve (consider end-to-end neurorrhaphy to thumb digital nerve to avoid cortical mislocalization)"], "can_be_sensate": true, "donor_numbness_note": "Donor hemi-pulp numbness; cortical mislocalization occurs unless coapted to thumb nerve." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 2.0, "max": 3.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 1.5, "max": 2.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Durable, glabrous, highly sensate pinch-surface pulp matching thumb pad.",
+      "primary_closure_max_width_cm": null
+    },
+    "arc_of_rotation": { "pivot_point": "Superficial palmar arch in mid-palm", "reach_description": "Reaches entire volar thumb pulp via subcutaneous palmar tunnel.", "reach_cm": { "min": 6.0, "max": 9.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Large volar thumb pulp defects (>2 cm) requiring sensate glabrous skin", "Thumb tactile restoration after avulsion or burn"],
+    "contraindications": ["Compromised radial digital artery on donor finger", "Elderly patients intolerant of cortical mislocalization"],
+    "advantages": ["Single-stage glabrous sensate pulp for large thumb defects", "Immediate robust vascularity"],
+    "disadvantages": ["Cortical mislocalization unless nerve is coapted to thumb digital nerve", "Donor digit FTSG & cold intolerance"],
+    "donor_site": { "closure": "Full-thickness skin graft on ulnar aspect of donor ring/middle finger.", "morbidity": ["Donor sensory loss", "Cold intolerance", "Scar contracture"], "functional_loss": "Minimal when non-pinch ulnar border is chosen." },
+    "technique": {
+      "patient_positioning": "Supine on hand table under tourniquet and loupes.",
+      "preoperative_planning": ["Verify bilateral digital arteries in donor digit (digital Allen test)", "Select ulnar border of ring or middle finger"],
+      "landmarks": ["Superficial palmar arch", "Common digital artery bifurcation", "Donor ulnar mid-axial line"],
+      "design": "Template thumb pulp defect onto ulnar pulp of ring or middle finger.",
+      "harvest_steps": [
+        "1. Elevate pulp island preserving generous perivascular fibrofatty cuff around digital artery and nerve.",
+        "2. Trace pedicle into mid-palm via Brunner zig-zag; ligate adjacent finger's arterial branch at bifurcation.",
+        "3. Split common digital nerve intraneurally proximally (or divide and coapt to thumb ulnar digital nerve).",
+        "4. Pass island loosely through wide palmar tunnel to thumb pulp and graft donor finger."
+      ],
+      "pearls": ["Leaving a generous fatty cuff around the digital neurovascular bundle prevents postoperative venous congestion."],
+      "pitfalls": ["Kinking or compressing the pedicle inside a tight subcutaneous palmar tunnel."]
+    },
+    "recipient_vessels_options": ["Pedicled heterodigital neurovascular island"],
+    "complications": ["Cortical mislocalization", "Venous congestion", "Donor digit contracture"],
+    "alternatives": ["kite-fdma-flap", "moberg-flap", "toe-to-hand-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["hand-digits"], "provides_bone": false, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": false, "chimeric_capable": false, "technical_difficulty": "Moderate", "typical_or_time": "1.5–2.5 h" },
+    "spec3d": { "regionId": "hand", "side": "right", "paddleCenter": [-0.372, 0.835, 0.04], "paddleNormal": [0, 0, 1], "paddleSize": [0.024, 0.016], "pediclePath": [[-0.36, 0.895, 0.042], [-0.368, 0.865, 0.042], [-0.372, 0.835, 0.04]], "pivotPoint": [-0.36, 0.895, 0.042], "arcRadius": 0.08, "typicalRecipientPoint": [-0.332, 0.865, 0.054], "angiosomeColor": "#0369a1" },
+    "references": [{ "book": "Green's Operative Hand Surgery", "edition": "8th ed.", "chapter_or_section": "Littler Neurovascular Island Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "mfc-flap",
+    "name": "Free Medial Femoral Condyle (MFC) Corticoperiosteal Flap",
+    "synonyms": ["MFC flap", "Medial femoral trochlea (MFT) flap", "Sakai corticoperiosteal flap"],
+    "region": "Lower Extremity (distal medial femur)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Corticoperiosteal", "Osteochondral", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Vascularized corticoperiosteal / osteocutaneous bone flap", "perforator_type": "Saphenous artery perforator (optional skin paddle)" },
+    "tissue_components": ["Vascularized periosteum", "Thin cortical + cancellous bone", "Optional osteochondral trochlea (MFT)", "Optional saphenous skin paddle"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Descending genicular artery (DGA) — osteoarticular branch", "artery_origin": "Superficial femoral artery (at adductor hiatus)", "artery_diameter_mm": { "min": 1.5, "max": 2.2, "unit": "mm", "confidence": "moderate" }, "veins": "Paired DGA venae comitantes", "vein_diameter_mm": { "min": 1.8, "max": 2.8, "unit": "mm", "confidence": "moderate" }, "pedicle_length_cm": { "min": 6.0, "max": 10.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": ["Superomedial genicular artery (SMGA — primary fallback in ~10–15% when DGA is absent)"],
+      "perforators": [
+        { "label": "Saphenous Artery Cutaneous Perforator", "type": "Septocutaneous", "location": "Distal medial thigh anterior to sartorius", "relation_to_landmarks": "Arises from DGA trunk allowing a monitoring/resurfacing skin paddle", "typical_count": "1–2", "caliber_mm": { "min": 0.6, "max": 1.0, "unit": "mm", "confidence": "verify" }, "position3d": [-0.072, 0.56, 0.02] }
+      ],
+      "angiosome": "Descending genicular angiosome",
+      "venous_drainage_notes": "Paired venae comitantes join superficial femoral vein; SMGA backup has shorter pedicle (3–4 cm).",
+      "vascular_variants": ["DGA absent or hypoplastic in ~10–15% — harvest on SMGA instead"]
+    },
+    "nerves": { "motor": [], "sensory": ["Saphenous nerve & infrapatellar branch (preserve to avoid neuroma)"], "can_be_sensate": false, "donor_numbness_note": "Occasional medial knee/infrapatellar numbness." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 4.0, "max": 8.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 3.0, "max": 5.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Malleable thin corticoperiosteal graft (typically 1.5 × 2 cm up to 3 × 5 cm) ideal for small recalcitrant nonunions (<3–4 cm).",
+      "primary_closure_max_width_cm": { "min": 4.0, "max": 5.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "Free microvascular transfer", "reach_description": "Gold standard vascularized small bone graft for scaphoid AVN/nonunion, lunate (MFT), talus, clavicle, and facial bone.", "reach_cm": null },
+    "indications": ["Recalcitrant scaphoid nonunion with proximal pole AVN", "Kienböck disease / lunate reconstruction (MFT osteochondral)", "Small recalcitrant nonunions of clavicle, humerus, talus (<4 cm)", "Nasal/maxillary/orbital bone reconstruction"],
+    "contraindications": ["Large segmental bone defects >5–6 cm (use free fibula)", "Severe medial compartment knee OA"],
+    "advantages": ["Minimal knee donor morbidity and rapid ambulation", "Highly osteogenic malleable vascularized bone/periosteum", "Optional cartilage (MFT) or saphenous skin paddle"],
+    "disadvantages": ["Not suitable for long load-bearing diaphyseal gaps", "DGA absent in ~10–15% requiring shorter SMGA pedicle", "Rare distal femoral stress fracture if oversized"],
+    "donor_site": { "closure": "Primary layered closure.", "morbidity": ["Transient medial knee pain", "Infrapatellar saphenous neuroma"], "functional_loss": "Minimal; early ambulation." },
+    "technique": {
+      "patient_positioning": "Supine with ipsilateral knee slightly flexed and externally rotated.",
+      "preoperative_planning": ["Review recipient bone defect size (<4 cm ideal)", "Prepare radial artery at anatomic snuffbox for scaphoid cases"],
+      "landmarks": ["Adductor magnus tendon", "Vastus medialis posterior border", "Medial femoral condyle", "MCL"],
+      "design": "Medial distal thigh incision retracting vastus medialis anteriorly to expose condylar periosteal plexus.",
+      "harvest_steps": [
+        "1. Incise along posterior border of vastus medialis and retract anteriorly off medial intermuscular septum.",
+        "2. Visualize osteoarticular DGA branch and transverse SMGA branch directly on periosteum of MFC.",
+        "3. Protect MCL posteriorly and joint capsule distally; outline required corticoperiosteal block.",
+        "4. Trace DGA proximally to superficial femoral vessels for 6–10 cm pedicle length."
+      ],
+      "pearls": ["Identify both DGA and SMGA on the periosteum before making bony cuts so you can seamlessly switch to SMGA if DGA is hypoplastic."],
+      "pitfalls": ["Violating the MCL or harvesting an oversized structural block risking distal femur fracture."]
+    },
+    "recipient_vessels_options": ["Radial artery (anatomic snuffbox — end-to-side)", "Dorsal carpal branches", "Anterior/posterior tibial"],
+    "complications": ["Medial knee pain / seroma", "Saphenous neuroma", "Nonunion"],
+    "alternatives": ["fibula-flap", "dcia-flap", "scapular-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": { "defect_locations": ["hand-digits", "forearm-elbow", "foot-plantar", "nose", "mandible"], "provides_bone": true, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": false, "free_capable": true, "chimeric_capable": true, "technical_difficulty": "High", "typical_or_time": "3.5–5 h" },
+    "spec3d": { "regionId": "lower-limb-ant", "side": "right", "paddleCenter": [-0.072, 0.54, 0.012], "paddleNormal": [0.95, 0, 0.3], "paddleSize": [0.055, 0.035], "pediclePath": [[-0.082, 0.65, 0.025], [-0.076, 0.59, 0.018], [-0.072, 0.54, 0.012]], "pivotPoint": [-0.082, 0.65, 0.025], "arcRadius": 0.1, "typicalRecipientPoint": [-0.35, 0.9, 0.045], "angiosomeColor": "#10b981" },
+    "references": [{ "book": "Wei FC, Mardini S. Flaps and Reconstructive Surgery", "edition": "2nd ed.", "chapter_or_section": "Medial Femoral Condyle Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "toe-to-hand-flap",
+    "name": "Free Great Toe / Second Toe-to-Hand Transfer",
+    "synonyms": ["Great toe wrap-around flap", "Trimmed great toe transfer", "Second toe transfer"],
+    "region": "Lower Extremity (foot — hallux / 2nd toe)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Composite", "Osteocutaneous", "Free"],
+    "classification": { "mathes_nahai": null, "cormack_lamberty": "Composite digit/pulp microvascular transfer", "perforator_type": null },
+    "tissue_components": ["Glabrous pulp", "Nail complex", "Phalanges & joints", "Flexor/extensor tendons", "Digital nerves & vessels"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "First dorsal metatarsal artery (FDMA — Gilbert Types I–III) or 1st plantar metatarsal artery", "artery_origin": "Dorsalis pedis artery / deep plantar arch", "artery_diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "moderate" }, "veins": "Dorsal venous arch / greater saphenous vein", "vein_diameter_mm": { "min": 2.0, "max": 3.5, "unit": "mm", "confidence": "moderate" }, "pedicle_length_cm": { "min": 6.0, "max": 12.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": ["Plantar digital arteries"],
+      "perforators": [],
+      "angiosome": "Dorsalis pedis / first metatarsal angiosome",
+      "venous_drainage_notes": "Large dorsal subcutaneous veins draining into greater saphenous system provide reliable outflow.",
+      "vascular_variants": ["Gilbert Type I (~45% dorsal), Type II (~35% intramuscular), Type III (~20% plantar dominant)"]
+    },
+    "nerves": { "motor": ["Extrinsic hand flexor/extensor tendons repaired to toe tendons"], "sensory": ["Plantar digital nerves (restores 6–10 mm 2-point discrimination)"], "can_be_sensate": true, "donor_numbness_note": "Preserve 1st metatarsal head to maintain normal push-off gait." },
+    "dimensions": { "max_skin_paddle_cm": { "length": null, "width": null }, "thickness_notes": "Only true functional like-for-like composite digit reconstruction providing bone, nail, glabrous pulp, sensibility, and motion.", "primary_closure_max_width_cm": null },
+    "arc_of_rotation": { "pivot_point": "Free microvascular composite transfer", "reach_description": "Reconstructs amputated thumb (trimmed great toe / wrap-around) or fingers (2nd toe).", "reach_cm": null },
+    "indications": ["Traumatic thumb amputation at or proximal to IP joint", "Multiple finger amputations ('metacarpal hand')", "Congenital symbrachydactyly / thumb aplasia"],
+    "contraindications": ["Severe PAD or diabetic neuropathy", "Heavy active smoking"],
+    "advantages": ["Restores opposable, sensate, mobile thumb/digit with nail and glabrous pinch", "Preserves daily walking gait when 1st metatarsal head is intact"],
+    "disadvantages": ["High microsurgical complexity", "Foot donor-site cosmetic loss", "Cold intolerance"],
+    "donor_site": { "closure": "Primary closure preserving 1st metatarsal head (great toe) or wedge closure of 2nd ray.", "morbidity": ["Foot cosmetic alteration", "First web wound healing delay"], "functional_loss": "Minimal for daily ambulation when 1st metatarsal head is preserved." },
+    "technique": {
+      "patient_positioning": "Supine (simultaneous hand and foot teams under tourniquet).",
+      "preoperative_planning": ["Map dorsalis pedis & FDMA with Doppler/CTA", "Choose trimmed great toe vs wrap-around vs 2nd toe"],
+      "landmarks": ["Dorsalis pedis pulse", "1st web space (FDMA)", "1st MTP joint", "Greater saphenous vein"],
+      "design": "Retrograde dissection starting in 1st web space to identify dominant dorsal vs plantar arterial system early.",
+      "harvest_steps": [
+        "1. Dissect 1st web space FIRST in retrograde fashion to determine Gilbert Type.",
+        "2. Preserve dorsal venous arch to greater saphenous vein, tendons, and plantar digital nerves.",
+        "3. Disarticulate distal to 1st metatarsal head (preserving tripod weight-bearing).",
+        "4. Fix bone, repair extensor & flexor tendons, perform vascular anastomoses, and coapt digital nerves."
+      ],
+      "pearls": ["Always start in the first web space (retrograde approach) so Gilbert Type III plantar-dominant anatomy is recognized immediately."],
+      "pitfalls": ["Resecting the 1st metatarsal head causes chronic metatarsalgia and gait disturbance."]
+    },
+    "recipient_vessels_options": ["Radial artery (anatomic snuffbox)", "Cephalic vein", "Princeps pollicis"],
+    "complications": ["Arterial vasospasm / thrombosis", "Tendon adhesions", "Cold intolerance"],
+    "alternatives": ["kite-fdma-flap", "littler-island-flap", "groin-flap"],
+    "reconstructive_ladder_level": "Free flap",
+    "advisor_tags": { "defect_locations": ["hand-digits"], "provides_bone": true, "provides_muscle": false, "provides_thin_pliable": true, "provides_bulk": false, "provides_motor": true, "provides_gliding_or_durable": true, "pedicled_capable": false, "free_capable": true, "chimeric_capable": false, "technical_difficulty": "High", "typical_or_time": "6–9 h" },
+    "spec3d": { "regionId": "foot", "side": "right", "paddleCenter": [-0.088, 0.045, 0.145], "paddleNormal": [0, 0.85, 0.52], "paddleSize": [0.055, 0.028], "pediclePath": [[-0.1, 0.085, 0.06], [-0.092, 0.062, 0.105], [-0.088, 0.045, 0.145]], "pivotPoint": [-0.1, 0.085, 0.06], "arcRadius": 0.09, "typicalRecipientPoint": [-0.335, 0.87, 0.052], "angiosomeColor": "#059669" },
+    "references": [{ "book": "Wei FC, Mardini S. Flaps and Reconstructive Surgery", "edition": "2nd ed.", "chapter_or_section": "Toe-to-Hand Transplantation", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  },
+  {
+    "id": "tfl-flap",
+    "name": "Tensor Fascia Lata (TFL) Flap",
+    "synonyms": ["TFL myocutaneous flap", "TFL perforator flap"],
+    "region": "Lower Extremity (proximal lateral thigh)",
+    "region_group": "Lower Extremity",
+    "flap_type": ["Myocutaneous", "Fasciocutaneous", "Pedicled (regional)", "Free"],
+    "classification": { "mathes_nahai": "Type I (ascending/transverse branch of LCFA)", "cormack_lamberty": null, "perforator_type": "Musculocutaneous / Septocutaneous" },
+    "tissue_components": ["Skin", "TFL muscle", "Strong iliotibial band / fascia lata"],
+    "vascular_anatomy": {
+      "dominant_pedicle": { "artery": "Ascending (transverse) branch of LCFA", "artery_origin": "Lateral circumflex femoral artery", "artery_diameter_mm": { "min": 1.8, "max": 2.5, "unit": "mm", "confidence": "moderate" }, "veins": "Paired venae comitantes", "vein_diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" }, "pedicle_length_cm": { "min": 6.0, "max": 8.0, "unit": "cm", "confidence": "moderate" } },
+      "minor_pedicles": [],
+      "perforators": [
+        { "label": "TFL Perforator", "type": "Musculocutaneous", "location": "8–10 cm inferior to ASIS along anterior margin of TFL", "relation_to_landmarks": "Pedicle enters deep medial surface of TFL ~8–10 cm below ASIS", "typical_count": "1–2", "caliber_mm": { "min": 0.8, "max": 1.5, "unit": "mm", "confidence": "verify" }, "position3d": [-0.155, 0.84, 0.015] }
+      ],
+      "angiosome": "Lateral circumflex femoral (ascending branch) angiosome",
+      "venous_drainage_notes": "Distal third over lower thigh is random-pattern and prone to necrosis if extended within 8 cm of lateral knee.",
+      "vascular_variants": ["Immediate intraoperative bailout when ALT descending branch perforators are absent"]
+    },
+    "nerves": { "motor": ["Superior gluteal nerve"], "sensory": ["LFCN & lateral cutaneous branch of T12 (allows sensate trochanteric coverage)"], "can_be_sensate": true, "donor_numbness_note": "Lateral thigh sensory loss." },
+    "dimensions": {
+      "max_skin_paddle_cm": { "length": { "min": 20.0, "max": 30.0, "unit": "cm", "confidence": "moderate" }, "width": { "min": 8.0, "max": 12.0, "unit": "cm", "confidence": "moderate" } },
+      "thickness_notes": "Provides strong autologous vascularized fascial sheet (iliotibial band) for full-thickness abdominal wall reconstruction.",
+      "primary_closure_max_width_cm": { "min": 8.0, "max": 10.0, "unit": "cm", "confidence": "moderate" }
+    },
+    "arc_of_rotation": { "pivot_point": "Pedicle entry 8–10 cm inferior to ASIS", "reach_description": "Gold standard pedicled flap for trochanteric pressure injuries, groin, and lower-to-mid abdominal wall fascial defects.", "reach_cm": { "min": 22.0, "max": 30.0, "unit": "cm", "confidence": "moderate" } },
+    "indications": ["Trochanteric pressure injury coverage", "Full-thickness abdominal wall reconstruction with vascularized fascia lata", "Groin / perineal coverage", "Intraoperative bailout when ALT perforators are absent"],
+    "contraindications": ["Prior lateral hip surgery dividing LCFA ascending branch"],
+    "advantages": ["Durable vascularized fascia lata for abdominal wall strength", "Reliable pedicle anatomy & easy harvest", "Can be sensate via T12/LFCN"],
+    "disadvantages": ["Distal third skin necrosis if extended within 8 cm of knee", "Lateral thigh contour step-off / dog-ear", "STSG required if width >10 cm"],
+    "donor_site": { "closure": "Primary if ≤8–10 cm; STSG if wider.", "morbidity": ["Lateral thigh contour deformity", "Seroma"], "functional_loss": "Minimal hip abduction deficit." },
+    "technique": {
+      "patient_positioning": "Supine or lateral decubitus.",
+      "preoperative_planning": ["Draw ASIS to lateral femoral condyle line", "Mark pedicle entry 8–10 cm below ASIS and stop ≥8 cm proximal to knee"],
+      "landmarks": ["ASIS", "Greater trochanter", "Lateral femoral condyle", "Iliotibial tract"],
+      "design": "Anterior border along ASIS–lateral patella line; keep distal margin ≥8 cm above knee.",
+      "harvest_steps": [
+        "1. Incise distal/lateral margins through fascia lata and elevate subfascially off vastus lateralis.",
+        "2. Proceed proximally into plane between TFL and gluteus medius / rectus femoris.",
+        "3. Identify ascending LCFA pedicle entering deep surface of TFL ~8–10 cm below ASIS.",
+        "4. Rotate posteriorly for trochanteric ulcer or superomedially for groin/abdominal wall."
+      ],
+      "pearls": ["Keep distal tip at least 8–10 cm above lateral knee joint to avoid distal random-zone necrosis."],
+      "pitfalls": ["Mistaking distal fascial-only extension for reliable muscular skin perfusion."]
+    },
+    "recipient_vessels_options": ["Pedicled on LCFA ascending branch", "Inferior epigastric (free)"],
+    "complications": ["Distal skin tip necrosis", "Seroma", "Dog-ear deformity"],
+    "alternatives": ["alt-flap", "vram-flap", "gluteal-rotation-flap", "rectus-femoris-flap"],
+    "reconstructive_ladder_level": "Regional flap",
+    "advisor_tags": { "defect_locations": ["sacrum-ischium", "groin-perineum", "abdomen-wall"], "provides_bone": false, "provides_muscle": true, "provides_thin_pliable": false, "provides_bulk": true, "provides_motor": false, "provides_gliding_or_durable": true, "pedicled_capable": true, "free_capable": true, "chimeric_capable": true, "technical_difficulty": "Low", "typical_or_time": "1.5–2.5 h" },
+    "spec3d": { "regionId": "right-lateral", "side": "right", "paddleCenter": [-0.155, 0.8, 0.008], "paddleNormal": [-0.98, 0, 0.16], "paddleSize": [0.22, 0.09], "pediclePath": [[-0.105, 0.86, 0.045], [-0.135, 0.845, 0.03], [-0.155, 0.83, 0.015]], "pivotPoint": [-0.125, 0.85, 0.035], "arcRadius": 0.25, "typicalRecipientPoint": [-0.08, 0.96, 0.11], "angiosomeColor": "#0284c7" },
+    "references": [{ "book": "Mathes SJ, Nahai F. Reconstructive Surgery: Principles, Anatomy, & Technique", "edition": "1st ed.", "chapter_or_section": "Tensor Fascia Lata Flap", "verify": true }],
+    "verification_status": "Needs review",
+    "last_reviewed": null
+  }
+]

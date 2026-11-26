@@ -1,0 +1,261 @@
+[
+  {
+    "id": "anterior-full",
+    "name": "Anterior Full Body",
+    "region_group": "Overview",
+    "cameraPosition": [0, 1.0, 2.65],
+    "cameraTarget": [0, 0.92, 0],
+    "landmarks": [],
+    "angiosomeTerritory": "Full-body angiosome overview (Taylor & Palmer)",
+    "angiosomeColor": "#0f766e"
+  },
+  {
+    "id": "posterior-full",
+    "name": "Posterior Full Body",
+    "region_group": "Overview",
+    "cameraPosition": [0, 1.0, -2.65],
+    "cameraTarget": [0, 0.92, 0],
+    "landmarks": [],
+    "angiosomeTerritory": "Posterior trunk & extremity angiosomes",
+    "angiosomeColor": "#0d9488"
+  },
+  {
+    "id": "left-lateral",
+    "name": "Left Lateral",
+    "region_group": "Overview",
+    "cameraPosition": [2.5, 1.0, 0.15],
+    "cameraTarget": [0, 0.92, 0],
+    "landmarks": [],
+    "angiosomeTerritory": "Lateral trunk & extremity perforasomes",
+    "angiosomeColor": "#0284c7"
+  },
+  {
+    "id": "right-lateral",
+    "name": "Right Lateral",
+    "region_group": "Overview",
+    "cameraPosition": [-2.5, 1.0, 0.15],
+    "cameraTarget": [0, 0.92, 0],
+    "landmarks": [],
+    "angiosomeTerritory": "Right lateral profile",
+    "angiosomeColor": "#0284c7"
+  },
+  {
+    "id": "head-neck",
+    "name": "Head & Neck",
+    "region_group": "Head & Neck",
+    "cameraPosition": [0.18, 1.63, 0.72],
+    "cameraTarget": [0, 1.57, 0.02],
+    "landmarks": [
+      {
+        "id": "lm-supratrochlear-notch",
+        "name": "Supratrochlear Notch",
+        "position": [0.018, 1.66, 0.095],
+        "clinicalNote": "1.7–2.2 cm from facial midline; exit of supratrochlear pedicle for paramedian forehead flap."
+      },
+      {
+        "id": "lm-zygomatic-arch",
+        "name": "Zygomatic Arch",
+        "position": [0.072, 1.615, 0.04],
+        "clinicalNote": "Superficial temporal artery courses superficially over the posterior root of the zygoma."
+      },
+      {
+        "id": "lm-mandibular-angle",
+        "name": "Mandibular Angle / Antegonial Notch",
+        "position": [0.055, 1.545, 0.055],
+        "clinicalNote": "Facial artery crosses inferior border of mandible anterior to masseter insertion."
+      }
+    ],
+    "angiosomeTerritory": "Ophthalmic, Facial & Superficial Temporal Angiosomes",
+    "angiosomeColor": "#f59e0b"
+  },
+  {
+    "id": "chest-breast",
+    "name": "Chest & Breast",
+    "region_group": "Trunk",
+    "cameraPosition": [0.15, 1.32, 0.95],
+    "cameraTarget": [0, 1.28, 0.04],
+    "landmarks": [
+      {
+        "id": "lm-clavicle-mid",
+        "name": "Midpoint of Clavicle",
+        "position": [0.085, 1.435, 0.085],
+        "clinicalNote": "Thoracoacromial trunk arises deep to pectoralis minor near the mid-clavicular line."
+      },
+      {
+        "id": "lm-xiphoid",
+        "name": "Xiphoid Process",
+        "position": [0, 1.19, 0.115],
+        "clinicalNote": "Inferior boundary of sternum; superior epigastric vessels pierce rectus sheath just inferolateral."
+      }
+    ],
+    "angiosomeTerritory": "Internal Mammary & Thoracoacromial Angiosomes",
+    "angiosomeColor": "#ec4899"
+  },
+  {
+    "id": "abdomen",
+    "name": "Abdomen",
+    "region_group": "Trunk",
+    "cameraPosition": [0.12, 1.07, 0.95],
+    "cameraTarget": [0, 1.04, 0.05],
+    "landmarks": [
+      {
+        "id": "lm-umbilicus",
+        "name": "Umbilicus",
+        "position": [0, 1.06, 0.12],
+        "clinicalNote": "Periumbilical zone (within 3–4 cm lateral and inferior) harbors dominant DIEP perforators."
+      },
+      {
+        "id": "lm-asis-r",
+        "name": "ASIS (Anterior Superior Iliac Spine)",
+        "position": [-0.115, 0.975, 0.095],
+        "clinicalNote": "Key landmark for DIEP lateral taper, SIEA course, groin (SCIA) flap, and ALT reference line."
+      },
+      {
+        "id": "lm-pubic-tubercle",
+        "name": "Pubic Tubercle",
+        "position": [-0.028, 0.895, 0.102],
+        "clinicalNote": "Medial anchor of inguinal ligament; marks inferior incision limit for DIEP and gracilis reference."
+      }
+    ],
+    "angiosomeTerritory": "Deep & Superficial Inferior Epigastric Angiosomes",
+    "angiosomeColor": "#14b8a6"
+  },
+  {
+    "id": "back",
+    "name": "Back & Posterior Trunk",
+    "region_group": "Trunk",
+    "cameraPosition": [-0.2, 1.24, -1.05],
+    "cameraTarget": [0, 1.22, -0.05],
+    "landmarks": [
+      {
+        "id": "lm-scapular-tip",
+        "name": "Inferior Angle of Scapula",
+        "position": [-0.095, 1.23, -0.115],
+        "clinicalNote": "Latissimus dorsi superior border crosses tip; TDAP perforators emerge ~8 cm below posterior axillary fold."
+      },
+      {
+        "id": "lm-psis",
+        "name": "PSIS (Posterior Superior Iliac Spine)",
+        "position": [-0.055, 0.97, -0.105],
+        "clinicalNote": "SGAP perforator reference: junction of upper and middle thirds of line from PSIS to greater trochanter."
+      }
+    ],
+    "angiosomeTerritory": "Thoracodorsal, Circumflex Scapular & Superior Gluteal Angiosomes",
+    "angiosomeColor": "#8b5cf6"
+  },
+  {
+    "id": "upper-limb-ant",
+    "name": "Upper Limb (Anterior)",
+    "region_group": "Upper Extremity",
+    "cameraPosition": [-0.55, 1.15, 0.85],
+    "cameraTarget": [-0.28, 1.12, 0.02],
+    "landmarks": [
+      {
+        "id": "lm-radial-styloid",
+        "name": "Radial Styloid",
+        "position": [-0.36, 0.92, 0.04],
+        "clinicalNote": "Distal pulse point of radial artery for RFFF design and preoperative Allen test."
+      },
+      {
+        "id": "lm-lateral-epicondyle",
+        "name": "Lateral Epicondyle of Humerus",
+        "position": [-0.31, 1.14, -0.01],
+        "clinicalNote": "Posterior radial collateral artery courses in lateral intermuscular septum toward lateral epicondyle."
+      }
+    ],
+    "angiosomeTerritory": "Radial, Ulnar & Profunda Brachii Angiosomes",
+    "angiosomeColor": "#3b82f6"
+  },
+  {
+    "id": "upper-limb-post",
+    "name": "Upper Limb (Posterior)",
+    "region_group": "Upper Extremity",
+    "cameraPosition": [-0.55, 1.15, -0.85],
+    "cameraTarget": [-0.28, 1.12, -0.02],
+    "landmarks": [],
+    "angiosomeTerritory": "Posterior Interosseous & Radial Collateral Angiosomes",
+    "angiosomeColor": "#6366f1"
+  },
+  {
+    "id": "hand",
+    "name": "Hand & Wrist",
+    "region_group": "Upper Extremity",
+    "cameraPosition": [-0.46, 0.84, 0.45],
+    "cameraTarget": [-0.36, 0.82, 0.03],
+    "landmarks": [],
+    "angiosomeTerritory": "Palmar Arch & First Dorsal Metacarpal Territories",
+    "angiosomeColor": "#06b6d4"
+  },
+  {
+    "id": "lower-limb-ant",
+    "name": "Lower Limb (Anterior / Thigh)",
+    "region_group": "Lower Extremity",
+    "cameraPosition": [-0.25, 0.66, 1.18],
+    "cameraTarget": [-0.08, 0.62, 0.02],
+    "landmarks": [
+      {
+        "id": "lm-patella-superolat",
+        "name": "Superolateral Patella",
+        "position": [-0.125, 0.51, 0.075],
+        "clinicalNote": "Distal endpoint of ASIS–superolateral patella line; ALT perforator B clusters near the midpoint."
+      },
+      {
+        "id": "lm-fibular-head",
+        "name": "Fibular Head",
+        "position": [-0.148, 0.445, 0.01],
+        "clinicalNote": "Common peroneal nerve wraps around fibular neck; leave 6–8 cm proximal fibula during harvest."
+      },
+      {
+        "id": "lm-lateral-malleolus",
+        "name": "Lateral Malleolus",
+        "position": [-0.135, 0.095, 0.0],
+        "clinicalNote": "Leave 6–8 cm distal fibula for ankle mortise stability; reverse sural pivot ~5 cm proximal."
+      }
+    ],
+    "angiosomeTerritory": "Lateral Circumflex Femoral, Profunda & Peroneal Angiosomes",
+    "angiosomeColor": "#10b981"
+  },
+  {
+    "id": "lower-limb-post",
+    "name": "Lower Limb (Posterior)",
+    "region_group": "Lower Extremity",
+    "cameraPosition": [-0.25, 0.58, -1.18],
+    "cameraTarget": [-0.08, 0.54, -0.02],
+    "landmarks": [
+      {
+        "id": "lm-gluteal-fold",
+        "name": "Inferior Gluteal Crease",
+        "position": [-0.09, 0.84, -0.105],
+        "clinicalNote": "PAP skin paddle designed 1–2 cm inferior to gluteal crease; perforators emerge 3–5 cm below crease."
+      },
+      {
+        "id": "lm-popliteal-crease",
+        "name": "Popliteal Crease",
+        "position": [-0.105, 0.495, -0.06],
+        "clinicalNote": "MSAP perforators emerge ~8–12 cm distal to popliteal crease along medial gastrocnemius axis."
+      }
+    ],
+    "angiosomeTerritory": "Profunda Femoris, Sural & Posterior Tibial Angiosomes",
+    "angiosomeColor": "#059669"
+  },
+  {
+    "id": "foot",
+    "name": "Ankle & Foot",
+    "region_group": "Lower Extremity",
+    "cameraPosition": [-0.32, 0.14, 0.58],
+    "cameraTarget": [-0.11, 0.08, 0.04],
+    "landmarks": [],
+    "angiosomeTerritory": "Posterior Tibial, Medial Plantar & Dorsalis Pedis Angiosomes",
+    "angiosomeColor": "#0ea5e9"
+  },
+  {
+    "id": "perineum",
+    "name": "Perineum & Groin",
+    "region_group": "Perineum & Pelvis",
+    "cameraPosition": [0.05, 0.82, 0.78],
+    "cameraTarget": [0, 0.85, 0.02],
+    "landmarks": [],
+    "angiosomeTerritory": "Internal Pudendal, Medial Circumflex & SCIA Angiosomes",
+    "angiosomeColor": "#d97706"
+  }
+]

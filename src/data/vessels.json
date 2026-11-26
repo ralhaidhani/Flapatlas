@@ -1,0 +1,285 @@
+[
+  {
+    "id": "v-lcfa-desc",
+    "name": "Descending Branch of Lateral Circumflex Femoral Artery",
+    "category": "Artery",
+    "origin": "Lateral circumflex femoral artery (from profunda femoris, occasionally directly from common femoral artery)",
+    "course": "Descends obliquely inferolaterally in the intermuscular septum between rectus femoris and vastus lateralis alongside the nerve to vastus lateralis.",
+    "branches": ["Septocutaneous and musculocutaneous perforators (A, B, C)", "Muscular branches to vastus lateralis and rectus femoris", "Anastomotic branch to lateral superior genicular artery"],
+    "relations": "Runs with paired venae comitantes and motor nerve to vastus lateralis in the groove deep to rectus femoris.",
+    "diameter_mm": { "min": 2.0, "max": 2.5, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Lateral circumflex femoral angiosome (anterolateral thigh)",
+    "variants": ["Oblique branch present in ~35% of cases", "Origin directly from profunda femoris or transverse branch"],
+    "clinical_relevance": "Primary pedicle of the ALT flap and vastus lateralis muscle flap; allows chimeric skin/muscle/fascia harvest.",
+    "supplied_flap_ids": ["alt-flap", "rectus-femoris-flap", "amt-flap"],
+    "regionId": "lower-limb-ant",
+    "path3d": [[-0.085, 0.88, 0.055], [-0.115, 0.78, 0.068], [-0.132, 0.67, 0.068], [-0.138, 0.56, 0.058]],
+    "references": [
+      { "book": "Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "Anterolateral Thigh Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-diea",
+    "name": "Deep Inferior Epigastric Artery (DIEA)",
+    "category": "Artery",
+    "origin": "External iliac artery just superior to the inguinal ligament",
+    "course": "Ascends superomedially in extraperitoneal fat, pierces transversalis fascia, enters posterior surface of rectus abdominis near arcuate line, and divides into medial and lateral rows (Moon–Taylor Types I–III).",
+    "branches": ["Medial row perforators", "Lateral row perforators", "Pubic branch", "Cremasteric / round ligament branch"],
+    "relations": "Accompanied by paired venae comitantes; runs deep to rectus abdominis and anastomoses with superior epigastric system via choke vessels.",
+    "diameter_mm": { "min": 2.0, "max": 3.5, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Deep inferior epigastric angiosome (anterior abdominal wall)",
+    "variants": ["Type I single trunk (~29%)", "Type II bifurcating medial/lateral (~57%)", "Type III trifurcating (~14%)"],
+    "clinical_relevance": "Workhorse vascular pedicle for autologous breast reconstruction (DIEP, MS-TRAM, free TRAM) and pelvic/perineal VRAM.",
+    "supplied_flap_ids": ["diep-flap", "tram-flap", "vram-flap"],
+    "regionId": "abdomen",
+    "path3d": [[-0.075, 0.89, 0.065], [-0.055, 0.96, 0.088], [-0.042, 1.03, 0.098], [-0.038, 1.12, 0.098]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "DIEP & TRAM Flaps", "verify": true }
+    ]
+  },
+  {
+    "id": "v-siea",
+    "name": "Superficial Inferior Epigastric Artery (SIEA)",
+    "category": "Artery",
+    "origin": "Common femoral artery 2–3 cm inferior to inguinal ligament (sometimes common trunk with SCIA)",
+    "course": "Ascends superiorly and slightly medially over the inguinal ligament within the superficial subcutaneous layer deep to Scarpa fascia initially, then superficial.",
+    "branches": ["Cutaneous branches to lower hemiabdomen"],
+    "relations": "Accompanied by superficial inferior epigastric vein (SIEV), which often lies more medially and drains into saphenofemoral junction.",
+    "diameter_mm": { "min": 1.0, "max": 2.0, "unit": "mm", "confidence": "verify" },
+    "angiosome": "Superficial inferior epigastric territory (hemiabdomen)",
+    "variants": ["Absent or <1.5 mm diameter in 30–65% of patients"],
+    "clinical_relevance": "Allows breast reconstruction without incising anterior rectus fascia; perfusion rarely crosses the midline reliably.",
+    "supplied_flap_ids": ["siea-flap"],
+    "regionId": "abdomen",
+    "path3d": [[-0.085, 0.87, 0.08], [-0.078, 0.94, 0.108], [-0.062, 1.02, 0.118]],
+    "references": [
+      { "book": "Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "SIEA Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-thoracodorsal",
+    "name": "Thoracodorsal Artery",
+    "category": "Artery",
+    "origin": "Terminal continuation of subscapular artery after takeoff of circumflex scapular artery",
+    "course": "Descends along the deep lateral border of latissimus dorsi in the posterior axilla, entering the hilum ~8–10 cm inferior to the axillary artery.",
+    "branches": ["Serratus anterior branch(es)", "Angular branch to scapular tip", "Descending (vertical) and transverse intramuscular branches"],
+    "relations": "Travels with thoracodorsal vein and thoracodorsal nerve (C6–C8) forming the neurovascular hilum.",
+    "diameter_mm": { "min": 1.8, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Thoracodorsal angiosome (posterolateral chest and back)",
+    "variants": ["Direct origin from axillary artery in rare cases; variable number of serratus branches"],
+    "clinical_relevance": "Supports latissimus dorsi, TDAP, serratus anterior, and scapular-tip chimeric reconstructions.",
+    "supplied_flap_ids": ["ld-flap", "tdap-flap", "serratus-anterior-flap"],
+    "regionId": "back",
+    "path3d": [[-0.175, 1.38, -0.02], [-0.165, 1.30, -0.068], [-0.145, 1.21, -0.095], [-0.12, 1.12, -0.105]],
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Latissimus Dorsi & Subscapular System", "verify": true }
+    ]
+  },
+  {
+    "id": "v-radial",
+    "name": "Radial Artery",
+    "category": "Artery",
+    "origin": "Bifurcation of brachial artery in cubital fossa",
+    "course": "Courses distally along the volar-radial forearm deep to brachioradialis proximally and superficial between brachioradialis and flexor carpi radialis distally.",
+    "branches": ["Radial recurrent artery", "Septocutaneous perforators in lateral intermuscular septum", "Superficial palmar branch"],
+    "relations": "Paired venae comitantes plus superficial cephalic vein; superficial branch of radial nerve lies lateral in proximal two-thirds.",
+    "diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Radial artery angiosome (volar and radial forearm)",
+    "variants": ["High bifurcation from brachial/axillary artery (~10–14%)", "Incomplete superficial palmar arch (requires Allen test)"],
+    "clinical_relevance": "Primary pedicle of the radial forearm free flap (RFFF) and reverse-flow pedicled radial forearm flap.",
+    "supplied_flap_ids": ["rfff-flap"],
+    "regionId": "upper-limb-ant",
+    "path3d": [[-0.29, 1.13, 0.03], [-0.325, 1.04, 0.04], [-0.355, 0.94, 0.045]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Radial Forearm Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-peroneal",
+    "name": "Peroneal (Fibular) Artery",
+    "category": "Artery",
+    "origin": "Tibioperoneal trunk ~2–3 cm distal to anterior tibial artery takeoff",
+    "course": "Descends along the posteromedial aspect of the fibula between tibialis posterior and flexor hallucis longus.",
+    "branches": ["Nutrient artery to fibula (middle third)", "Periosteal arcades", "Septocutaneous perforators in posterior crural septum", "Perforating branch distally"],
+    "relations": "Paired venae comitantes; adjacent to flexor hallucis longus and posterior crural intermuscular septum.",
+    "diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Peroneal artery angiosome (lateral leg and lateral heel)",
+    "variants": ["Peronea arteria magna (~1–5% — absolute contraindication to free fibula harvest; confirm with CTA/MRA)"],
+    "clinical_relevance": "Supplies free fibula osteocutaneous flap and peroneal artery perforator propeller flaps.",
+    "supplied_flap_ids": ["fibula-flap", "peroneal-perforator-flap"],
+    "regionId": "lower-limb-ant",
+    "path3d": [[-0.12, 0.43, -0.025], [-0.132, 0.31, -0.025], [-0.132, 0.18, -0.018]],
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Free Fibula Osteocutaneous Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-mcfa",
+    "name": "Medial Circumflex Femoral Artery (Ascending Branch to Gracilis)",
+    "category": "Artery",
+    "origin": "Profunda femoris artery (occasionally common femoral artery)",
+    "course": "Passes medially between adductor longus and adductor brevis to enter the deep surface of gracilis 8–10 cm below the pubic tubercle.",
+    "branches": ["Dominant vascular pedicle to gracilis", "Perforators to overlying TUG skin paddle"],
+    "relations": "Accompanied by paired venae comitantes; anterior branch of obturator nerve enters slightly superiorly.",
+    "diameter_mm": { "min": 1.5, "max": 2.2, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Medial circumflex femoral angiosome (proximal medial thigh)",
+    "variants": ["Dual proximal pedicles in a minority of patients"],
+    "clinical_relevance": "Dominant pedicle of gracilis muscle, TUG breast flap, and functional free gracilis for facial reanimation.",
+    "supplied_flap_ids": ["gracilis-flap", "tug-flap"],
+    "regionId": "lower-limb-ant",
+    "path3d": [[-0.08, 0.86, 0.04], [-0.055, 0.80, 0.02], [-0.05, 0.72, 0.0]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Gracilis Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-profunda-perf",
+    "name": "Profunda Femoris Artery Perforators (1st–3rd)",
+    "category": "Artery",
+    "origin": "Profunda femoris artery",
+    "course": "Pierce adductor magnus posteriorly to emerge in the posterior thigh 3–6 cm inferior to the gluteal fold and posterior to gracilis.",
+    "branches": ["Musculocutaneous and septocutaneous posterior thigh perforators"],
+    "relations": "Course through adductor magnus near posterior femoral cutaneous nerve.",
+    "diameter_mm": { "min": 1.5, "max": 2.2, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Profunda femoris posterior thigh angiosome",
+    "variants": ["Variable dominance between 1st, 2nd, and 3rd perforators; CTA mapping strongly recommended"],
+    "clinical_relevance": "Basis of the Profunda Artery Perforator (PAP) flap for autologous breast reconstruction.",
+    "supplied_flap_ids": ["pap-flap"],
+    "regionId": "lower-limb-post",
+    "path3d": [[-0.085, 0.84, -0.03], [-0.09, 0.79, -0.075], [-0.095, 0.75, -0.10]],
+    "references": [
+      { "book": "Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "Profunda Artery Perforator Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-sga",
+    "name": "Superior Gluteal Artery (SGA)",
+    "category": "Artery",
+    "origin": "Posterior division of internal iliac artery",
+    "course": "Exits greater sciatic foramen superior to piriformis and divides into superficial and deep branches piercing gluteus maximus.",
+    "branches": ["Superficial muscular/perforating branches", "Deep branch to gluteus medius/minimus"],
+    "relations": "Emerges near junction of medial and middle thirds of line between PSIS and greater trochanter.",
+    "diameter_mm": { "min": 2.0, "max": 3.0, "unit": "mm", "confidence": "verify" },
+    "angiosome": "Superior gluteal angiosome (upper buttock)",
+    "variants": ["Short pedicle length if dissection stops at sacral fascia"],
+    "clinical_relevance": "Pedicle of SGAP flap for autologous breast reconstruction and gluteal perforator flaps for sacral pressure injuries.",
+    "supplied_flap_ids": ["sgap-flap", "gluteal-rotation-flap"],
+    "regionId": "back",
+    "path3d": [[-0.05, 0.94, -0.04], [-0.08, 0.93, -0.095], [-0.10, 0.93, -0.12]],
+    "references": [
+      { "book": "Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "SGAP & IGAP Flaps", "verify": true }
+    ]
+  },
+  {
+    "id": "v-thoracoacromial",
+    "name": "Thoracoacromial Artery (Pectoral Branch)",
+    "category": "Artery",
+    "origin": "Second part of axillary artery",
+    "course": "Pierces clavipectoral fascia and descends on the deep surface of pectoralis major along a line from the acromion to the xiphoid.",
+    "branches": ["Pectoral, deltoid, acromial, and clavicular branches"],
+    "relations": "Accompanied by lateral pectoral nerve on deep surface of pectoralis major.",
+    "diameter_mm": { "min": 1.8, "max": 2.5, "unit": "mm", "confidence": "verify" },
+    "angiosome": "Thoracoacromial angiosome (anterior chest)",
+    "variants": ["Secondary segmental blood supply from internal mammary perforators (Mathes–Nahai Type V)"],
+    "clinical_relevance": "Dominant pedicle of the pectoralis major flap for sternal wound and head & neck salvage reconstruction.",
+    "supplied_flap_ids": ["pec-major-flap"],
+    "regionId": "chest-breast",
+    "path3d": [[-0.14, 1.41, 0.04], [-0.095, 1.36, 0.088], [-0.065, 1.29, 0.112]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Pectoralis Major Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "v-sural-medial",
+    "name": "Medial Sural Artery",
+    "category": "Artery",
+    "origin": "Popliteal artery at level of knee joint",
+    "course": "Enters proximal medial head of gastrocnemius ~2–4 cm below popliteal crease and gives off musculocutaneous perforators distally.",
+    "branches": ["Muscular branches to medial gastrocnemius", "Medial sural artery perforators (MSAP)"],
+    "relations": "Paired venae comitantes; tibial nerve branch accompanies pedicle.",
+    "diameter_mm": { "min": 1.5, "max": 2.5, "unit": "mm", "confidence": "moderate" },
+    "angiosome": "Sural angiosome (posterior proximal leg)",
+    "variants": ["1–4 perforators typically 8–12 cm distal to popliteal crease"],
+    "clinical_relevance": "Supplies medial gastrocnemius muscle flap (knee/proximal tibia) and thin MSAP free flap.",
+    "supplied_flap_ids": ["gastrocnemius-flap", "msap-flap"],
+    "regionId": "lower-limb-post",
+    "path3d": [[-0.105, 0.495, -0.04], [-0.085, 0.42, -0.068], [-0.082, 0.34, -0.072]],
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Gastrocnemius & MSAP Flaps", "verify": true }
+    ]
+  },
+  {
+    "id": "v-scia",
+    "name": "Superficial Circumflex Iliac Artery (SCIA)",
+    "category": "Artery",
+    "origin": "Femoral artery ~2–3 cm inferior to inguinal ligament",
+    "course": "Courses superolaterally parallel to and ~2 cm inferior to the inguinal ligament toward the ASIS; divides into superficial and deep branches.",
+    "branches": ["Superficial branch (SCIP flap)", "Deep branch (pierces deep fascia lateral to sartorius)"],
+    "relations": "Superficial circumflex iliac vein drains to saphenous bulb; lateral femoral cutaneous nerve crosses nearby.",
+    "diameter_mm": { "min": 1.0, "max": 1.8, "unit": "mm", "confidence": "verify" },
+    "angiosome": "Superficial circumflex iliac angiosome (groin / iliac crest)",
+    "variants": ["Common trunk with SIEA in up to 48% of cases"],
+    "clinical_relevance": "Pedicle of the classic pedicled groin flap for hand coverage and the thin SCIP free flap.",
+    "supplied_flap_ids": ["groin-flap"],
+    "regionId": "perineum",
+    "path3d": [[-0.082, 0.875, 0.075], [-0.115, 0.915, 0.092], [-0.145, 0.965, 0.085]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Groin & SCIP Flaps", "verify": true }
+    ]
+  },
+  {
+    "id": "v-supratrochlear",
+    "name": "Supratrochlear Artery",
+    "category": "Artery",
+    "origin": "Ophthalmic artery (internal carotid system)",
+    "course": "Exits medial superior orbital rim 1.7–2.2 cm from midline, pierces corrugator supercilii, and ascends vertically in subcutaneous plane over frontalis.",
+    "branches": ["Rich anastomotic plexus with supraorbital and angular arteries"],
+    "relations": "Accompanied by supratrochlear nerve and supratrochlear veins draining to angular vein.",
+    "diameter_mm": { "min": 0.8, "max": 1.2, "unit": "mm", "confidence": "verify" },
+    "angiosome": "Ophthalmic / supratrochlear forehead angiosome",
+    "variants": ["Emergence varies 1.5–2.5 cm from midline; confirm with handheld Doppler"],
+    "clinical_relevance": "Axial pedicle of the paramedian forehead flap — gold standard for major nasal subunit reconstruction.",
+    "supplied_flap_ids": ["paramedian-forehead-flap"],
+    "regionId": "head-neck",
+    "path3d": [[0.018, 1.655, 0.095], [0.018, 1.69, 0.098], [0.018, 1.725, 0.09]],
+    "references": [
+      { "book": "Grabb's Encyclopedia of Flaps", "edition": "4th ed.", "chapter_or_section": "Forehead Flaps for Nasal Reconstruction", "verify": true }
+    ]
+  },
+  {
+    "id": "n-thoracodorsal",
+    "name": "Thoracodorsal Nerve",
+    "category": "Nerve",
+    "origin": "Posterior cord of brachial plexus (C6–C8)",
+    "course": "Descends along posterior axillary wall with thoracodorsal vessels to innervate latissimus dorsi.",
+    "branches": ["Lateral and medial motor branches following vascular bifurcation"],
+    "relations": "Must be carefully separated during TDAP harvest to preserve latissimus dorsi motor function.",
+    "diameter_mm": null,
+    "variants": ["Early branching proximal to muscle hilum"],
+    "clinical_relevance": "Enables functional muscle transfer (elbow flexion, chest wall) or can be divided in breast reconstruction to prevent animation deformity.",
+    "supplied_flap_ids": ["ld-flap", "tdap-flap"],
+    "regionId": "back",
+    "path3d": [[-0.17, 1.385, -0.015], [-0.158, 1.30, -0.062], [-0.138, 1.21, -0.09]],
+    "references": [
+      { "book": "Reconstructive Surgery: Anatomy, Technique, and Clinical Applications", "edition": "1st ed.", "chapter_or_section": "Latissimus Dorsi Flap", "verify": true }
+    ]
+  },
+  {
+    "id": "n-lfcn",
+    "name": "Lateral Femoral Cutaneous Nerve (LFCN)",
+    "category": "Nerve",
+    "origin": "Lumbar plexus (L2–L3)",
+    "course": "Passes under or through inguinal ligament medial to ASIS and courses subcutaneously across anterolateral thigh.",
+    "branches": ["Anterior and posterior cutaneous divisions"],
+    "relations": "Superficial to fascia lata; harvested with ALT flap to create a sensate flap.",
+    "diameter_mm": null,
+    "variants": ["Variable distance medial to ASIS (0–3 cm)"],
+    "clinical_relevance": "Allows innervated (sensate) ALT reconstruction for oral cavity, phalloplasty, or plantar foot defects.",
+    "supplied_flap_ids": ["alt-flap"],
+    "regionId": "lower-limb-ant",
+    "path3d": [[-0.105, 0.96, 0.09], [-0.125, 0.84, 0.095], [-0.14, 0.70, 0.088]],
+    "references": [
+      { "book": "Perforator Flaps: Anatomy, Technique, & Clinical Applications", "edition": "3rd ed.", "chapter_or_section": "ALT Innervation", "verify": true }
+    ]
+  }
+]

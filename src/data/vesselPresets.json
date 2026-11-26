@@ -1,0 +1,45 @@
+{
+  "defaultPresetId": "surgical",
+  "presets": [
+    {
+      "id": "surgical",
+      "label": "Surgical (default)",
+      "shortLabel": "Surgical",
+      "mode": "exclude",
+      "description": "Hides intracranial, spinal, cardiac, pulmonary segmental, and abdominal visceral organ-branch vessels so reconstructive trunk & limb pedicles stand out.",
+      "pattern": "cerebr|cerebell|choroid|sulcus|gyrus|callos|pontine|frontobasal|temporal|occipital|parietal|insular|communicating|basilar|spinal|segmental|lobar|lingular|conus|diagonal|coronary|cardiac|hepatovenous|portal|pancreatic|cecal|appendicular|colic|ileal|sigmoid|splenial|hepatic"
+    },
+    {
+      "id": "upper_limb",
+      "label": "Upper limb",
+      "shortLabel": "Upper limb",
+      "mode": "include",
+      "description": "Isolates axillary, brachial, radial, ulnar, interosseous, palmar, digital, cephalic, and basilic upper-extremity vessels.",
+      "pattern": "radial|ulnar|brachial|axillary|interosseous|palmar|carpal|metacarpal|digital|cephalic|basilic|median|collateral|humeral|princeps|radialis indicis"
+    },
+    {
+      "id": "lower_limb",
+      "label": "Lower limb",
+      "shortLabel": "Lower limb",
+      "mode": "include",
+      "description": "Isolates iliac, femoral, popliteal, tibial, fibular, dorsalis pedis, plantar, genicular, saphenous, and perforating lower-extremity vessels.",
+      "pattern": "femoral|popliteal|tibial|plantar|dorsalis pedis|genicular|saphenous|fibular|tarsal|metatarsal|calcaneal|perforating|iliac"
+    },
+    {
+      "id": "trunk_shoulder",
+      "label": "Trunk wall and shoulder girdle",
+      "shortLabel": "Trunk & shoulder",
+      "mode": "include",
+      "description": "Isolates epigastric, internal/lateral thoracic, intercostal, thoracodorsal, scapular, thoracoacromial, cervical, subclavian, carotid, and jugular vessels.",
+      "pattern": "epigastric|thoracic|intercostal|subcostal|lumbar|scapular|thoracodorsal|musculophrenic|phrenic|acromial|pectoral|cervical|subclavian|vertebral|carotid|jugular|brachiocephalic|thyrocervical|costocervical"
+    },
+    {
+      "id": "all",
+      "label": "All vessels",
+      "shortLabel": "All",
+      "mode": "all",
+      "description": "Displays every loaded artery and vein mesh without decluttering.",
+      "pattern": ""
+    }
+  ]
+}
