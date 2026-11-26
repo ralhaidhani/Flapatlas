@@ -1,6 +1,38 @@
 <!doctype html>
 <html lang="en" class="dark">
   <head>
+    <script>
+      (function () {
+        function showFatalError(title, message, source, stack) {
+          var el = document.getElementById('flapatlas-fatal-error-overlay');
+          if (!el) {
+            el = document.createElement('pre');
+            el.id = 'flapatlas-fatal-error-overlay';
+            el.style.cssText =
+              'position:fixed;inset:0;z-index:2147483647;margin:0;padding:16px;overflow:auto;' +
+              'background:#450a0a;color:#fef2f2;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;' +
+              'white-space:pre-wrap;word-break:break-word;';
+            (document.body || document.documentElement).appendChild(el);
+          }
+          var entry =
+            '[' + title + '] ' + (message || 'Unknown error') +
+            (source ? '\nAt: ' + source : '') +
+            (stack ? '\n\n' + stack : '');
+          el.textContent = el.textContent ? el.textContent + '\n\n---\n\n' + entry : entry;
+        }
+        window.addEventListener('error', function (e) {
+          var loc = e.filename ? e.filename + ':' + (e.lineno || 0) + (e.colno ? ':' + e.colno : '') : '';
+          var stack = e.error && e.error.stack ? String(e.error.stack) : '';
+          showFatalError('Error', e.message || String(e.error || 'Runtime error'), loc, stack);
+        });
+        window.addEventListener('unhandledrejection', function (e) {
+          var reason = e.reason;
+          var msg = reason instanceof Error ? reason.message : String(reason || 'Unhandled promise rejection');
+          var stack = reason instanceof Error && reason.stack ? String(reason.stack) : '';
+          showFatalError('UnhandledRejection', msg, '', stack);
+        });
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>FlapAtlas 3D — Interactive Reconstructive Flap Anatomy Atlas</title>
